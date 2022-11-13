@@ -6,7 +6,7 @@ import "./Navbar.css";
 
 function Navbar() {
   const [windowSize, setWindowSize] = useState({ width: undefined });
-  //useEffect - odczyt size windows
+  //useEffect - reading size windows
   useEffect(() => {
     function handleResize() {
       setWindowSize(window.innerWidth);

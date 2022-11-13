@@ -7,13 +7,14 @@
 nav {
   height: 50px;
   width: 100%;
-  top: 0;
+  padding: 10px 0;
+  text-align: center;
   background-color: gray;
+  border-top: 1px solid rgb(87, 85, 85);
+  border-bottom: 1px solid rgb(87, 85, 85);
   /* position: fixed; */
   position: sticky;
   z-index: 50;
   display: flex;
   align-items: center;
 }
-
-
