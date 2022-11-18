@@ -27,9 +27,13 @@
 li:hover {
   color: bisque;
 }
-.yt-img {
+.yt-img,
+.fb-img,
+.inst-img {
   background-color: $footerColor;
   width: 30px;
+  margin-top: 10px;
+    margin-left: 5px;
 }
 
 .yt-img:hover {

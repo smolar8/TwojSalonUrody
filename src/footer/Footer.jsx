@@ -1,6 +1,20 @@
 import React from "react";
+import { GoogleMap, withScriptjs, withGoogleMap } from "react-google-maps";
 import "./styleFooter/footer.css";
 import YT from "../img&icon/yt.png";
+import FB from "../img&icon/fb.png";
+import Inst from "../img&icon/inst.png";
+
+function Map() {
+  return (
+    <GoogleMap
+      defaultZoom={10}
+      defaultCenter={{ lat: 50.867295, lng: 20.631501 }}
+    />
+  );
+}
+const WrappedMap = withScriptjs(withGoogleMap(Map));
+
 function Footer() {
   return (
     <div className="footer">
@@ -16,8 +30,16 @@ function Footer() {
               <img className="yt-img" src={YT} alt="youtube" />
             </a>
           </span>
-          <span>ins</span>
-          <span>yt</span>
+          <span>
+            <a href="/" rel="noopener">
+              <img className="fb-img" src={FB} alt="facebook" />
+            </a>
+          </span>
+          <span>
+            <a href="/" rel="noopener">
+              <img className="inst-img" src={Inst} alt="instagram" />
+            </a>
+          </span>
         </div>
       </div>
       <div className="impotent--links">
@@ -56,8 +78,15 @@ function Footer() {
         <p>Pon. - Pt. 8:00 - 21:00</p>
         <p>Sob. 9:00 - 18:00</p>
       </div>
+      <div style={{ width: "50vw", height: "50vh" }}>
+        <WrappedMap googleMapURL="https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=geometry,drawing,places" />
+        loadingElement={<div style={{ height: `100%` }} />}
+        containerElement={<div style={{ height: `400px` }} />}
+        mapElement={<div style={{ height: `100%` }} />}
+      </div>
     </div>
   );
 }
 
 export default Footer;
+

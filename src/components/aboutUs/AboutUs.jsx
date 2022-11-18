@@ -33,6 +33,7 @@ export default function AboutUs() {
 
   return (
     <main className="main">
+      <h1>about</h1>
       <section className="slide-photo">
         <div className="slideshow">
           <div
@@ -58,18 +59,6 @@ export default function AboutUs() {
             ))}
           </div>
         </div>
-        {/* <div>
-          <img src={FB} alt="facebook" />
-        </div>
-        <div>
-          <img src={YT} alt="" />
-        </div>
-        <div>
-          <img src={FB} alt="facebook" />
-        </div>
-        <div>
-          <img src={YT} alt="" />
-        </div> */}
       </section>
       <section className="team"></section>
       <section className="quotes"></section>

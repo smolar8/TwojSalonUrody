@@ -6,6 +6,7 @@ import Contact from "./components/contact/Contact";
 import Footer from "./footer/Footer";
 import AboutUs from "./components/aboutUs/AboutUs";
 import TextHeader from "./textHeader/TextHeader";
+import Payments from "./components/payments/Payments";
 
 function App() {
   return (
@@ -19,8 +20,8 @@ function App() {
       </div>
       <Switch>
         <Route path="/" exact component={AboutUs} />
-        <Route path="/payments" component={Contact} />
-        <Route path="/contact" component={AboutUs} />
+        <Route path="/payments" component={Payments} />
+        <Route path="/contact" component={Contact} />
       </Switch>
       <TextHeader />
       <Footer />
