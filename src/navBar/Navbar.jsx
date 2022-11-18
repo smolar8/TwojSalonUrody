@@ -3,6 +3,7 @@ import React, { useEffect, useState } from "react";
 import MenuBurger from "./menu/menuType/burger/MenuBurger";
 import MenuPc from "./menu/menuType/menuPC/MenuPc";
 import "./styleNavbar/Navbar.css";
+import LogoImg from "../img&icon/logo.png";
 
 function Navbar() {
   const [windowSize, setWindowSize] = useState({ width: undefined });
@@ -18,7 +19,12 @@ function Navbar() {
 
   return (
     <header className="main-header">
-      <nav className="main__header--nav">{windowSize > 768 ? <MenuPc /> : <MenuBurger />}</nav>
+      <nav className="main__header--nav">
+        <div className="logo--div">
+          <img className="logo__div--img" src={LogoImg} alt="logo" />
+        </div>
+        {windowSize > 768 ? <MenuPc /> : <MenuBurger />}
+      </nav>
     </header>
   );
 }

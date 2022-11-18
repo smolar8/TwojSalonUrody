@@ -1,7 +1,7 @@
 import React from "react";
 import "./textHeader.css";
 import "./textHeader.scss";
-function textHeader() {
+function TextHeader() {
   return (
     <div className="motto">
       <p className="textHeader1">
@@ -13,4 +13,4 @@ function textHeader() {
   );
 }
 
-export default textHeader;
+export default TextHeader;

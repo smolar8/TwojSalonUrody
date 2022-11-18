@@ -13,7 +13,7 @@ function Map() {
     />
   );
 }
-const WrappedMap = withScriptjs(withGoogleMap(Map));
+// const WrappedMap = withScriptjs(withGoogleMap(Map));
 
 function Footer() {
   return (
@@ -78,12 +78,12 @@ function Footer() {
         <p>Pon. - Pt. 8:00 - 21:00</p>
         <p>Sob. 9:00 - 18:00</p>
       </div>
-      <div style={{ width: "50vw", height: "50vh" }}>
+      {/* <div style={{ width: "50vw", height: "50vh" }}>
         <WrappedMap googleMapURL="https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=geometry,drawing,places" />
         loadingElement={<div style={{ height: `100%` }} />}
         containerElement={<div style={{ height: `400px` }} />}
         mapElement={<div style={{ height: `100%` }} />}
-      </div>
+      </div> */}
     </div>
   );
 }

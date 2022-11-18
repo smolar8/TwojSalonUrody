@@ -5,8 +5,18 @@
   box-sizing: border-box;
 }
 
+.logo--div {
+  position: sticky;
+  margin: auto 30px;
+}
+
+.logo__div--img {
+  width: 50px;
+  height: auto;
+}
+
 .main__header--nav {
-  height: 50px;
+  height: 60px;
   width: 100%;
   padding: 10px 0;
   text-align: center;
@@ -16,4 +26,8 @@
   display: flex;
   align-items: center;
   transition: 3s;
+}
+
+.main-header {
+  height: 60px;
 }

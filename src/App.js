@@ -5,16 +5,12 @@ import Navbar from "./navBar/Navbar";
 import Contact from "./components/contact/Contact";
 import Footer from "./footer/Footer";
 import AboutUs from "./components/aboutUs/AboutUs";
-import TextHeader from "./textHeader/TextHeader";
+
 import Payments from "./components/payments/Payments";
 
 function App() {
   return (
     <Router>
-      <div className="logo--div">
-        <p className="logo__div--img">LOGO</p>
-        <img src=" " alt="" />
-      </div>
       <div className="nav--div">
         <Navbar />
       </div>
@@ -23,7 +19,7 @@ function App() {
         <Route path="/payments" component={Payments} />
         <Route path="/contact" component={Contact} />
       </Switch>
-      <TextHeader />
+
       <Footer />
     </Router>
   );

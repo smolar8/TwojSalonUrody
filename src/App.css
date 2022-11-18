@@ -3,14 +3,8 @@
   margin: 0;
 }
 
-.logo--div {
-  background-color: aqua;
-    top: 0;
-    z-index: 40;
-  position: sticky;
-}
 .nav--div {
-  top: 41px;
+  top: 0;
   position: sticky;
   z-index: 50;
 }

@@ -1,9 +1,13 @@
 import React, { useState, useRef, useEffect } from "react";
+
 import "./styleAbout/about.css";
-import FB from "../../img&icon/fb.png";
-import YT from "../../img&icon/yt.png";
-// const colors = ["#0088FE", "#00C49F", "#FFBB28"];
-const img1 = [FB, YT, FB];
+import firstImg from "../../img&icon/firstSlide.png";
+import secondImg from "../../img&icon/secondSlide.png";
+import thirdImg from "../../img&icon/thirdSlide.png";
+import TextHeader from "../../textHeader/TextHeader";
+import PhotoTeam from "../../photoTeam/PhotoTeam";
+
+const slide = [firstImg, secondImg, thirdImg];
 const delay = 2000;
 
 export default function AboutUs() {
@@ -21,7 +25,7 @@ export default function AboutUs() {
     timeoutRef.current = setTimeout(
       () =>
         setIndex((prevIndex) =>
-          prevIndex === img1.length - 1 ? 0 : prevIndex + 1
+          prevIndex === slide.length - 1 ? 0 : prevIndex + 1
         ),
       delay
     );
@@ -33,14 +37,16 @@ export default function AboutUs() {
 
   return (
     <main className="main">
-      <h1>about</h1>
+      <section className="team">
+        <TextHeader />
+      </section>
       <section className="slide-photo">
         <div className="slideshow">
           <div
             className="slideshowSlider"
             style={{ transform: `translate3d(${-index * 100}%, 0, 0)` }}
           >
-            {img1.map((backgroundColor, index) => (
+            {slide.map((backgroundColor, index) => (
               <div className="slide" key={index}>
                 <img src={backgroundColor} alt="" />
               </div>
@@ -48,7 +54,7 @@ export default function AboutUs() {
           </div>
 
           <div className="slideshowDots">
-            {img1.map((_, idx) => (
+            {slide.map((_, idx) => (
               <div
                 key={idx}
                 className={`slideshowDot${index === idx ? " active" : ""}`}
@@ -60,8 +66,8 @@ export default function AboutUs() {
           </div>
         </div>
       </section>
-      <section className="team"></section>
-      <section className="quotes"></section>
+
+      <section className="quotes"><PhotoTeam/></section>
     </main>
   );
 }
