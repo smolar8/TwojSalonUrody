@@ -1,27 +1,27 @@
 export const NameMenuItems = [
   {
     value: "O Nas",
-    href: "/",
+    href: "/aboutUs",
     // icon: "home",
   },
   {
     value: "Oferta",
-    href: "/payments",
+    href: "/offer",
     // icon: "request_quote",
+  },
+  {
+    value: "Cennik",
+    href: "/pricelist",
+    // icon: "contact_page",
+  },
+  {
+    value: "Promocje",
+    href: "/promotions",
+    // icon: "contact_page",
   },
   {
     value: "Kontakt",
     href: "/contact",
     // icon: "contact_page",
-  },
-  {
-    value: "Cennik",
-    href: "/contact",
-    icon: "contact_page",
-  },
-  {
-    value: "Promocje",
-    href: "/contact",
-    icon: "contact_page",
   },
 ];
