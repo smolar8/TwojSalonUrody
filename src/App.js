@@ -5,6 +5,7 @@ import Navbar from "./navBar/Navbar";
 import Contact from "./components/contact/Contact";
 import Footer from "./footer/Footer";
 import AboutUs from "./components/aboutUs/AboutUs";
+import TextHeader from "./textHeader/TextHeader";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Route path="/payments" component={Contact} />
         <Route path="/contact" component={AboutUs} />
       </Switch>
+      <TextHeader />
       <Footer />
     </Router>
   );
