@@ -2,8 +2,10 @@ import React, { useState, useRef, useEffect } from "react";
 import "./styleAbout/about.css";
 import FB from "../../img&icon/fb.png";
 import YT from "../../img&icon/yt.png";
+import LO from "../../img&icon/logo.png";
+import ST from "../../img&icon/stop.jpg";
 // const colors = ["#0088FE", "#00C49F", "#FFBB28"];
-const img1 = [FB, YT, FB];
+const img1 = [FB, YT, FB, LO, ST];
 const delay = 2000;
 
 export default function AboutUs() {

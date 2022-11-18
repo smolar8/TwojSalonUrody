@@ -6,6 +6,7 @@ import Contact from "./components/contact/Contact";
 import Footer from "./footer/Footer";
 import AboutUs from "./components/aboutUs/AboutUs";
 import TextHeader from "./textHeader/TextHeader";
+import PhotoTeam from "./photoTeam/PhotoTeam";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
         <Route path="/contact" component={AboutUs} />
       </Switch>
       <TextHeader />
+      <PhotoTeam />
       <Footer />
     </Router>
   );
