@@ -18,7 +18,7 @@ $gd2-color: #f64f59;
     width: 380px;
     margin: 10px;
 
-    z-index: 2;
+    z-index: 20;
 
 }
 
@@ -34,7 +34,7 @@ $gd2-color: #f64f59;
     z-index: -1;
     transform: skew(1.5deg, 1.5deg);
     background: linear-gradient(315deg, $gd1-color, $gd2-color);
-
+box-shadow: 2px 2px 2px black, -2px -2px 2px black;
 
 }
 

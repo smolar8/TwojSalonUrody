@@ -1,11 +1,17 @@
 import React, { useState, useRef, useEffect } from "react";
 
 import "./styleAbout/about.css";
+
+import TextHeader from "../../textHeader/TextHeader";
+import PhotoTeam from "../../photoTeam/PhotoTeam";
+//img socials
+import Fb from "../../img&icon/fb.png";
+import Yt from "../../img&icon/yt.png";
+import Inst from "../../img&icon/inst.png";
+// img slides
 import firstImg from "../../img&icon/firstSlide.png";
 import secondImg from "../../img&icon/secondSlide.png";
 import thirdImg from "../../img&icon/thirdSlide.png";
-import TextHeader from "../../textHeader/TextHeader";
-import PhotoTeam from "../../photoTeam/PhotoTeam";
 
 const slide = [firstImg, secondImg, thirdImg];
 const delay = 4000;
@@ -51,6 +57,20 @@ export default function AboutUs() {
         <TextHeader />
       </section>
       <section className="slide-photo">
+        <div className="slide__photo--socials">
+          <div className="slide__photo__socials--yt">
+            <img className="img" src={Yt} alt="yt" />
+            <p className="img--text">youtube</p>
+          </div>
+          <div className="slide__photo__socials--fb">
+            <img className="img" src={Fb} alt="fb" />
+            <p className="img--text">facebook</p>
+          </div>
+          <div className="slide__photo__socials--inst">
+            <img className="img" src={Inst} alt="instagram" />
+            <p className="img--text">instagram</p>
+          </div>
+        </div>
         <div className="slideshow">
           {slideShow(index)}
           <div className="slideshowDots">
