@@ -8,6 +8,7 @@
   justify-content: space-evenly;
   gap: 10px;
   flex-wrap: wrap;
+  padding: 30px 0;
 }
 
 .checklist {
@@ -26,20 +27,18 @@
 
 li:hover {
   color: bisque;
+  transform: scale(1.5) translateX(15%);
 }
 
-.yt-img,
-.fb-img,
-.inst-img {
+.social-icon {
   background-color: rgb(104, 102, 102);
   width: 30px;
   margin-top: 10px;
   margin-left: 5px;
 }
 
-.yt-img:hover {
-  width: 35px;
-  transition: 0.2s;
+.social-icon:hover {
+  transform: scale(1.1);
 }
 
 h2 {

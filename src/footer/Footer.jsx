@@ -27,17 +27,21 @@ function Footer() {
               href="https://www.youtube.com/watch?v=7KyymUCY-Uw&ab_channel=%D0%AE%D0%9C%D0%9E%D0%A0ICTV-%D0%9E%D1%84%D0%B8%D1%86%D0%B8%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9%D0%BA%D0%B0%D0%BD%D0%B0%D0%BB"
               rel="noopener"
             >
-              <img className="yt-img" src={YT} alt="youtube" />
+              <img className="yt-img social-icon" src={YT} alt="youtube" />
             </a>
           </span>
           <span>
             <a href="/" rel="noopener">
-              <img className="fb-img" src={FB} alt="facebook" />
+              <img className="fb-img social-icon" src={FB} alt="facebook" />
             </a>
           </span>
           <span>
             <a href="/" rel="noopener">
-              <img className="inst-img" src={Inst} alt="instagram" />
+              <img
+                className="inst-img social-icon"
+                src={Inst}
+                alt="instagram"
+              />
             </a>
           </span>
         </div>

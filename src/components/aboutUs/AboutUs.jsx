@@ -8,10 +8,11 @@ import TextHeader from "../../textHeader/TextHeader";
 import PhotoTeam from "../../photoTeam/PhotoTeam";
 
 const slide = [firstImg, secondImg, thirdImg];
-const delay = 2000;
+const delay = 4000;
 
 export default function AboutUs() {
   const [index, setIndex] = useState(0);
+
   const timeoutRef = useRef(null);
 
   const resetTimeout = () => {
@@ -22,18 +23,27 @@ export default function AboutUs() {
 
   useEffect(() => {
     resetTimeout();
-    timeoutRef.current = setTimeout(
-      () =>
-        setIndex((prevIndex) =>
-          prevIndex === slide.length - 1 ? 0 : prevIndex + 1
-        ),
-      delay
-    );
+
+    timeoutRef.current = setTimeout(() => {
+      setIndex((prevIndex) =>
+        prevIndex === slide.length - 1 ? 0 : prevIndex + 1
+      );
+    }, delay);
 
     return () => {
       resetTimeout();
     };
   }, [index]);
+
+  const slideShow = (data) => {
+    const result = slide.filter((elemnt, index) => index === data);
+
+    return (
+      <div className="slideshowSlider ">
+        <img className="slideshowSlider--img" src={result} alt="slides" />
+      </div>
+    );
+  };
 
   return (
     <main className="main">
@@ -42,17 +52,7 @@ export default function AboutUs() {
       </section>
       <section className="slide-photo">
         <div className="slideshow">
-          <div
-            className="slideshowSlider"
-            style={{ transform: `translate3d(${-index * 100}%, 0, 0)` }}
-          >
-            {slide.map((backgroundColor, index) => (
-              <div className="slide" key={index}>
-                <img src={backgroundColor} alt="" />
-              </div>
-            ))}
-          </div>
-
+          {slideShow(index)}
           <div className="slideshowDots">
             {slide.map((_, idx) => (
               <div
@@ -67,7 +67,9 @@ export default function AboutUs() {
         </div>
       </section>
 
-      <section className="quotes"><PhotoTeam/></section>
+      <section className="teams">
+        <PhotoTeam />
+      </section>
     </main>
   );
 }

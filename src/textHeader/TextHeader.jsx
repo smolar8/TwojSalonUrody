@@ -1,6 +1,6 @@
 import React from "react";
-import "./textHeader.css";
-import "./textHeader.scss";
+import "./styleTextHeader/textHeader.css";
+
 function TextHeader() {
   return (
     <div className="motto">

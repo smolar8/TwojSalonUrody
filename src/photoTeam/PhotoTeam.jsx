@@ -1,12 +1,19 @@
 import React from "react";
-import "./photoTeam.css";
-import "./photoTeam.scss";
-function PhotoTeam() {
+import "./stylePhotoTeam/photoTeam.css";
+import Team1 from "../img&icon/team1.jpg";
+import Team2 from "../img&icon/team2.jpg";
+
+const PhotoTeam = () => {
   return (
-    <div className="img">
-      <p className="team">ZESPÓŁ</p>
+    <div className="wrapper--div">
+      <div className="teamPhotos">
+        <img className="teamPhotos--img1" src={Team1} alt="photo1" />
+      </div>
+      <div className="teamPhotos">
+        <img className="teamPhotos--img2" src={Team2} alt="photo2" />
+      </div>
     </div>
   );
-}
+};
 
 export default PhotoTeam;
