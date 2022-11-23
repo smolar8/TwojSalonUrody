@@ -2,12 +2,13 @@ import React, { useState, useRef, useEffect } from "react";
 
 import "./styleAbout/about.css";
 
-import TextHeader from "../../textHeader/TextHeader";
-import PhotoTeam from "../../photoTeam/PhotoTeam";
+import TextHeader from "./textHeader/TextHeader";
+import PhotoTeam from "./photoTeam/PhotoTeam";
 //img socials
 import Fb from "../../img&icon/fb.png";
 import Yt from "../../img&icon/yt.png";
 import Inst from "../../img&icon/inst.png";
+
 // img slides
 import firstImg from "../../img&icon/firstSlide.png";
 import secondImg from "../../img&icon/secondSlide.png";

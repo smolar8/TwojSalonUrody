@@ -1,7 +1,7 @@
 import React from "react";
 import "./stylePhotoTeam/photoTeam.css";
-import Team1 from "../img&icon/team1.jpg";
-import Team2 from "../img&icon/team2.jpg";
+import Team1 from "../../../img&icon/team1.jpg";
+import Team2 from "../../../img&icon/team2.jpg";
 
 const PhotoTeam = () => {
   return (

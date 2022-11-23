@@ -1,7 +1,3 @@
-* {
-  padding: 0;
-}
-
 .wrapper--div {
   width: 100%;
   display: flex;
@@ -14,6 +10,10 @@
   width: 380px;
   margin: 10px;
   z-index: 20;
+  transition: transform 0.5s;
+}
+.teamPhotos:hover {
+  transform: scale(1.2);
 }
 
 .teamPhotos::before {

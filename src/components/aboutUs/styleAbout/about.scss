@@ -1,9 +1,10 @@
 @import "../../../style/pageStyle.scss";
+
 .main {
   width: 100%;
-  background-image: url("../../../img&icon/background.jpg");
+  background-image: url("../../../img&icon/logo.png");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   padding-bottom: 30px;
 }
 
@@ -26,6 +27,7 @@
 .slideshowSlider--img {
   width: auto;
   height: 380px;
+
 }
 
 .slide {

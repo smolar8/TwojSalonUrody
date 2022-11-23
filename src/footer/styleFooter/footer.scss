@@ -1,7 +1,7 @@
 @import "../../style/pageStyle.scss";
 
 .footer {
-  font-size: $titleFont;
+  font-family: $titleFont;
   background-color: $footerColor;
   color: $footerTextColor;
   display: flex;
@@ -44,4 +44,14 @@ li:hover {
 h2 {
   color: $footerH2;
   text-shadow: $footerH2shadow;
+}
+.tel-email>p>a {
+  margin-left: 10px;
+  text-decoration: none;
+  color: $footerTextColor;
+
+  &:hover {
+
+    color: $footerH2;
+  }
 }
