@@ -1,19 +1,9 @@
 import React from "react";
-import { GoogleMap, withScriptjs, withGoogleMap } from "react-google-maps";
+
 import "./styleFooter/footer.css";
 import YT from "../img&icon/yt.png";
 import FB from "../img&icon/fb.png";
 import Inst from "../img&icon/inst.png";
-
-function Map() {
-  return (
-    <GoogleMap
-      defaultZoom={10}
-      defaultCenter={{ lat: 50.867295, lng: 20.631501 }}
-    />
-  );
-}
-// const WrappedMap = withScriptjs(withGoogleMap(Map));
 
 function Footer() {
   return (
@@ -24,20 +14,25 @@ function Footer() {
         <div className="social">
           <span>
             <a
+              target="_blank"
               href="https://www.youtube.com/watch?v=7KyymUCY-Uw&ab_channel=%D0%AE%D0%9C%D0%9E%D0%A0ICTV-%D0%9E%D1%84%D0%B8%D1%86%D0%B8%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9%D0%BA%D0%B0%D0%BD%D0%B0%D0%BB"
               rel="noopener"
             >
-              <img className="yt-img" src={YT} alt="youtube" />
+              <img className="yt-img social-icon" src={YT} alt="youtube" />
             </a>
           </span>
           <span>
             <a href="/" rel="noopener">
-              <img className="fb-img" src={FB} alt="facebook" />
+              <img className="fb-img social-icon" src={FB} alt="facebook" />
             </a>
           </span>
           <span>
             <a href="/" rel="noopener">
-              <img className="inst-img" src={Inst} alt="instagram" />
+              <img
+                className="inst-img social-icon"
+                src={Inst}
+                alt="instagram"
+              />
             </a>
           </span>
         </div>
@@ -57,10 +52,11 @@ function Footer() {
       <div className="tel-email">
         <h2>Telefon & Email</h2>
         <p>
-          tel:<a href="tel:+48134567912">+48 134 567 912</a>
+          tel:
+          <a href="tel:+48134567912">+48 134 567 912</a>
         </p>
         <p>
-          email:<a href="mailto:aaa@gmail.com">aaa@gmail.com</a>
+          email: <a href="mailto:aaa@gmail.com">aaa@gmail.com</a>
         </p>
       </div>
       <div className="offer">
@@ -78,15 +74,8 @@ function Footer() {
         <p>Pon. - Pt. 8:00 - 21:00</p>
         <p>Sob. 9:00 - 18:00</p>
       </div>
-      {/* <div style={{ width: "50vw", height: "50vh" }}>
-        <WrappedMap googleMapURL="https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=geometry,drawing,places" />
-        loadingElement={<div style={{ height: `100%` }} />}
-        containerElement={<div style={{ height: `400px` }} />}
-        mapElement={<div style={{ height: `100%` }} />}
-      </div> */}
     </div>
   );
 }
 
 export default Footer;
-

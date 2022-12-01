@@ -1,7 +1,7 @@
 @import "../../style/pageStyle.scss";
 
 .footer {
-  font-size: $titleFont;
+  font-family: $titleFont;
   background-color: $footerColor;
   color: $footerTextColor;
   display: flex;
@@ -9,6 +9,7 @@
   justify-content: space-evenly;
   gap: 10px;
   flex-wrap: wrap;
+  padding: 30px 0;
 }
 
 .checklist {
@@ -23,25 +24,34 @@
   background-position: 0 8px;
   cursor: pointer;
   position: relative;
+
 }
 li:hover {
   color: bisque;
+  transform: scale(1.5) translateX(15%)
 }
-.yt-img,
-.fb-img,
-.inst-img {
+.social-icon {
   background-color: $footerColor;
   width: 30px;
   margin-top: 10px;
     margin-left: 5px;
 }
 
-.yt-img:hover {
-  width: 35px;
-  transition: 0.2s;
+.social-icon:hover {
+  transform: scale(1.1);
 }
 
 h2 {
   color: $footerH2;
   text-shadow: $footerH2shadow;
+}
+.tel-email>p>a {
+  margin-left: 10px;
+  text-decoration: none;
+  color: $footerTextColor;
+
+  &:hover {
+
+    color: $footerH2;
+  }
 }
