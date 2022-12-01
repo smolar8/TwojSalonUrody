@@ -1,0 +1,45 @@
+$gd1-color: #12c2e9;
+$gd2-color: #f64f59;
+
+.wrapper--div {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 50px;
+
+}
+
+.teamPhotos {
+    position: relative;
+    width: 380px;
+    margin: 10px;
+    z-index: 20;
+    transition: transform 0.5s;
+
+    &:hover {
+        transform: scale(1.2);
+    }
+}
+
+.teamPhotos::before {
+    content: '';
+    position: absolute;
+    top: -5px;
+    left: -2px;
+    bottom: -3px;
+    right: -2px;
+    background-color: #fff;
+    border-radius: 20px;
+    z-index: -1;
+    transform: skew(1.5deg, 1.5deg);
+    background: linear-gradient(315deg, $gd1-color, $gd2-color);
+    box-shadow: 2px 2px 2px black, -2px -2px 2px black;
+
+}
+
+.teamPhotos--img1,
+.teamPhotos--img2 {
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 1px 1px 10px rgb(33, 34, 34), 1px 1px 10px rgb(117, 121, 121);
+}
