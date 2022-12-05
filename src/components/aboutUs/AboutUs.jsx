@@ -14,6 +14,7 @@ import firstImg from "../../img&icon/firstSlide.png";
 import secondImg from "../../img&icon/secondSlide.png";
 import thirdImg from "../../img&icon/thirdSlide.png";
 
+
 const slide = [firstImg, secondImg, thirdImg];
 const delay = 4000;
 

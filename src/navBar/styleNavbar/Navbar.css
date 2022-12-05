@@ -7,16 +7,19 @@
 
 .logo--div {
   position: sticky;
-  margin: auto 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: aquamarine;
 }
 
 .logo__div--img {
-  width: 50px;
+  width: 120px;
   height: auto;
 }
 
 .main__header--nav {
-  height: 60px;
+  height: 50px;
   width: 100%;
   padding: 10px 0;
   text-align: center;
@@ -26,10 +29,6 @@
   display: flex;
   align-items: center;
   transition: 3s;
-}
-
-.main-header {
-  height: 60px;
 }
 
 @keyframes spinnow {
@@ -47,5 +46,6 @@
 }
 
 .menuItems--link:hover .span-rotate {
+  color: aqua;
   animation: 5s spinnow infinite linear;
 }
