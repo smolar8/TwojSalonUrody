@@ -53,7 +53,7 @@ function Footer() {
         <h2>Telefon & Email</h2>
         <p>
           tel:
-          <a href="tel:+48134567912">+48 134 567 912</a>
+          <a href="tel:+48134567912">+48 134 566 912</a>
         </p>
         <p>
           email: <a href="mailto:aaa@gmail.com">aaa@gmail.com</a>
