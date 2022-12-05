@@ -19,10 +19,10 @@ function Navbar() {
 
   return (
     <header className="main-header">
+      <div className="logo--div">
+        <img className="logo__div--img" src={LogoImg} alt="logo" />
+      </div>
       <nav className="main__header--nav">
-        <div className="logo--div">
-          <img className="logo__div--img" src={LogoImg} alt="logo" />
-        </div>
         {windowSize > 768 ? <MenuPc /> : <MenuBurger />}
       </nav>
     </header>
