@@ -10,10 +10,9 @@ import Yt from "../../img&icon/yt.png";
 import Inst from "../../img&icon/inst.png";
 
 // img slides
-import firstImg from "../../img&icon/firstSlide.png";
-import secondImg from "../../img&icon/secondSlide.png";
-import thirdImg from "../../img&icon/thirdSlide.png";
-
+import firstImg from "../../img&icon/1head.jpg";
+import secondImg from "../../img&icon/2head.jpg";
+import thirdImg from "../../img&icon/TLO.png";
 
 const slide = [firstImg, secondImg, thirdImg];
 const delay = 4000;
@@ -44,7 +43,7 @@ export default function AboutUs() {
   }, [index]);
 
   const slideShow = (data) => {
-    const result = slide.filter((elemnt, index) => index === data);
+    const result = slide.filter((_, index) => index === data);
 
     return (
       <div className="slideshowSlider ">
@@ -55,9 +54,6 @@ export default function AboutUs() {
 
   return (
     <main className="main">
-      <section className="team">
-        <TextHeader />
-      </section>
       <section className="slide-photo">
         <div className="slide__photo--socials">
           <div className="slide__photo__socials--yt">
@@ -75,7 +71,7 @@ export default function AboutUs() {
         </div>
         <div className="slideshow">
           {slideShow(index)}
-          <div className="slideshowDots">
+          {/* <div className="slideshowDots">
             {slide.map((_, idx) => (
               <div
                 key={idx}
@@ -85,12 +81,15 @@ export default function AboutUs() {
                 }}
               ></div>
             ))}
-          </div>
+          </div> */}
         </div>
       </section>
 
       <section className="teams">
         <PhotoTeam />
+      </section>
+      <section className="team">
+        <TextHeader />
       </section>
     </main>
   );

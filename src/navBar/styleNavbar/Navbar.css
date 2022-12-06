@@ -13,9 +13,16 @@
   background-color: aquamarine;
 }
 
-.logo__div--img {
+.logo__div--img,
+.logo__div--img2 {
   width: 120px;
   height: auto;
+}
+
+.logo__div--img2 {
+  position: relative;
+  z-index: 50px;
+  left: 50%;
 }
 
 .main__header--nav {
@@ -48,4 +55,10 @@
 .menuItems--link:hover .span-rotate {
   color: aqua;
   animation: 5s spinnow infinite linear;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .logo__div--img {
+    animation: spinnow infinite 20s linear;
+  }
 }
