@@ -1,5 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+// import MessengerCustomerChat from "react-messenger-customer-chat";
 import "./App.css";
 import Navbar from "./navBar/Navbar";
 import Contact from "./components/contact/Contact";
@@ -7,6 +8,8 @@ import Footer from "./footer/Footer";
 import AboutUs from "./components/aboutUs/AboutUs";
 
 import Payments from "./components/payments/Payments";
+// import TextHeader from "./components/aboutUs/textHeader/TextHeader";
+import CallNumber from "./components/aboutUs/call/Call";
 
 function App() {
   return (
@@ -16,10 +19,15 @@ function App() {
       </div>
       <Switch>
         <Route path="/" exact component={AboutUs} />
-        <Route path="/payments" component={Paymets} />
+        <Route path="/payments" component={Payments} />
         <Route path="/contact" component={Contact} />
       </Switch>
-
+      <CallNumber /> 
+      {/* <MessengerCustomerChat
+        pageId="<pobrać z feecebook>"
+        appId="<pobrać z facebook Developer>"
+      /> */}
+      ,{/* <TextHeader /> */}
       <Footer />
     </Router>
   );

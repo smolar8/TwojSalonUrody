@@ -2,7 +2,7 @@ import React, { useState, useRef, useEffect } from "react";
 
 import "./styleAbout/about.css";
 
-import TextHeader from "./textHeader/TextHeader";
+import TextHeader from "./textHeader/TextHeader.jsx";
 import PhotoTeam from "./photoTeam/PhotoTeam";
 //img socials
 import Fb from "../../img&icon/fb.png";
@@ -13,7 +13,6 @@ import Inst from "../../img&icon/inst.png";
 import firstImg from "../../img&icon/firstSlide.png";
 import secondImg from "../../img&icon/secondSlide.png";
 import thirdImg from "../../img&icon/thirdSlide.png";
-
 
 const slide = [firstImg, secondImg, thirdImg];
 const delay = 4000;

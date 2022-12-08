@@ -42,6 +42,8 @@ li:hover {
 }
 
 h2 {
+  /* display: flex;
+  justify-content: center; */
   color: rgb(241, 204, 16);
   text-shadow: 1px 1px 2px rgb(112, 112, 110);
 }
@@ -53,4 +55,4 @@ h2 {
 }
 .tel-email > p > a:hover {
   color: rgb(241, 204, 16);
-}
+} /*# sourceMappingURL=footer.css.map */

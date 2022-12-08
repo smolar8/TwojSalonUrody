@@ -9,8 +9,10 @@ function Footer() {
   return (
     <div className="footer">
       <div className="address">
-        <h2>Klinika Medycyny Estetycznej</h2>
-        <p>ul. Siedmiogrodzka 1</p>
+        <h2>
+          Gabinet Kosmetyczny <br /> Twój Salon Urody
+        </h2>
+        <p>ul. Partyzantów 2</p>
         <div className="social">
           <span>
             <a
@@ -53,10 +55,10 @@ function Footer() {
         <h2>Telefon & Email</h2>
         <p>
           tel:
-          <a href="tel:+48134567912">+48 134 566 912</a>
+          <a href="tel:+48134567912">+48 721 377 690</a>
         </p>
         <p>
-          email: <a href="mailto:aaa@gmail.com">aaa@gmail.com</a>
+          email: <a href="mailto:aaa@gmail.com">twojsalonurody@interia.pl</a>
         </p>
       </div>
       <div className="offer">
@@ -71,8 +73,8 @@ function Footer() {
       </div>
       <div className="time-work">
         <h2>Godziny otwarcia</h2>
-        <p>Pon. - Pt. 8:00 - 21:00</p>
-        <p>Sob. 9:00 - 18:00</p>
+        <p>Pon. - Pt. 10:00 - 18:00</p>
+        <p>Sob. 9:00 - 14:00</p>
       </div>
     </div>
   );
