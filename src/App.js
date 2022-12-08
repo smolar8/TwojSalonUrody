@@ -27,7 +27,7 @@ function App() {
         pageId="<pobrać z feecebook>"
         appId="<pobrać z facebook Developer>"
       /> */}
-      ,{/* <TextHeader /> */}
+      {/* ,<TextHeader /> */}
       <Footer />
     </Router>
   );
