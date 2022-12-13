@@ -1,3 +1,10 @@
-* {
-    margin: 0;
+@import "../../style/pageStyle.scss";
+
+.motto,
+.textHeader2 {
+  @include textHeader;
+  font-size: 35px;
+}
+.textHeader2 {
+  margin-top: 15px;
 }

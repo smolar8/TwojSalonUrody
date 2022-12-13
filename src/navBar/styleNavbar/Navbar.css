@@ -62,17 +62,13 @@
 
 .menuItems--link:hover .span-rotate {
   color: aqua;
-<<<<<<< HEAD
   -webkit-animation: 5s spinnow infinite linear;
           animation: 5s spinnow infinite linear;
-}/*# sourceMappingURL=Navbar.css.map */
-=======
-  animation: 5s spinnow infinite linear;
 }
 
 @media (prefers-reduced-motion: no-preference) {
   .logo__div--img {
-    animation: spinnow infinite 20s linear;
+    -webkit-animation: spinnow infinite 20s linear;
+            animation: spinnow infinite 20s linear;
   }
-}
->>>>>>> 064acba5d77123619316287c1947f09d450de640
+}/*# sourceMappingURL=Navbar.css.map */

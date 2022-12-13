@@ -1,3 +1,18 @@
-* {
-  margin: 0;
-}/*# sourceMappingURL=textHeader.css.map */
+.motto,
+.textHeader2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 35px;
+  padding-bottom: 33px;
+  font-family: "La Belle Aurore", cursive;
+
+  /* font-family: "Poppins", sans-serif; */
+}
+
+.textHeader2 {
+  margin-top: 15px;
+} /*# sourceMappingURL=textHeader.css.map */
+.textHeader1 {
+  padding-top: 30px;
+}

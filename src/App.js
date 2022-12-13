@@ -8,7 +8,6 @@ import Footer from "./footer/Footer";
 import AboutUs from "./components/aboutUs/AboutUs";
 
 import Payments from "./components/payments/Payments";
-// import TextHeader from "./components/aboutUs/textHeader/TextHeader";
 import CallNumber from "./components/aboutUs/call/Call";
 
 function App() {
@@ -24,10 +23,10 @@ function App() {
       </Switch>
       <CallNumber /> 
       {/* <MessengerCustomerChat
-        pageId="<pobrać z feecebook>"
+        pageId="100063662436688" //<m.me/369123463255309 messenger ID>"
+        //https://www.facebook.com/profile.php?id=100063662436688
         appId="<pobrać z facebook Developer>"
       /> */}
-      {/* ,<TextHeader /> */}
       <Footer />
     </Router>
   );
