@@ -19,6 +19,7 @@ const delay = 4000;
 
 export default function AboutUs() {
   const [index, setIndex] = useState(0);
+  const [styleScroll, setStyleScroll] = useState("visible--false");
 
   const timeoutRef = useRef(null);
 
@@ -42,6 +43,13 @@ export default function AboutUs() {
     };
   }, [index]);
 
+  useEffect(() => {
+    if (window.pageYOffset > 150) {
+      setStyleScroll("visible--true");
+    } else {
+      setStyleScroll("visible--false");
+    }
+  }, [window.pageYOffset]);
   const slideShow = (data) => {
     const result = slide.filter((_, index) => index === data);
 
@@ -50,6 +58,10 @@ export default function AboutUs() {
         <img className="slideshowSlider--img" src={result} alt="slides" />
       </div>
     );
+  };
+  const handleGoUpPage = (event) => {
+    event.preventDefault();
+    window.scrollBy(0, -1 * window.pageYOffset);
   };
 
   return (
@@ -91,6 +103,9 @@ export default function AboutUs() {
       <section className="team">
         <TextHeader />
       </section>
+      <div id="toTopButton" className={styleScroll} onClick={handleGoUpPage}>
+        To top
+      </div>
     </main>
   );
 }

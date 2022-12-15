@@ -14,7 +14,7 @@ $footerTextColor: white;
     height: 50px;
     margin: 10px;
     top: $top;
-    left: $left;
+    right: $right;
 }
 @mixin flex_center {
     display: flex;

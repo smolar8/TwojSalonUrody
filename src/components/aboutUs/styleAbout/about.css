@@ -83,7 +83,7 @@
   height: 50px;
   margin: 10px;
   top: 80px;
-  left: 0;
+  right: 0;
 }
 
 .slide__photo__socials--fb {
@@ -92,7 +92,7 @@
   height: 50px;
   margin: 10px;
   top: 130px;
-  left: 0;
+  right: 50px;
 }
 
 .slide__photo__socials--inst {
@@ -101,7 +101,7 @@
   height: 50px;
   margin: 10px;
   top: 180px;
-  left: 0;
+  right: 0;
 }
 
 .slide__photo__socials--yt:hover,
@@ -142,4 +142,27 @@
   left: 90px;
   bottom: 18px;
   color: rgb(241, 204, 16);
+}
+
+#toTopButton {
+  background-color: teal;
+  width: 20px;
+  height: 30px;
+  padding: 10px;
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+  cursor: pointer;
+  z-index: 100;
+}
+#toTopButton:hover {
+  color: red;
+}
+
+.visible--true {
+  display: block;
+}
+
+.visible--false {
+  display: none;
 }

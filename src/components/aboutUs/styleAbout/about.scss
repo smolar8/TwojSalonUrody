@@ -91,7 +91,7 @@
 
 .slide__photo__socials--fb {
 
-  @include icon-social(130px, 0)
+  @include icon-social(130px, 50px)
 }
 
 .slide__photo__socials--inst {
@@ -141,4 +141,27 @@
     bottom: 18px;
     color: $footerH2;
   }
+}
+#toTopButton {
+  background-color: teal;
+  width: 20px;
+  height: 30px;
+  padding: 10px;
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+  cursor: pointer;
+  z-index: 100;
+
+  &:hover {
+    color: red;
+  }
+}
+
+.visible--true {
+  display: block;
+}
+
+.visible--false {
+  display: none;
 }
