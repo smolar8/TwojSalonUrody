@@ -1,23 +1,22 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=La+Belle+Aurore&family=Poppins:wght@200;400;700&display=swap");
 .footer {
-  font-family: "Roboto", sans-serif;
-  background-color: rgb(104, 102, 102);
+  font-family: "Poppins", sans-serif;
+  background-color: rgb(76, 61, 77);
   color: white;
   display: flex;
   padding: auto 15px;
   justify-content: space-evenly;
   gap: 10px;
   flex-wrap: wrap;
-  padding: 30px 0;
+  padding: 10px 10px;
 }
 
 .checklist {
   list-style: none outside;
+  text-align: center;
 }
 
 .checklist li {
-  background-image: url("../../img&icon/iconList.png");
-  background-size: 10px;
   background-repeat: no-repeat;
   padding-left: 20px;
   background-position: 0 8px;
@@ -31,7 +30,8 @@ li:hover {
 }
 
 .social-icon {
-  background-color: rgb(104, 102, 102);
+  position: relative;
+  background-color: rgb(76, 61, 77);
   width: 30px;
   margin-top: 10px;
   margin-left: 5px;
@@ -42,7 +42,8 @@ li:hover {
 }
 
 h2 {
-  color: rgb(241, 204, 16);
+  text-align: center;
+  color: rgb(243, 147, 44);
   text-shadow: 1px 1px 2px rgb(112, 112, 110);
 }
 
@@ -52,5 +53,9 @@ h2 {
   color: white;
 }
 .tel-email > p > a:hover {
-  color: rgb(241, 204, 16);
+  color: rgb(243, 147, 44);
+}
+
+p {
+  text-align: center;
 }/*# sourceMappingURL=footer.css.map */

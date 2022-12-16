@@ -4,6 +4,7 @@ import "./styleAbout/about.css";
 
 import TextHeader from "./textHeader/TextHeader.jsx";
 import PhotoTeam from "./photoTeam/PhotoTeam";
+import MessengerText from "./messenger/Messenger";
 //img socials
 // import Fb from "../../img&icon/fb.png";
 // import Yt from "../../img&icon/yt.png";
@@ -80,6 +81,7 @@ export default function AboutUs() {
         </div>
         <div className="slideshow">
           {slideShow(index)}
+
           {/* <div className="slideshowDots">
             {slide.map((_, idx) => (
               <div
@@ -93,6 +95,8 @@ export default function AboutUs() {
           </div> */}
         </div>
       </section>
+      <MessengerText />
+      {/* <MessengerText /> */}
 
       <section className="teams">
         <PhotoTeam />

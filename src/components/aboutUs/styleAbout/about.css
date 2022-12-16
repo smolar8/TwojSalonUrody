@@ -82,6 +82,7 @@
 }
 
 .slide__photo__socials--call {
+  position: relative;
   width: 50px;
   height: 50px;
   margin: 10px;
@@ -90,6 +91,7 @@
 }
 
 .slide__photo__socials--messenger {
+  position: relative;
   width: 50px;
   height: 50px;
   margin: 10px;
@@ -110,7 +112,7 @@
   bottom: 25px;
   width: 50%;
   height: 2px;
-  background: rgb(241, 204, 16);
+  background: rgb(243, 147, 44);
   transform: scaleX(0);
   transform-origin: right;
   transition: transform 250ms ease-in;
@@ -126,11 +128,14 @@
   display: none;
   transition: transform 2s ease-in;
 }
-.slide__photo__socials--call:hover .img--text,
-.slide__photo__socials--messenger:hover .img--text {
+.slide__photo__socials--call:hover .img--text, .slide__photo__socials--messenger:hover .img--text {
   display: block;
   position: relative;
   left: 90px;
   bottom: 18px;
-  color: rgb(241, 204, 16);
-} /*# sourceMappingURL=about.css.map */
+  color: rgb(243, 147, 44);
+}
+
+.ul__menu--pc {
+  background-color: rgb(76, 61, 77);
+}/*# sourceMappingURL=about.css.map */

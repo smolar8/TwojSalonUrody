@@ -7,12 +7,12 @@ $titleFont: "Poppins", sans-serif;
 //Colors
 $navColor: rgb(15, 215, 202);
 //  footer
-$footerColor: rgb(104, 102, 102);
-$footerH2: rgb(241, 204, 16);
+$footerColor: rgb(76, 61, 77);
+$footerH2: rgb(243, 147, 44);
 $footerH2shadow: 1px 1px 2px rgb(112, 112, 110);
 $footerTextColor: white;
 @mixin icon-social($top, $right) {
-  // position: relative;
+  position: relative;
 
   width: 50px;
   height: 50px;
