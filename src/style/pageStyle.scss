@@ -1,6 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+// @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=La+Belle+Aurore&family=Poppins:wght@200;400;700&display=swap");
 //FONTS
-$titleFont: 'Roboto', sans-serif;
+// $titleFont: "Roboto", sans-serif;
+$titleFont: "La Belle Aurore", cursive;
+$titleFont: "Poppins", sans-serif;
 //Colors
 $navColor: rgb(15, 215, 202);
 //  footer
@@ -14,11 +17,23 @@ $footerTextColor: white;
     height: 50px;
     margin: 10px;
     top: $top;
-    right: $right;
+    left: $left;
 }
 @mixin flex_center {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+//TextHeader
+@mixin textHeader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  // font-family: "La Belle Aurore", cursive;
+  // font-family: "Poppins", sans-serif;
+}
+
+// @mixin messengerCall--phone {
+//   background-color: rgb(151, 26, 26);
+// }

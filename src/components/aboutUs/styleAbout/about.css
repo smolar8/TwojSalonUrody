@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=La+Belle+Aurore&family=Poppins:wght@200;400;700&display=swap");
 .main {
   width: 100%;
   padding-bottom: 30px;
@@ -6,7 +6,7 @@
 
 .slide-photo {
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   width: 100%;
 }
 
@@ -65,56 +65,49 @@
 }
 
 .slide__photo--socials {
-  position: relative;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
 }
 
 .img {
-  width: 100%;
-  height: 100%;
   filter: grayscale(100%);
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
 }
 .img:hover {
   filter: none;
 }
 
-.slide__photo__socials--yt {
+.slide__photo__socials--call {
   position: absolute;
   width: 50px;
   height: 50px;
   margin: 10px;
   top: 80px;
-  right: 0;
+  left: 0;
 }
 
-.slide__photo__socials--fb {
+.slide__photo__socials--messenger {
   position: absolute;
   width: 50px;
   height: 50px;
   margin: 10px;
-  top: 130px;
-  right: 50px;
+  top: 80px;
+  left: 0;
 }
 
-.slide__photo__socials--inst {
-  position: absolute;
-  width: 50px;
-  height: 50px;
-  margin: 10px;
-  top: 180px;
-  right: 0;
-}
-
-.slide__photo__socials--yt:hover,
-.slide__photo__socials--fb:hover,
-.slide__photo__socials--inst:hover {
+.slide__photo__socials--call:hover,
+.slide__photo__socials--messenger:hover {
   transform: scale(1.1);
 }
 
-.slide__photo__socials--yt::after,
-.slide__photo__socials--fb::after,
-.slide__photo__socials--inst::after {
+.slide__photo__socials--call::after,
+.slide__photo__socials--messenger::after {
   content: "";
-  position: absolute;
+  position: relative;
   left: 55px;
   bottom: 25px;
   width: 50%;
@@ -125,9 +118,8 @@
   transition: transform 250ms ease-in;
 }
 
-.slide__photo__socials--yt:hover::after,
-.slide__photo__socials--fb:hover::after,
-.slide__photo__socials--inst:hover::after {
+.slide__photo__socials--call:hover::after,
+.slide__photo__socials--messenger:hover::after {
   transform: scale(1);
   transform-origin: left;
 }
@@ -136,9 +128,9 @@
   display: none;
   transition: transform 2s ease-in;
 }
-.slide__photo__socials--yt:hover .img--text, .slide__photo__socials--fb:hover .img--text, .slide__photo__socials--inst:hover .img--text {
+.slide__photo__socials--call:hover .img--text, .slide__photo__socials--messenger:hover .img--text {
   display: block;
-  position: absolute;
+  position: relative;
   left: 90px;
   bottom: 18px;
   color: rgb(241, 204, 16);

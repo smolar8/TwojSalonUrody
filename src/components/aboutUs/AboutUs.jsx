@@ -2,12 +2,14 @@ import React, { useState, useRef, useEffect } from "react";
 
 import "./styleAbout/about.css";
 
-import TextHeader from "./textHeader/TextHeader";
+import TextHeader from "./textHeader/TextHeader.jsx";
 import PhotoTeam from "./photoTeam/PhotoTeam";
 //img socials
-import Fb from "../../img&icon/fb.png";
-import Yt from "../../img&icon/yt.png";
-import Inst from "../../img&icon/inst.png";
+// import Fb from "../../img&icon/fb.png";
+// import Yt from "../../img&icon/yt.png";
+// import Inst from "../../img&icon/inst.png";
+import Call from "../../img&icon/Phone-icon.png";
+import Messenger from "../../img&icon/messenger.jpg";
 
 // img slides
 import firstImg from "../../img&icon/1head.jpg";
@@ -50,6 +52,7 @@ export default function AboutUs() {
       setStyleScroll("visible--false");
     }
   }, [window.pageYOffset]);
+
   const slideShow = (data) => {
     const result = slide.filter((_, index) => index === data);
 
@@ -68,17 +71,24 @@ export default function AboutUs() {
     <main className="main">
       <section className="slide-photo">
         <div className="slide__photo--socials">
-          <div className="slide__photo__socials--yt">
+          {/* <div className="slide__photo__socials--yt">
             <img className="img" src={Yt} alt="yt" />
             <p className="img--text">youtube</p>
-          </div>
-          <div className="slide__photo__socials--fb">
+          </div> */}
+
+          {/* <div className="slide__photo__socials--fb">
             <img className="img" src={Fb} alt="fb" />
             <p className="img--text">facebook</p>
+          </div> */}
+
+          <div className="slide__photo__socials--call">
+            <img className="img" src={Call} alt="photoNum" />
+            <p className="img--text">zadzwoń</p>
           </div>
-          <div className="slide__photo__socials--inst">
-            <img className="img" src={Inst} alt="instagram" />
-            <p className="img--text">instagram</p>
+
+          <div className="slide__photo__socials--messenger">
+            <img className="img" src={Messenger} alt="messengerNum" />
+            <p className="img--text">messenger</p>
           </div>
         </div>
         <div className="slideshow">
