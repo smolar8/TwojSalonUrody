@@ -82,21 +82,21 @@
 }
 
 .slide__photo__socials--call {
-  position: absolute;
+  position: relative;
   width: 50px;
   height: 50px;
   margin: 10px;
   top: 80px;
-  left: 0;
+  right: 0;
 }
 
 .slide__photo__socials--messenger {
-  position: absolute;
+  position: relative;
   width: 50px;
   height: 50px;
   margin: 10px;
   top: 80px;
-  left: 0;
+  right: 0;
 }
 
 .slide__photo__socials--call:hover,
@@ -112,7 +112,7 @@
   bottom: 25px;
   width: 50%;
   height: 2px;
-  background: rgb(241, 204, 16);
+  background: rgb(243, 147, 44);
   transform: scaleX(0);
   transform-origin: right;
   transition: transform 250ms ease-in;
@@ -133,7 +133,7 @@
   position: relative;
   left: 90px;
   bottom: 18px;
-  color: rgb(241, 204, 16);
+  color: rgb(243, 147, 44);
 }
 
 #toTopButton {
@@ -157,4 +157,8 @@
 
 .visible--false {
   display: none;
+}
+
+.ul__menu--pc {
+  background-color: rgb(76, 61, 77);
 }

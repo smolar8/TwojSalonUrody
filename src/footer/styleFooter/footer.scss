@@ -9,32 +9,35 @@
   justify-content: space-evenly;
   gap: 10px;
   flex-wrap: wrap;
-  padding: 30px 0;
+  padding: 10px 10px;
 }
 
 .checklist {
   list-style: none outside;
+  text-align: center;
+  // align-items: center;
 }
 
 .checklist li {
-  background-image: url("../../img&icon/iconList.png");
-  background-size: 10px;
+  // background-image: url("../../img&icon/iconList.png");
+  // background-size: 10px;
   background-repeat: no-repeat;
   padding-left: 20px;
   background-position: 0 8px;
   cursor: pointer;
   position: relative;
-
 }
 li:hover {
   color: bisque;
-  transform: scale(1.5) translateX(15%)
+  transform: scale(1.5) translateX(15%);
 }
 .social-icon {
+  position: relative;
+
   background-color: $footerColor;
   width: 30px;
   margin-top: 10px;
-    margin-left: 5px;
+  margin-left: 5px;
 }
 
 .social-icon:hover {
@@ -42,18 +45,19 @@ li:hover {
 }
 
 h2 {
+  text-align: center;
   color: $footerH2;
   text-shadow: $footerH2shadow;
-
 }
-.tel-email>p>a {
+.tel-email > p > a {
   margin-left: 10px;
   text-decoration: none;
   color: $footerTextColor;
- 
 
   &:hover {
-
     color: $footerH2;
   }
+}
+p {
+  text-align: center;
 }
