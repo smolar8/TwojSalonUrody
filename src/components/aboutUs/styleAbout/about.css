@@ -2,6 +2,7 @@
 .main {
   width: 100%;
   padding-bottom: 30px;
+  transition: position 20s;
 }
 
 .slide-photo {
@@ -131,7 +132,7 @@
 .slide__photo__socials--call:hover .img--text, .slide__photo__socials--messenger:hover .img--text {
   display: block;
   position: relative;
-  left: 90px;
+  right: 90px;
   bottom: 18px;
   color: rgb(243, 147, 44);
 }

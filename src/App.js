@@ -9,6 +9,7 @@ import AboutUs from "./components/aboutUs/AboutUs";
 
 import Payments from "./components/payments/Payments";
 import CallNumber from "./components/aboutUs/call/Call";
+import Oferta from "./components/oferta/Oferta";
 
 function App() {
   return (
@@ -18,8 +19,11 @@ function App() {
       </div>
       <Switch>
         <Route path="/" exact component={AboutUs} />
+        <Route path="/oferta" component={Oferta} />
         <Route path="/payments" component={Payments} />
         <Route path="/contact" component={Contact} />
+        
+
       </Switch>
       <CallNumber /> 
       {/* <MessengerCustomerChat
