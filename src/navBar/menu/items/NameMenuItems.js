@@ -6,7 +6,7 @@ export const NameMenuItems = [
   },
   {
     value: "Oferta",
-    href: "/offer",
+    href: "/oferta",
     // icon: "request_quote",
   },
   {

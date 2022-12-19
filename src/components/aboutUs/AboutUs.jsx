@@ -5,10 +5,6 @@ import "./styleAbout/about.css";
 import TextHeader from "./textHeader/TextHeader.jsx";
 import PhotoTeam from "./photoTeam/PhotoTeam";
 import MessengerText from "./messenger/Messenger";
-//img socials
-// import Fb from "../../img&icon/fb.png";
-// import Yt from "../../img&icon/yt.png";
-// import Inst from "../../img&icon/inst.png";
 import Call from "../../img&icon/Phone-icon.png";
 import Messenger from "../../img&icon/messenger.jpg";
 
@@ -22,7 +18,8 @@ const delay = 4000;
 
 export default function AboutUs() {
   const [index, setIndex] = useState(0);
-
+  const [styleScroll, setStyleScroll] = useState("visible--false");
+  const [visibleMessenge, setVisibleMessenge] = useState(false);
   const timeoutRef = useRef(null);
 
   const resetTimeout = () => {
@@ -45,6 +42,14 @@ export default function AboutUs() {
     };
   }, [index]);
 
+  useEffect(() => {
+    if (window.pageYOffset > 150) {
+      setStyleScroll("visible--true");
+    } else {
+      setStyleScroll("visible--false");
+    }
+  }, [window.pageYOffset]);
+
   const slideShow = (data) => {
     const result = slide.filter((_, index) => index === data);
 
@@ -54,49 +59,37 @@ export default function AboutUs() {
       </div>
     );
   };
+  const handleGoUpPage = (event) => {
+    event.preventDefault();
+    window.scrollBy(0, -1 * window.pageYOffset);
+  };
 
+  const handleVisibleMessenge = (e) => {
+    e.preventDefault();
+    if (visibleMessenge) {
+      setVisibleMessenge(!visibleMessenge);
+    }
+  };
   return (
     <main className="main">
       <section className="slide-photo">
         <div className="slide__photo--socials">
-          {/* <div className="slide__photo__socials--yt">
-            <img className="img" src={Yt} alt="yt" />
-            <p className="img--text">youtube</p>
-          </div> */}
-
-          {/* <div className="slide__photo__socials--fb">
-            <img className="img" src={Fb} alt="fb" />
-            <p className="img--text">facebook</p>
-          </div> */}
-
           <div className="slide__photo__socials--call">
             <img className="img" src={Call} alt="photoNum" />
             <p className="img--text">zadzwoń</p>
           </div>
 
-          <div className="slide__photo__socials--messenger">
+          <div
+            className="slide__photo__socials--messenger"
+            onClick={() => setVisibleMessenge((s) => !s)}
+          >
             <img className="img" src={Messenger} alt="messengerNum" />
             <p className="img--text">messenger</p>
           </div>
         </div>
-        <div className="slideshow">
-          {slideShow(index)}
-
-          {/* <div className="slideshowDots">
-            {slide.map((_, idx) => (
-              <div
-                key={idx}
-                className={`slideshowDot${index === idx ? " active" : ""}`}
-                onClick={() => {
-                  setIndex(idx);
-                }}
-              ></div>
-            ))}
-          </div> */}
-        </div>
+        <div className="slideshow">{slideShow(index)}</div>
       </section>
-      <MessengerText />
-      {/* <MessengerText /> */}
+      {visibleMessenge ? <MessengerText /> : null}
 
       <section className="teams">
         <PhotoTeam />
@@ -104,6 +97,9 @@ export default function AboutUs() {
       <section className="team">
         <TextHeader />
       </section>
+      <div id="toTopButton" className={styleScroll} onClick={handleGoUpPage}>
+        To top
+      </div>
     </main>
   );
 }
