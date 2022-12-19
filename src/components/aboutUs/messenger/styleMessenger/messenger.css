@@ -8,7 +8,7 @@
   left: 50%;
   transform: translate(-50%, -50%);
   padding: 10px 10px;
-  width: 300px;
+  width: 400px;
   background-color: #fff;
   box-shadow: 0 0 10px rgb(90, 180, 240);
   border-radius: 5px;
@@ -29,6 +29,7 @@
   border: 1px solid black;
 }
 
+.panel-buttons,
 .send,
 .cancel {
   padding: 12px 25px;
