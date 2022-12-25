@@ -5,7 +5,7 @@ import "./styleCall/call.css";
 
 const CallNumber = () => {
   return (
-    <div className="wrapper--div">
+    <div className="wrapper--call">
       {/* <div className="phoneCall">
         <img className="phoneCall--phone" src={Call} alt="photoNum" />
       </div>

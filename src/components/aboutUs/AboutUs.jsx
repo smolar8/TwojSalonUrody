@@ -94,7 +94,7 @@ export default function AboutUs() {
       <section className="teams">
         <PhotoTeam />
       </section>
-      <section className="team">
+      <section className="slogon">
         <TextHeader />
       </section>
       <div id="toTopButton" className={styleScroll} onClick={handleGoUpPage}>
