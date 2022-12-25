@@ -1,6 +1,6 @@
 import React from "react";
 import { useRef } from "react";
-import emailjs from "@emailjs/browser";
+// import emailjs from "@emailjs/browser";
 
 import "./styleMessenger/messenger.css";
 
@@ -9,43 +9,44 @@ const MessengerText = () => {
   const nameRef = useRef(null);
   const emailRef = useRef(null);
   const textAreaRef = useRef(null);
-  const sendEmail = (e) => {
-    e.preventDefault();
-    emailjs
-      .sendForm(
-        "service_7w9gtrl",
-        "template_crw53dm",
-        form.current,
-        "yEvAMzAQaYCKW5aiS"
-      )
-      .then(
-        (result) => {
-          console.log(result.text);
-        },
-        (error) => {
-          console.log(error.text);
-        }
-      );
-    nameRef.current.value = "";
-    emailRef.current.value = "";
-    textAreaRef.current.value = "";
-  };
+  // const sendEmail = (e) => {
+  //   e.preventDefault();
+  //   emailjs
+  //     .sendForm(
+  //       "service_7w9gtrl",
+  //       "template_crw53dm",
+  //       form.current,
+  //       "yEvAMzAQaYCKW5aiS"
+  //     )
+  //     .then(
+  //       (result) => {
+  //         console.log(result.text);
+  //       },
+  //       (error) => {
+  //         console.log(error.text);
+  //       }
+  //     );
+  //   nameRef.current.value = "";
+  //   emailRef.current.value = "";
+  //   textAreaRef.current.value = "";
+  // };
 
   return (
     <div className="windownChat">
-      <form ref={form} onSubmit={sendEmail}>
+      <form ref={form}>
+        {/* onSubmit={sendEmail}> */}
         <div className="wrapper--input">
-          <label htmlFor="nameUser">imia</label>
+          <label htmlFor="nameUser"> imię :</label>
           <input
             id="nameUser"
-            placeholder="imia dla kontaktu"
+            placeholder="imię dla kontaktu"
             name="user_name"
             type="text"
             ref={nameRef}
           />
         </div>
         <div className="wrapper--input">
-          <label htmlFor="email">email</label>
+          <label htmlFor="email">email :</label>
           <input
             id="email"
             name="user_email"
