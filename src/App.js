@@ -22,8 +22,6 @@ function App() {
         <Route path="/oferta" component={Oferta} />
         <Route path="/payments" component={Payments} />
         <Route path="/contact" component={Contact} />
-        
-
       </Switch>
       <CallNumber /> 
       {/* <MessengerCustomerChat

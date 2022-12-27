@@ -1,15 +1,16 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=La+Belle+Aurore&family=Poppins:wght@200;400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Petit+Formal+Script&family=Poppins:wght@700&display=swap");
 .motto,
 .textHeader2 {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: "Petit Formal Script", cursive;
+  font-family: "La Belle Aurore", cursive;
+  font-family: "Poppins", sans-serif;
   padding-top: 10px;
   font-size: 44px;
 }
 
 .textHeader2 {
-  margin-top: 20px;
+  margin-top: 21px;
 }/*# sourceMappingURL=textHeader.css.map */

@@ -2,31 +2,54 @@
 
 .wrapper--oferta {
   display: flex;
-  flex-direction: column;
-  align-items: flex-start;
+  justify-content: start;
+  gap: 20px;
+  width: 100%;
   font-size: 1.5rem;
   line-height: 2;
-  margin: 10px;
-  padding-left: 10px;
-  // position: absolute;
+
   transform: 2s;
 }
 
-#tettt {
-  display: none;
-  position: absolute;
-  top: 50%;
-  left: 50%;
+.block-p {
+  width: 30%;
+  margin-left: 20px;
+  margin-top: 20px;
 }
 
-.oferta-p:hover + .ofr-img-img {
-  display: block;
-  transition: transform 0.2s ease-in-out;
-}
 .oferta--p {
-  transform: rotate(2deg);
+  width: 100%;
+  text-align: left;
 }
+
+.visibleInf--img {
+  width: 50%;
+}
+
+.visibleInf--p {
+  text-align: justify;
+  text-indent: 30px;
+  width: 40%;
+  padding-right: 20px;
+}
+
 .oferta--p:hover {
-  transition: transform 3s;
-  color: green;
+  color: aqua;
+}
+
+.divImigNoneVisible {
+  display: none;
+}
+
+.divImigVisible {
+  // display: block;
+  display: flex;
+  justify-content: space-evenly;
+  width: 90%;
+  gap: 20px;
+}
+
+.visibleInf--img {
+  object-fit: scale-down;
+  // width: 40%;
 }

@@ -2,7 +2,7 @@
 
 .windownChat {
   display: flex;
-  // display: none;
+  box-sizing: content-box;
   justify-content: center;
   align-items: center;
   flex-direction: column;
