@@ -2,7 +2,8 @@ import React, { useState, useEffect } from "react";
 import URL from "../../img&icon/imgOferta";
 
 import "./styleOferta/oferta.css";
-import testimg from "../../img&icon/manicure.jpg";
+
+import ofertaJson from "../json/oferta.json";
 
 export default function Oferta() {
   const [oferta, setOferta] = useState({
