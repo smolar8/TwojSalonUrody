@@ -21,6 +21,7 @@ function Navbar() {
     <header className="main-header">
       <div className="logo--div">
         <img className="logo__div--img" src={LogoImg} alt="logo" />
+        <p>Twój Sałon Urody</p>
         {/* <img className="logo__div--img2" src={LogoImg} alt="logo" /> */}
       </div>
       <nav className="main__header--nav">

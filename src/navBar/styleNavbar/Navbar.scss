@@ -10,7 +10,7 @@
 
 
     position: sticky;
-@include flex_center;
+    @include flex_center;
     background-color: aquamarine;
 
 }
@@ -21,11 +21,13 @@
     height: auto;
 
 }
+
 .logo__div--img2 {
     position: relative;
     z-index: 50px;
     left: 50%;
 }
+
 .main__header--nav {
     height: 50px;
     width: 100%;
@@ -62,12 +64,13 @@
 
     .span-rotate {
 
-color: aqua;
+        color: aqua;
         animation: 5s spinnow infinite linear;
 
 
     }
 }
+
 @media (prefers-reduced-motion: no-preference) {
     .logo__div--img {
         animation: spinnow infinite 20s linear;

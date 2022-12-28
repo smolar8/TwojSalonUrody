@@ -15,6 +15,7 @@
   width: 30%;
   margin-left: 20px;
   margin-top: 20px;
+// background-color: antiquewhite;
 }
 
 .oferta--p {
@@ -42,14 +43,15 @@
 }
 
 .divImigVisible {
-  // display: block;
+
   display: flex;
   justify-content: space-evenly;
   width: 90%;
   gap: 20px;
+// background-color: aquamarine;
 }
 
 .visibleInf--img {
   object-fit: scale-down;
-  // width: 40%;
+float: right;
 }

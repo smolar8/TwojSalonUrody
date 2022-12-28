@@ -1,7 +1,7 @@
 export const NameMenuItems = [
   {
     value: " Nas",
-    href: "/nas",
+    href: "/",
     // icon: "home",
   },
   {
