@@ -34,6 +34,15 @@ $footerTextColor: white;
   font-family: "La Belle Aurore", cursive;
   font-family: "Poppins", sans-serif;
 }
+//Podologia
+@mixin podologia {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-family: "La Belle Aurore", cursive;
+  font-family: "Poppins", sans-serif;
+}
 
 // @mixin CallNumber {
 //   background-color: rgb(151, 26, 26);

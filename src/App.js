@@ -7,7 +7,7 @@ import Contact from "./components/contact/Contact";
 import Footer from "./footer/Footer";
 import AboutUs from "./components/aboutUs/AboutUs";
 
-import Payments from "./components/payments/Payments";
+import Podologia from "./components/podologia/Podologia";
 import CallNumber from "./components/aboutUs/call/Call";
 import Oferta from "./components/oferta/Oferta";
 
@@ -20,7 +20,7 @@ function App() {
       <Switch>
         <Route path="/" exact component={AboutUs} />
         <Route path="/oferta" component={Oferta} />
-        <Route path="/payments" component={Payments} />
+        <Route path="/podologia" component={Podologia} />
         <Route path="/contact" component={Contact} />
       </Switch>
       <CallNumber /> 
