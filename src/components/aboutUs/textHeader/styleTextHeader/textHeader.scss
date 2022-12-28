@@ -3,8 +3,9 @@
 .motto,
 .textHeader2 {
   @include textHeader;
-  font-size: 35px;
+  padding-top: 10px;
+  font-size: 44px;
 }
 .textHeader2 {
-  margin-top: 15px;
+  margin-top: 21px;
 }

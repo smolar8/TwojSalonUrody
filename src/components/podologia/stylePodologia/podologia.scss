@@ -1,6 +1,6 @@
 @import "../../../style/pageStyle.scss";
 
-.wrapper--oferta {
+.wrapper--podologia {
   display: flex;
   justify-content: start;
   gap: 20px;
@@ -10,30 +10,39 @@
 
   transform: 2s;
 }
-
+.square {
+  //   position: relative;
+  width: 100px;
+  height: 100px;
+  background: #b30;
+}
 .block-p {
   width: 30%;
   margin-left: 20px;
   margin-top: 20px;
 }
 
-.oferta--p {
+.podologia--p {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   width: 100%;
-  text-align: left;
+
+  //   text-align: left;
 }
 
-.visibleInf--img {
-  width: 50%;
-}
+// .visibleInf--img {
+//   width: 50%;
+// }
 
-.visibleInf--p {
-  text-align: justify;
-  text-indent: 30px;
-  width: 40%;
-  padding-right: 20px;
-}
+// .visibleInf--p {
+//   text-align: justify;
+//   text-indent: 30px;
+//   width: 40%;
+//   padding-right: 20px;
+// }
 
-.oferta--p:hover {
+.podologia--p:hover {
   color: aqua;
 }
 

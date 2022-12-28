@@ -1,1 +1,1 @@
-{"version":3,"sources":["textHeader.scss","textHeader.css"],"names":[],"mappings":"AAEA;;EAEE,aAAA;EACA,uBAAA;EACA,mBAAA;EACA,eAAA;EACA,oBAAA;ACDF;;ADGA;EACE,gBAAA;ACAF","file":"textHeader.css"}
+{"version":3,"sources":["../../../../style/pageStyle.scss","textHeader.scss","textHeader.css"],"names":[],"mappings":"AACQ,oHAAA;ACCR;;ED2BE,aAAA;EACA,uBAAA;EACA,mBAAA;EAEA,uCAAA;EACA,kCAAA;EC7BA,iBAAA;EACA,eAAA;ACIF;;ADFA;EACE,gBAAA;ACKF","file":"textHeader.css"}

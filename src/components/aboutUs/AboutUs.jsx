@@ -64,19 +64,13 @@ export default function AboutUs() {
     window.scrollBy(0, -1 * window.pageYOffset);
   };
 
-  const handleVisibleMessenge = (e) => {
-    e.preventDefault();
-    if (visibleMessenge) {
-      setVisibleMessenge(!visibleMessenge);
-    }
-  };
   return (
     <main className="main">
       <section className="slide-photo">
         <div className="slide__photo--socials">
           <div className="slide__photo__socials--call">
             <img className="img" src={Call} alt="photoNum" />
-            <p className="img--text">zadzwoń</p>
+            <p className="img--text">721 377 690</p>
           </div>
 
           <div

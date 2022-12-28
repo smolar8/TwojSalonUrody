@@ -34,9 +34,7 @@ export default function Oferta() {
         <p className="oferta--p" onClick={handleVisibleOferta}>
           Pielęgnacja dłoni i paznokci
         </p>
-        <p className="oferta--p" onClick={handleVisibleOferta}>
-          Pielęgnacja stóp - <b>PODOLOGIA</b>
-        </p>
+
         <p className="oferta--p" onClick={handleVisibleOferta}>
           Pielęgnacja ciała
         </p>

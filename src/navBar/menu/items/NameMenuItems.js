@@ -1,7 +1,7 @@
 export const NameMenuItems = [
   {
     value: " Nas",
-    href: "/",
+    href: "/nas",
     // icon: "home",
   },
   {
@@ -10,8 +10,8 @@ export const NameMenuItems = [
     // icon: "request_quote",
   },
   {
-    value: "Cennik",
-    href: "/pricelist",
+    value: "Podologia",
+    href: "/podologia",
     // icon: "contact_page",
   },
   {
