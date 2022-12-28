@@ -5,7 +5,7 @@ import ofertaJson from "../json/oferta.json";
 
 export default function Oferta() {
   const [oferta, setOferta] = useState({
-    id: "",
+    text: "",
     title: "",
     img: "",
     alt: "",
