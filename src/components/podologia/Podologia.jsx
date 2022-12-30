@@ -19,13 +19,22 @@ export default function Podologia() {
       return e.target.innerText === item.title ? setPodologia(item) : null;
     });
   };
+  const handleGetByJson = (data) => {
+    return data.map((item) => {
+      return (
+        <div
+          className="wrapper__podologia__boxByPodologiaJson--item"
+          key={item.title}
+        >
+          {item.text}
+        </div>
+      );
+    });
+  };
   return (
     <div className="wrapper--podologia">
+      <h2>PODOLOGIA</h2>
       <section className="block-p">
-        <p className="--p" onClick={handleVisiblePodologia}>
-          PODOLOGIA
-        </p>
-
         <p className="podologia--p" onClick={handleVisiblePodologia}>
           Pedicure leczniczy
         </p>
@@ -59,13 +68,8 @@ export default function Podologia() {
         </p>
       </section>
 
-      <div className={visibleInf}>
-        <p className="visibleInf--p">{podologia.text}</p>
-        <img
-          className="visibleInf--img"
-          src={podologia.img}
-          alt={podologia.alt}
-        />
+      <div className="wrapper__podologia--boxByPodologiaJson">
+        {handleGetByJson(podologiaJson)}
       </div>
     </div>
   );

@@ -31,16 +31,6 @@
   //   text-align: left;
 }
 
-// .visibleInf--img {
-//   width: 50%;
-// }
-
-// .visibleInf--p {
-//   text-align: justify;
-//   text-indent: 30px;
-//   width: 40%;
-//   padding-right: 20px;
-// }
 
 .podologia--p:hover {
   color: aqua;
@@ -61,4 +51,21 @@
 .visibleInf--img {
   object-fit: scale-down;
   // width: 40%;
+}
+
+.wrapper__podologia--boxByPodologiaJson {
+  margin-top: 20px;
+  width: 50%;
+  display: flex;
+  // justify-content: flex-start;
+  flex-wrap: wrap;
+  gap: 30px;
+  place-items: center start;
+}
+
+.wrapper__podologia__boxByPodologiaJson--item {
+  border: solid 1px black;
+  padding: 0 15px;
+  height: 150px;
+  vertical-align: middle;
 }
