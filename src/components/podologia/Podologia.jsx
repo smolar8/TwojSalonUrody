@@ -25,38 +25,56 @@ export default function Podologia() {
         <p className="--p" onClick={handleVisiblePodologia}>
           PODOLOGIA
         </p>
-
-        <p className="podologia--p" onClick={handleVisiblePodologia}>
-          Pedicure leczniczy
-        </p>
-        <p className="podologia--p" onClick={handleVisiblePodologia}>
-          Usuwanie odcisków
-        </p>
-        <p className="podologia--p" onClick={handleVisiblePodologia}>
-          Usuwanie modzeli
-        </p>
-        <p className="podologia--p" onClick={handleVisiblePodologia}>
-          Usuwanie brodawek
-        </p>
-        <p className="podologia--p" onClick={handleVisiblePodologia}>
-          Paznokcie wrastające i wkręcające- leczenie
-        </p>
-        <p className="podologia--p" onClick={handleVisiblePodologia}>
-          Leczenie grzybicy paznokci
-        </p>
-        <p className="podologia--p" onClick={handleVisiblePodologia}>
-          Leczenie pękających pięt
-        </p>
-        <p className="podologia--p" onClick={handleVisiblePodologia}>
-          Leczenie suchej skóry stóp
-        </p>
-
-        <p className="podologia--p" onClick={handleVisiblePodologia}>
-          Wizyty domowe
-        </p>
-        <p className="podologia--p" onClick={handleVisiblePodologia}>
-          Dziecko w gabinecie
-        </p>
+        <div className="square">
+          <p className="podologia--p" onClick={handleVisiblePodologia}>
+            Pedicure leczniczy
+          </p>
+        </div>
+        <div className="square">
+          <p className="podologia--p" onClick={handleVisiblePodologia}>
+            Usuwanie odcisków
+          </p>
+        </div>
+        <div className="square">
+          <p className="podologia--p" onClick={handleVisiblePodologia}>
+            Usuwanie modzeli
+          </p>
+        </div>
+        <div className="square">
+          <p className="podologia--p" onClick={handleVisiblePodologia}>
+            Usuwanie brodawek
+          </p>
+        </div>
+        <div className="square">
+          <p className="podologia--p" onClick={handleVisiblePodologia}>
+            Paznokcie wrastające i wkręcające- leczenie
+          </p>
+        </div>
+        <div className="square">
+          <p className="podologia--p" onClick={handleVisiblePodologia}>
+            Leczenie grzybicy paznokci
+          </p>
+        </div>
+        <div className="square">
+          <p className="podologia--p" onClick={handleVisiblePodologia}>
+            Leczenie pękających pięt
+          </p>
+        </div>
+        <div className="square">
+          <p className="podologia--p" onClick={handleVisiblePodologia}>
+            Leczenie suchej skóry stóp
+          </p>
+        </div>
+        <div className="square">
+          <p className="podologia--p" onClick={handleVisiblePodologia}>
+            Wizyty domowe
+          </p>
+        </div>
+        <div className="square">
+          <p className="podologia--p" onClick={handleVisiblePodologia}>
+            Dziecko w gabinecie
+          </p>
+        </div>
       </section>
 
       <div className={visibleInf}>

@@ -15,7 +15,7 @@
   width: 30%;
   margin-left: 20px;
   margin-top: 20px;
-// background-color: antiquewhite;
+  // background-color: antiquewhite;
 }
 
 .oferta--p {
@@ -35,7 +35,7 @@
 }
 
 .oferta--p:hover {
-  color: aqua;
+  color: rgb(243, 147, 44);
 }
 
 .divImigNoneVisible {
@@ -43,15 +43,18 @@
 }
 
 .divImigVisible {
-
   display: flex;
   justify-content: space-evenly;
   width: 90%;
   gap: 20px;
-// background-color: aquamarine;
+  // background-color: aquamarine;
 }
 
 .visibleInf--img {
   object-fit: scale-down;
-float: right;
+  float: right;
 }
+// .Json {
+//   font-size: 12px;
+//   border-color: red;
+// }

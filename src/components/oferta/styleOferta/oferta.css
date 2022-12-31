@@ -32,7 +32,7 @@
 }
 
 .oferta--p:hover {
-  color: aqua;
+  color: rgb(243, 147, 44);
 }
 
 .divImigNoneVisible {
@@ -47,6 +47,7 @@
 }
 
 .visibleInf--img {
-  object-fit: scale-down;
+  -o-object-fit: scale-down;
+     object-fit: scale-down;
   float: right;
-}
+}/*# sourceMappingURL=oferta.css.map */
