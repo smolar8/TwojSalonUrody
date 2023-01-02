@@ -1,21 +1,16 @@
 @import "../../../style/pageStyle.scss";
 
 .wrapper--podologia {
-  //   display: flex;
-  //   justify-content: start;
-  //   align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   font-size: 1.5rem;
   line-height: 2;
 
   transform: 2s;
 }
-.square {
-  //   display: flex;
-  //   justify-content: flex-start;
-  margin: 10px 10px;
-  width: 100%;
-  border: 1px solid black;
-}
+
 .block-p {
   display: flex;
   justify-content: start;
@@ -26,17 +21,6 @@
 .podologia--p {
   width: 100%;
   text-align: center;
-}
-
-.visibleInf--img {
-  width: 50%;
-}
-
-.visibleInf--p {
-  text-align: justify;
-  text-indent: 30px;
-  width: 40%;
-  padding-right: 20px;
 }
 
 .podologia--p:hover {
@@ -60,4 +44,31 @@
 .visibleInf--img {
   object-fit: scale-down;
   width: 40%;
+}
+
+.wrapper__podologia--boxByPodologiaJson {
+  margin-top: 20px;
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  //   place-items: center start;
+}
+
+.wrapper__podologia__boxByPodologiaJson--item {
+  border: solid 1px black;
+  border-radius: 20px;
+  padding: 0 15px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  //   vertical-align: middle;
+  //   background-image: url("2head.jpg");
+}
+.wrapper__podologia__boxByPodologiaJson--item:hover {
+  background-color: rgb(243, 147, 44);
+  transform: scale(1.1);
+  box-shadow: 0 0 5px 5px skyblue;
 }

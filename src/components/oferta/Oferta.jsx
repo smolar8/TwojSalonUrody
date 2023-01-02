@@ -20,10 +20,23 @@ export default function Oferta() {
       return e.target.innerText === item.title ? setOferta(item) : null;
     });
   };
+  const handleGetByJson = (data) => {
+    return data.map((item) => {
+      return (
+        <div
+          className="wrapper__oferta__boxByOfertaJson--item"
+          key={item.title}
+        >
+          {item.text}
+        </div>
+      );
+    });
+  };
 
   return (
     <div className="wrapper--oferta">
-      <section className="block-p">
+      <h2>OFERTA</h2>
+      {/* <section className="block-p">
         <p className="oferta--p" onClick={handleVisibleOferta}>
           Pielęgnacja twarzy, szyi i dekoltu
         </p>
@@ -55,11 +68,12 @@ export default function Oferta() {
         <p className="oferta--p" onClick={handleVisibleOferta}>
           Przekłuwanie uszu
         </p>
-      </section>
+      </section> */}
 
-      <div className={visibleInf}>
-        <p className="visibleInf--p">{oferta.text}</p>
-        <img className="visibleInf--img" src={oferta.img} alt={oferta.alt} />
+      <div className="wrapper__oferta--boxByOfertaJson">
+        {handleGetByJson(ofertaJson)}
+        {/* <p className="visibleInf--p">{oferta.text}</p>
+        <img className="visibleInf--img" src={oferta.img} alt={oferta.alt} /> */}
       </div>
     </div>
   );

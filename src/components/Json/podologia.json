@@ -1,62 +1,132 @@
 [
     {
+        "id": 1,
         "title": "Pedicure leczniczy",
         "text": "Pedicure leczniczy",
-        "img": "",
-        "alt": ""
+        "img": "img/2head.jpg",
+        "alt": {
+            "textBtn": [
+                {
+                    "text": "Sprawdzam czy działa!!!"
+                }
+            ]
+        }
     },
     {
+        "id": 2,
         "title": "Usuwanie odcisków",
         "text": "Usuwanie odcisków",
         "img": "",
-        "alt": ""
+        "alt": {
+            "textBtn": [
+                {
+                    "text": "Sprawdzam czy działa 2!!!"
+                }
+            ]
+        }
     },
     {
+        "id": 3,
         "title": "Usuwanie modzeli",
         "text": "Usuwanie modzeli",
         "img": "",
-        "alt": ""
+        "alt": {
+            "textBtn": [
+                {
+                    "text": "Sprawdzam czy dział!!!"
+                }
+            ]
+        }
     },
     {
+        "id": 4,
         "title": "Usuwanie brodawek",
         "text": "Usuwanie brodawek",
         "img": "",
-        "alt": ""
+        "alt": {
+            "textBtn": [
+                {
+                    "text": "Sprawdzam czy dział!!!"
+                }
+            ]
+        }
     },
     {
+        "id": 5,
         "title": "Paznokcie wrastające i wkręcające- leczenie",
         "text": "Paznokcie wrastające i wkręcające- leczenie",
         "img": "",
-        "alt": ""
+        "alt": {
+            "textBtn": [
+                {
+                    "text": "Sprawdzam czy dział!!!"
+                }
+            ]
+        }
     },
     {
+        "id": 6,
         "title": "Leczenie grzybicy paznokci",
         "text": "Leczenie grzybicy paznokci",
         "img": "",
-        "alt": ""
+        "alt": {
+            "textBtn": [
+                {
+                    "text": "Sprawdzam czy dział!!!"
+                }
+            ]
+        }
     },
     {
+        "id": 7,
         "title": "Leczenie pękających pięt",
         "text": "Leczenie pękających pięt",
         "img": "",
-        "alt": ""
+        "alt": {
+            "textBtn": [
+                {
+                    "text": "Sprawdzam czy dział!!!"
+                }
+            ]
+        }
     },
     {
+        "id": 8,
         "title": "Leczenie suchej skóry stóp",
         "text": "Leczenie suchej skóry stóp",
         "img": "",
-        "alt": ""
+        "alt": {
+            "textBtn": [
+                {
+                    "text": "Sprawdzam czy dział!!!"
+                }
+            ]
+        }
     },
     {
+        "id": 9,
         "title": "Wizyty domowe",
         "text": "Wizyty domowe",
         "img": "",
-        "alt": ""
+        "alt": {
+            "textBtn": [
+                {
+                    "text": "Sprawdzam czy dział!!!"
+                }
+            ]
+        }
     },
     {
+        "id": 10,
         "title": "Dziecko w gabinecie",
         "text": "Dziecko w gabinecie",
         "img": "",
-        "alt": ""
+        "alt": {
+            "textBtn": [
+                {
+                    "text": "Sprawdzam czy dział!!!"
+                }
+            ]
+        }
     }
 ]

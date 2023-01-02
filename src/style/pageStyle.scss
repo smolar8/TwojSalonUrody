@@ -44,7 +44,16 @@ $footerTextColor: white;
   font-family: "Poppins", sans-serif;
   $podologiaColor: rgb(76, 61, 77);
 }
+//Oferta
+@mixin oferta {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
+  font-family: "La Belle Aurore", cursive;
+  font-family: "Poppins", sans-serif;
+  $podologiaColor: rgb(76, 61, 77);
+}
 // @mixin CallNumber {
 //   background-color: rgb(151, 26, 26);
 //   font-size: 55px;
