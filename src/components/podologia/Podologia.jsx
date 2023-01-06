@@ -3,6 +3,46 @@ import "./stylePodologia/podologia.css";
 
 import podologiaJson from "../json/podologia.json";
 
+
+
+
+const handleListingMore = (id, data) => {
+  // e.preventDefault();
+  console.log(data);
+  console.log("id=", id);
+  // {
+  //   podologia.textBtn &&
+  //     podologia.textBtn.map((data) => {
+  //       return (
+  //         <div key={podologia.id} onClick={(e) => handleListingMore(e)}>
+  //           {" "}
+  //           {data.text__btn}{" "}
+  //         </div>
+  //       );
+  //     });
+  // }
+};
+
+function PodologiaItemJson(json) {
+  return (
+    <div className="App">
+      {json &&
+        json.map((podologia) => {
+          return (
+            <div
+              className="box"
+              key={podologia.id}
+              onClick={() => handleListingMore(podologia.id, podologia)}
+            >
+              <strong>{podologia.title}</strong>
+              <button>more...</button>
+            </div>
+          );
+        })}
+    </div>
+  );
+}
+
 export default function Podologia() {
   const [podologia, setPodologia] = useState({
     text: "",
@@ -10,15 +50,8 @@ export default function Podologia() {
     img: "",
     alt: "",
   });
-  const [visibleInf, setVisibleInf] = useState("divImigNoneVisible");
+  // const [visibleInf, setVisibleInf] = useState("divImigNoneVisible");
 
-  const handleVisiblePodologia = (e) => {
-    e.preventDefault();
-    setVisibleInf("divImigVisible");
-    podologiaJson.map((item) => {
-      return e.target.innerText === item.title ? setPodologia(item) : null;
-    });
-  };
   const handleGetByJson = (data) => {
     return data.map((item) => {
       return (
@@ -34,7 +67,7 @@ export default function Podologia() {
   return (
     <div className="wrapper--podologia">
       <h2>PODOLOGIA</h2>
-      <section className="block-p">
+      {/* <section className="block-p">
         <p className="podologia--p" onClick={handleVisiblePodologia}>
           Pedicure leczniczy
         </p>
@@ -66,10 +99,10 @@ export default function Podologia() {
         <p className="podologia--p" onClick={handleVisiblePodologia}>
           Dziecko w gabinecie
         </p>
-      </section>
+      </section> */}
 
       <div className="wrapper__podologia--boxByPodologiaJson">
-        {handleGetByJson(podologiaJson)}
+        {PodologiaItemJson(podologiaJson)}
       </div>
     </div>
   );

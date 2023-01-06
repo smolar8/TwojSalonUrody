@@ -21,6 +21,18 @@ export default function Oferta() {
       return e.target.innerText === item.title ? setOferta(item) : null;
     });
   };
+  const handleGetByJson = (data) => {
+    return data.map((item) => {
+      return (
+        <div
+          className="wrapper__oferta__boxByOfertaJson--item"
+          key={item.title}
+        >
+          {item.text}
+        </div>
+      );
+    });
+  };
 
   return (
     <AnimatedPage>

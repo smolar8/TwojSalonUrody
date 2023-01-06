@@ -2,9 +2,9 @@
 
 .wrapper--oferta {
   display: flex;
-  justify-content: start;
-  gap: 20px;
-  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   font-size: 1.5rem;
   line-height: 2;
 
@@ -12,30 +12,20 @@
 }
 
 .block-p {
-  width: 30%;
-  margin-left: 20px;
-  margin-top: 20px;
-// background-color: antiquewhite;
+  display: flex;
+  justify-content: start;
+  //   justify-content: flex-start;
+  align-items: center;
 }
 
 .oferta--p {
   width: 100%;
-  text-align: left;
+  text-align: center;
 }
-
-.visibleInf--img {
-  width: 50%;
-}
-
-.visibleInf--p {
-  text-align: justify;
-  text-indent: 30px;
-  width: 40%;
-  padding-right: 20px;
-}
-
-.oferta--p:hover {
-  color: aqua;
+.podologia--p:hover {
+  color: rgb(243, 147, 44);
+  @include podologia;
+  //   $podologiaColor: rgb(76, 61, 77);
 }
 
 .divImigNoneVisible {
@@ -43,15 +33,36 @@
 }
 
 .divImigVisible {
-
+  //   display: block;
   display: flex;
   justify-content: space-evenly;
   width: 90%;
   gap: 20px;
-// background-color: aquamarine;
 }
 
 .visibleInf--img {
   object-fit: scale-down;
-float: right;
+  width: 40%;
 }
+
+.wrapper__oferta--boxByOfertaJson {
+  margin-top: 20px;
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  //   place-items: center start;
+}
+
+.wrapper__oferta__boxByOfertaJson--item {
+  border: solid 1px black;
+  padding: 0 15px;
+  height: 150px;
+  vertical-align: middle;
+}
+
+// .Json {
+//   font-size: 12px;
+//   border-color: red;
+// }

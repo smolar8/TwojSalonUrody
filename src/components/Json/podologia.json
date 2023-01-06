@@ -1,62 +1,122 @@
 [
-    {
-        "title": "Pedicure leczniczy",
-        "text": "Pedicure leczniczy",
-        "img": "",
-        "alt": ""
-    },
-    {
-        "title": "Usuwanie odcisków",
-        "text": "Usuwanie odcisków",
-        "img": "",
-        "alt": ""
-    },
-    {
-        "title": "Usuwanie modzeli",
-        "text": "Usuwanie modzeli",
-        "img": "",
-        "alt": ""
-    },
-    {
-        "title": "Usuwanie brodawek",
-        "text": "Usuwanie brodawek",
-        "img": "",
-        "alt": ""
-    },
-    {
-        "title": "Paznokcie wrastające i wkręcające- leczenie",
-        "text": "Paznokcie wrastające i wkręcające- leczenie",
-        "img": "",
-        "alt": ""
-    },
-    {
-        "title": "Leczenie grzybicy paznokci",
-        "text": "Leczenie grzybicy paznokci",
-        "img": "",
-        "alt": ""
-    },
-    {
-        "title": "Leczenie pękających pięt",
-        "text": "Leczenie pękających pięt",
-        "img": "",
-        "alt": ""
-    },
-    {
-        "title": "Leczenie suchej skóry stóp",
-        "text": "Leczenie suchej skóry stóp",
-        "img": "",
-        "alt": ""
-    },
-    {
-        "title": "Wizyty domowe",
-        "text": "Wizyty domowe",
-        "img": "",
-        "alt": ""
-    },
-    {
-        "title": "Dziecko w gabinecie",
-        "text": "Dziecko w gabinecie",
-        "img": "",
-        "alt": ""
-    }
+  {
+    "id": 1,
+    "title": "Pedicure leczniczy",
+    "text": "Pedicure leczniczy",
+    "img": "img/2head.jpg",
+
+    "textBtn": [
+      {
+        "text__btn": "Sprawdzam czy działa!!!"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Usuwanie odcisków",
+    "text": "Usuwanie odcisków",
+    "img": "",
+
+    "textBtn": [
+      {
+        "text__btn": "Sprawdzam czy działa 2!!!"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Usuwanie modzeli",
+    "text": "Usuwanie modzeli",
+    "img": "",
+
+    "textBtn": [
+      {
+        "text__btn": "Sprawdzam czy dział!!!"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Usuwanie brodawek",
+    "text": "Usuwanie brodawek",
+    "img": "",
+
+    "textBtn": [
+      {
+        "text__btn": "Sprawdzam czy dział!!!"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Paznokcie wrastające i wkręcające- leczenie",
+    "text": "Paznokcie wrastające i wkręcające- leczenie",
+    "img": "",
+
+    "textBtn": [
+      {
+        "text__btn": "Sprawdzam czy dział!!!"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Leczenie grzybicy paznokci",
+    "text": "Leczenie grzybicy paznokci",
+    "img": "",
+
+    "textBtn": [
+      {
+        "text__btn": "Sprawdzam czy dział!!!"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Leczenie pękających pięt",
+    "text": "Leczenie pękających pięt",
+    "img": "",
+
+    "textBtn": [
+      {
+        "text__btn": "Sprawdzam czy dział!!!"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Leczenie suchej skóry stóp",
+    "text": "Leczenie suchej skóry stóp",
+    "img": "",
+
+    "textBtn": [
+      {
+        "text__btn": "Sprawdzam czy dział!!!"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Wizyty domowe",
+    "text": "Wizyty domowe",
+    "img": "",
+
+    "textBtn": [
+      {
+        "text__btn": "Sprawdzam czy dział!!!"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Dziecko w gabinecie",
+    "text": "Dziecko w gabinecie",
+    "img": "",
+
+    "textBtn": [
+      {
+        "text__btn": "Sprawdzam czy dział!!!"
+      }
+    ]
+  }
 ]

@@ -47,7 +47,6 @@ function Navbar() {
           <img className="logo__div--img" src={LogoFace} alt="logo" />
         </motion.div>
         <img className="logo__div--img" src={LogoName} alt="logo" />
-        <p>Twój Sałon Urody</p>
       </div>
       <nav className="main__header--nav">
         {windowSize > 768 ? <MenuPc /> : <MenuBurger />}
