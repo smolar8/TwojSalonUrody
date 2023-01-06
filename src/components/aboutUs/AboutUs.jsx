@@ -12,6 +12,7 @@ import Messenger from "../../img&icon/messenger.jpg";
 import firstImg from "../../img&icon/1head.jpg";
 import secondImg from "../../img&icon/2head.jpg";
 import thirdImg from "../../img&icon/TLO.png";
+import AnimatedPage from "../../animated/AnimatedPage";
 
 const slide = [firstImg, secondImg, thirdImg];
 const delay = 4000;
@@ -65,35 +66,37 @@ export default function AboutUs() {
   };
 
   return (
-    <main className="main">
-      <section className="slide-photo">
-        <div className="slide__photo--socials">
-          <div className="slide__photo__socials--call">
-            <img className="img" src={Call} alt="photoNum" />
-            <p className="img--text">721 377 690</p>
-          </div>
+    <AnimatedPage>
+      <main className="main">
+        <section className="slide-photo">
+          <div className="slide__photo--socials">
+            <div className="slide__photo__socials--call">
+              <img className="img" src={Call} alt="photoNum" />
+              <p className="img--text">721 377 690</p>
+            </div>
 
-          <div
-            className="slide__photo__socials--messenger"
-            onClick={() => setVisibleMessenge((s) => !s)}
-          >
-            <img className="img" src={Messenger} alt="messengerNum" />
-            <p className="img--text">messenger</p>
+            <div
+              className="slide__photo__socials--messenger"
+              onClick={() => setVisibleMessenge((s) => !s)}
+            >
+              <img className="img" src={Messenger} alt="messengerNum" />
+              <p className="img--text">messenger</p>
+            </div>
           </div>
+          <div className="slideshow">{slideShow(index)}</div>
+        </section>
+        {visibleMessenge ? <MessengerText /> : null}
+
+        <section className="teams">
+          <PhotoTeam />
+        </section>
+        <section className="slogon">
+          <TextHeader />
+        </section>
+        <div id="toTopButton" className={styleScroll} onClick={handleGoUpPage}>
+          To top
         </div>
-        <div className="slideshow">{slideShow(index)}</div>
-      </section>
-      {visibleMessenge ? <MessengerText /> : null}
-
-      <section className="teams">
-        <PhotoTeam />
-      </section>
-      <section className="slogon">
-        <TextHeader />
-      </section>
-      <div id="toTopButton" className={styleScroll} onClick={handleGoUpPage}>
-        To top
-      </div>
-    </main>
+      </main>
+    </AnimatedPage>
   );
 }

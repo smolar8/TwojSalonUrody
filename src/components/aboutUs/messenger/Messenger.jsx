@@ -1,6 +1,7 @@
 import React from "react";
 import { useRef } from "react";
 // import emailjs from "@emailjs/browser";
+import { motion } from "framer-motion";
 
 import "./styleMessenger/messenger.css";
 
@@ -32,7 +33,12 @@ const MessengerText = () => {
   // };
 
   return (
-    <div className="windownChat">
+    <motion.div
+      className="windownChat"
+      animate={{ x: -50, scale: 1 }}
+      initial={{ x: 300, scale: 0 }}
+      transition={{ duration: 1 }}
+    >
       <form ref={form}>
         {/* onSubmit={sendEmail}> */}
         <div className="wrapper--input">
@@ -71,7 +77,7 @@ const MessengerText = () => {
           </button>
         </div>
       </form>
-    </div>
+    </motion.div>
   );
 };
 

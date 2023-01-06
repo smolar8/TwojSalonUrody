@@ -1,9 +1,9 @@
 import React from "react";
 
 import "./styleFooter/footer.css";
-import YT from "../img&icon/yt.png";
-import FB from "../img&icon/fb.png";
-import Inst from "../img&icon/inst.png";
+import YT from "../img&icon/social/yt.png";
+import FB from "../img&icon/social/fb.png";
+import Inst from "../img&icon/social/inst.png";
 
 function Footer() {
   return (

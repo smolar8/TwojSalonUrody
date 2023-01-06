@@ -56,9 +56,3 @@
   color: aqua;
   animation: 5s spinnow infinite linear;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .logo__div--img {
-    animation: spinnow infinite 20s linear;
-  }
-}
