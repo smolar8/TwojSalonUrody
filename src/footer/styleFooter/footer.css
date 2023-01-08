@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=La+Belle+Aurore&family=Poppins:wght@200;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Petit+Formal+Script&family=Poppins:wght@700&display=swap");
 .footer {
   font-family: "Poppins", sans-serif;
   background-color: rgb(76, 61, 77);
@@ -41,7 +42,10 @@ li:hover {
   transform: scale(1.1);
 }
 
-h2 {
+.address--h2,
+.impotent__links--h2,
+.tel__email--h2,
+.time__work--h2 {
   text-align: center;
   color: rgb(243, 147, 44);
   text-shadow: 1px 1px 2px rgb(112, 112, 110);
@@ -56,6 +60,8 @@ h2 {
   color: rgb(243, 147, 44);
 }
 
-p {
+.tel__email--p,
+.time__work--p,
+.address--p {
   text-align: center;
 }

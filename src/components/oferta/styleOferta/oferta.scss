@@ -2,30 +2,27 @@
 
 .wrapper--oferta {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  justify-content: flex-start;
   font-size: 1.5rem;
   line-height: 2;
-
+  gap: 50px;
   transform: 2s;
 }
 
 .block-p {
   display: flex;
-  justify-content: start;
-  //   justify-content: flex-start;
-  align-items: center;
+  flex-direction: column;
+    align-items: flex-start;
+    width: 500px;
 }
 
 .oferta--p {
   width: 100%;
-  text-align: center;
+
 }
-.podologia--p:hover {
-  color: rgb(243, 147, 44);
-  @include podologia;
-  //   $podologiaColor: rgb(76, 61, 77);
+.oferta--p:hover {
+  // color: rgb(243, 147, 44);
+  @include ul__Title;
 }
 
 .divImigNoneVisible {
@@ -33,7 +30,6 @@
 }
 
 .divImigVisible {
-  //   display: block;
   display: flex;
   justify-content: space-evenly;
   width: 90%;
@@ -45,24 +41,19 @@
   width: 40%;
 }
 
-.wrapper__oferta--boxByOfertaJson {
-  margin-top: 20px;
-  width: 90%;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 30px;
-  //   place-items: center start;
-}
+// .wrapper__oferta--boxByOfertaJson {
+//   margin-top: 20px;
+//   width: 90%;
+//   display: flex;
+//   justify-content: center;
+//   flex-wrap: wrap;
+//   gap: 30px;
+//   //   place-items: center start;
+// }
 
-.wrapper__oferta__boxByOfertaJson--item {
-  border: solid 1px black;
-  padding: 0 15px;
-  height: 150px;
-  vertical-align: middle;
-}
-
-// .Json {
-//   font-size: 12px;
-//   border-color: red;
+// .wrapper__oferta__boxByOfertaJson--item {
+//   border: solid 1px black;
+//   padding: 0 15px;
+//   height: 150px;
+//   vertical-align: middle;
 // }

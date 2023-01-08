@@ -24,12 +24,9 @@ export default function Oferta() {
   const handleGetByJson = (data) => {
     return data.map((item) => {
       return (
-        <div
-          className="wrapper__oferta__boxByOfertaJson--item"
-          key={item.title}
-        >
-          {item.text}
-        </div>
+        <p className="oferta--p" key={item.title} onClick={handleVisibleOferta}>
+          {item.title}
+        </p>
       );
     });
   };
@@ -37,40 +34,7 @@ export default function Oferta() {
   return (
     <AnimatedPage>
       <div className="wrapper--oferta">
-        <section className="block-p">
-          <p className="oferta--p" onClick={handleVisibleOferta}>
-            Pielęgnacja twarzy, szyi i dekoltu
-          </p>
-
-          <p className="oferta--p" onClick={handleVisibleOferta}>
-            Pielęgnacja dłoni i paznokci
-          </p>
-
-          <p className="oferta--p" onClick={handleVisibleOferta}>
-            Pielęgnacja ciała
-          </p>
-          <p className="oferta--p" onClick={handleVisibleOferta}>
-            Medycyne estetyczna
-          </p>
-
-          <p className="oferta--p" onClick={handleVisibleOferta}>
-            Pielęgnacja brwi i rzęs
-          </p>
-          <p className="oferta--p" onClick={handleVisibleOferta}>
-            Wizaź
-          </p>
-          <p className="oferta--p" onClick={handleVisibleOferta}>
-            Depilacja
-          </p>
-          <p className="oferta--p" onClick={handleVisibleOferta}>
-            Strefa wellness
-          </p>
-
-          <p className="oferta--p" onClick={handleVisibleOferta}>
-            Przekłuwanie uszu
-          </p>
-        </section>
-
+        <section className="block-p">{handleGetByJson(ofertaJson)}</section>
         <div className={visibleInf}>
           <p className="visibleInf--p">{oferta.text}</p>
           <img className="visibleInf--img" src={oferta.img} alt={oferta.alt} />

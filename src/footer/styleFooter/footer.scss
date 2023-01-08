@@ -27,10 +27,12 @@
   cursor: pointer;
   position: relative;
 }
+
 li:hover {
   color: bisque;
   transform: scale(1.5) translateX(15%);
 }
+
 .social-icon {
   position: relative;
 
@@ -44,12 +46,13 @@ li:hover {
   transform: scale(1.1);
 }
 
-h2 {
-  text-align: center;
-  color: $footerH2;
-  text-shadow: $footerH2shadow;
+.address--h2,
+.impotent__links--h2,
+.tel__email--h2,
+.time__work--h2 {
+  @include styleH2;
 }
-.tel-email > p > a {
+.tel-email>p>a {
   margin-left: 10px;
   text-decoration: none;
   color: $footerTextColor;
@@ -58,6 +61,8 @@ h2 {
     color: $footerH2;
   }
 }
-p {
+.tel__email--p,
+.time__work--p,
+.address--p {
   text-align: center;
 }

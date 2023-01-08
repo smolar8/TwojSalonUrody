@@ -1,5 +1,35 @@
 [
   {
+    "title": "Pielęgnacja twarzy, szyi i dekoltu",
+    "text": "Skóra na szyi i dekolcie wymaga szczególnej troski, a częste eksponowanie tych partii ciała na pewno nie pomaga! Wystawienia na działanie promieni słonecznych sprawia, że skóra jest delikatna i wrażliwa, może też szybciej się zmarszczać! Jak powinna wyglądać prawidłowa pielęgnacja szyi i dekoltu? Podpowiadamy!",
+    "img": "img/1head.jpg",
+    "alt": "Pielęgnacja twarzy, szyi i dekoltu"
+  },
+  {
+    "title": "Pielęgnacja dłoni i paznokci",
+    "text": "Skóra dłoni jest szczególnie narażona na szkodliwe działanie czynników otoczenia. Moczenie rąk w detergentach, zmienne temperatury czy częste stosowanie środków do dezynfekcji sprawiają, że stają się one przesuszone, spierzchnięte i podrażnione. Z tych samych przyczyn na uszkodzenia narażone są paznokcie i skórki. Podpowiadamy, jakie naturalne produkty pomogą Ci zadbać o zdrowie i piękny wygląd dłoni i paznokci. ",
+    "img": "img/1head.jpg",
+    "alt": "Pielęgnacja dłoni i paznokci"
+  },
+  {
+    "title": "Pielęgnacja ciała",
+    "text": "Trafiłeś właściwie - bezpieczeństwo to jest dokładnie to, co oferuje Twój Salon Urody. Używając wyłącznie sterylnych produktów, stosując bezpieczne metody przekłuwania oraz przyjazną skórze biżuterię, stawiamy zawsze na pierwszym miejscu Twoje zdrowie oraz zdrowie Twojej skóry. Mając na uwadze dobro dzieci, opracowaliśmy medyczny system przekłuwania obu uszu jednocześnie, który przyspiesza proces przekłuwania, nie tracąc nic na bezpieczeństwie zabiegu. ",
+    "img": "img/przekłuwanieUszu.jpg",
+    "alt": "Pielęgnacja ciała"
+  },
+  {
+    "title": "Medycyne estetyczna",
+    "text": "Trafiłeś właściwie - bezpieczeństwo to jest dokładnie to, co oferuje Twój Salon Urody. Używając wyłącznie sterylnych produktów, stosując bezpieczne metody przekłuwania oraz przyjazną skórze biżuterię, stawiamy zawsze na pierwszym miejscu Twoje zdrowie oraz zdrowie Twojej skóry. Mając na uwadze dobro dzieci, opracowaliśmy medyczny system przekłuwania obu uszu jednocześnie, który przyspiesza proces przekłuwania, nie tracąc nic na bezpieczeństwie zabiegu. ",
+    "img": "img/przekłuwanieUszu.jpg",
+    "alt": " Medycyne estetyczna"
+  },
+  {
+    "title": "Pielęgnacja brwi i rzęs",
+    "text": "Trafiłeś właściwie - bezpieczeństwo to jest dokładnie to, co oferuje Twój Salon Urody. Używając wyłącznie sterylnych produktów, stosując bezpieczne metody przekłuwania oraz przyjazną skórze biżuterię, stawiamy zawsze na pierwszym miejscu Twoje zdrowie oraz zdrowie Twojej skóry. Mając na uwadze dobro dzieci, opracowaliśmy medyczny system przekłuwania obu uszu jednocześnie, który przyspiesza proces przekłuwania, nie tracąc nic na bezpieczeństwie zabiegu. ",
+    "img": "img/przekłuwanieUszu.jpg",
+    "alt": " Pielęgnacja brwi i rzęs"
+  },
+  {
     "title": "Przekłuwanie uszu",
     "text": "Trafiłeś właściwie - bezpieczeństwo to jest dokładnie to, co oferuje Twój Salon Urody. Używając wyłącznie sterylnych produktów, stosując bezpieczne metody przekłuwania oraz przyjazną skórze biżuterię, stawiamy zawsze na pierwszym miejscu Twoje zdrowie oraz zdrowie Twojej skóry. Mając na uwadze dobro dzieci, opracowaliśmy medyczny system przekłuwania obu uszu jednocześnie, który przyspiesza proces przekłuwania, nie tracąc nic na bezpieczeństwie zabiegu. ",
     "img": "img/przekłuwanieUszu.jpg",
@@ -17,14 +47,9 @@
     "img": "img/1head.jpg",
     "alt": "Depilacja"
   },
+
   {
-    "title": "Pielęgnacja twarzy, szyi i dekoltu",
-    "text": "Skóra na szyi i dekolcie wymaga szczególnej troski, a częste eksponowanie tych partii ciała na pewno nie pomaga! Wystawienia na działanie promieni słonecznych sprawia, że skóra jest delikatna i wrażliwa, może też szybciej się zmarszczać! Jak powinna wyglądać prawidłowa pielęgnacja szyi i dekoltu? Podpowiadamy!",
-    "img": "img/1head.jpg",
-    "alt": "Depilacja"
-  },
-  {
-    "title": "Pielęgnacja dłoni i paznokci",
+    "title": "Wizaź",
     "text": "Skóra dłoni jest szczególnie narażona na szkodliwe działanie czynników otoczenia. Moczenie rąk w detergentach, zmienne temperatury czy częste stosowanie środków do dezynfekcji sprawiają, że stają się one przesuszone, spierzchnięte i podrażnione. Z tych samych przyczyn na uszkodzenia narażone są paznokcie i skórki. Podpowiadamy, jakie naturalne produkty pomogą Ci zadbać o zdrowie i piękny wygląd dłoni i paznokci. ",
     "img": "img/1head.jpg",
     "alt": "Depilacja"

@@ -1,109 +1,65 @@
 import React, { useState, useEffect } from "react";
 import "./stylePodologia/podologia.css";
+import SelectDetailesOfPodologia from "./procedureDetails/SelectDetailesOfPodologia";
 
 import podologiaJson from "../json/podologia.json";
-
-
-
-
-const handleListingMore = (id, data) => {
-  // e.preventDefault();
-  console.log(data);
-  console.log("id=", id);
-  // {
-  //   podologia.textBtn &&
-  //     podologia.textBtn.map((data) => {
-  //       return (
-  //         <div key={podologia.id} onClick={(e) => handleListingMore(e)}>
-  //           {" "}
-  //           {data.text__btn}{" "}
-  //         </div>
-  //       );
-  //     });
-  // }
-};
-
-function PodologiaItemJson(json) {
-  return (
-    <div className="App">
-      {json &&
-        json.map((podologia) => {
-          return (
-            <div
-              className="box"
-              key={podologia.id}
-              onClick={() => handleListingMore(podologia.id, podologia)}
-            >
-              <strong>{podologia.title}</strong>
-              <button>more...</button>
-            </div>
-          );
-        })}
-    </div>
-  );
-}
+import { motion } from "framer-motion";
 
 export default function Podologia() {
-  const [podologia, setPodologia] = useState({
-    text: "",
-    title: "",
-    img: "",
-    alt: "",
-  });
-  // const [visibleInf, setVisibleInf] = useState("divImigNoneVisible");
+  const [componentMy, setComponent] = useState("");
+  const [width, setWidth] = useState(window.innerWidth);
+  const [height, setHeight] = useState(window.innerHeight);
+  const [x, setX] = useState(0);
 
-  const handleGetByJson = (data) => {
-    return data.map((item) => {
-      return (
-        <div
-          className="wrapper__podologia__boxByPodologiaJson--item"
-          key={item.title}
-        >
-          {item.text}
-        </div>
-      );
-    });
+  const updateDimensions = () => {
+    setWidth(window.innerWidth);
+    setHeight(window.innerHeight);
+  };
+
+  useEffect(() => {
+    window.addEventListener("resize", updateDimensions);
+    return () => window.removeEventListener("resize", updateDimensions);
+  }, []);
+
+  function PodologiaItemJson(json) {
+    return (
+      <>
+        {json &&
+          json.map((podologia) => {
+            return (
+              <div
+                className="podologia--title"
+                key={podologia.id}
+                onClick={() => setComponent(podologia.id)}
+              >
+                <span>{podologia.title}</span>
+                <button>more...</button>
+              </div>
+            );
+          })}
+      </>
+    );
+  }
+  const changeComponentNameOfNull = () => {
+    setComponent("");
   };
   return (
     <div className="wrapper--podologia">
       <h2>PODOLOGIA</h2>
-      {/* <section className="block-p">
-        <p className="podologia--p" onClick={handleVisiblePodologia}>
-          Pedicure leczniczy
-        </p>
-        <p className="podologia--p" onClick={handleVisiblePodologia}>
-          Usuwanie odcisków
-        </p>
-        <p className="podologia--p" onClick={handleVisiblePodologia}>
-          Usuwanie modzeli
-        </p>
-        <p className="podologia--p" onClick={handleVisiblePodologia}>
-          Usuwanie brodawek
-        </p>
-        <p className="podologia--p" onClick={handleVisiblePodologia}>
-          Paznokcie wrastające i wkręcające- leczenie
-        </p>
-        <p className="podologia--p" onClick={handleVisiblePodologia}>
-          Leczenie grzybicy paznokci
-        </p>
-        <p className="podologia--p" onClick={handleVisiblePodologia}>
-          Leczenie pękających pięt
-        </p>
-        <p className="podologia--p" onClick={handleVisiblePodologia}>
-          Leczenie suchej skóry stóp
-        </p>
-
-        <p className="podologia--p" onClick={handleVisiblePodologia}>
-          Wizyty domowe
-        </p>
-        <p className="podologia--p" onClick={handleVisiblePodologia}>
-          Dziecko w gabinecie
-        </p>
-      </section> */}
 
       <div className="wrapper__podologia--boxByPodologiaJson">
         {PodologiaItemJson(podologiaJson)}
       </div>
+      {componentMy ? (
+        <motion.div
+          className="detaliesPage"
+          animate={{ x: -50, scale: 1 }}
+          initial={{ x: 300, scale: 0 }}
+          transition={{ duration: 1 }}
+        >
+          <SelectDetailesOfPodologia id={componentMy} width={width} />
+        </motion.div>
+      ) : null}
     </div>
   );
 }

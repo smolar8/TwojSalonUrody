@@ -9,14 +9,14 @@ function Footer() {
   return (
     <div className="footer">
       <div className="address">
-        <h2>
+        <h2 className="address--h2">
           Gabinet Kosmetyczny <br /> Twój Salon Urody
         </h2>
-        <p> ul. Partyzantów 2</p>
-        <p> 27-500 Opatów</p>
+        <p className="address--p"> ul. Partyzantów 2</p>
+        <p className="address--p"> 27-500 Opatów</p>
       </div>
       <div className="impotent--links">
-        <h2>Ważne linki</h2>
+        <h2 className="impotent__links--h2">Ważne linki</h2>
 
         <ul className="checklist">
           <li>Regulaminy</li>
@@ -52,29 +52,20 @@ function Footer() {
         </ul>
       </div>
       <div className="tel-email">
-        <h2>Telefon & Email</h2>
-        <p>
+        <h2 className="tel__email--h2">Telefon & Email</h2>
+        <p className="tel__email--p">
           tel:
           <a href="tel:+48134567912">+48 721 377 690 </a>
         </p>
-        <p>
+        <p className="tel-email--p">
           email: <a href="mailto:aaa@gmail.com">twojsalonurody@interia.pl</a>
         </p>
       </div>
-      {/* <div className="offer">
-        <h2>Oferta</h2>
-        <ol className="checklist">
-          <li>Depilacja laserowa</li>
-          <li>Modelowanie sylwetki</li>
-          <li>Redukcja celulitu</li>
-          <li>Medycyna estetyczna</li>
-          <li>Oczyszczanie skóry</li>
-        </ol>
-      </div> */}
+
       <div className="time-work">
-        <h2> Godziny otwarcia</h2>
-        <p>Pon. - Pt. 10:00 - 18:00</p>
-        <p>Sob. 9:00 - 14:00</p>
+        <h2 className="time__work--h2"> Godziny otwarcia</h2>
+        <p className="time__work--p">Pon. - Pt. 10:00 - 18:00</p>
+        <p className="time__work--p">Sob. 9:00 - 14:00</p>
       </div>
     </div>
   );
