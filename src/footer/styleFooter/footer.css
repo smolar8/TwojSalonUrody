@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Petit+Formal+Script&family=Poppins:wght@700&family=Raleway:ital@0;1&display=swap");
+.footer {
+  position: relative;
+  background-color: rgb(76, 61, 77);
+  color: white;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  width: 100%;
+}
+
+.checklist {
+  list-style: none outside;
+  text-align: center;
+  align-items: center;
+}
+
+.social-icon {
+  position: relative;
+  background-color: rgb(76, 61, 77);
+  width: 30px;
+  margin-top: 10px;
+  margin-left: 5px;
+}
+
+.social-icon:hover {
+  transform: scale(1.1);
+}
+
+.time__work--p {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 2px;
+}
+
+.impotent--links,
+.address,
+.tel-email,
+.time-work,
+.tel__email--h2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 30px;
+}/*# sourceMappingURL=footer.css.map */

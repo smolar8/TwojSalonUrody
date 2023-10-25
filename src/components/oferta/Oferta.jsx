@@ -1,0 +1,25 @@
+import React, { useState } from "react";
+import MySwiper from "../../swiper/MySwiper";
+import SelectDetailesOferta from "../oferta/procedureDetailes/SelectDetailesOferta";
+import jsonOferta from "../Json/oferta.json";
+import "./styleOferta/oferta.css";
+
+function Oferta() {
+  const [idItems, setIdItems] = useState(-1);
+
+  const clickChooseSelect = (data) => {
+    setIdItems(data);
+  };
+  const handleOnclick1 = (e) => {
+    setIdItems(e.realIndex);
+  };
+  return (
+    <div className="container">
+      <h1 className="heading">Wybierz Ofertę</h1>
+      <MySwiper json={jsonOferta} clickChooseSelect={clickChooseSelect} />
+      <SelectDetailesOferta id={idItems} />
+    </div>
+  );
+}
+
+export default Oferta;

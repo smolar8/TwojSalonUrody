@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css2?family=Petit+Formal+Script&family=Poppins:wght@700&family=Raleway:ital@0;1&display=swap");
+.main {
+  width: 100%;
+  padding-bottom: 30px;
+  transition: position 20s;
+}
+
+.slide-photo {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.slideshow {
+  margin: 0 auto;
+  overflow: hidden;
+  max-width: 80%;
+}
+
+.slideshowSlider {
+  white-space: nowrap;
+  transition: ease 2000ms;
+}
+
+.slideshowSlider--img {
+  width: auto;
+  height: 380px;
+}
+
+.slide {
+  display: inline-block;
+  height: 400px;
+  width: 100%;
+  border-radius: 40px;
+  margin-left: 100px;
+}
+
+/* Buttons */
+.slideshowDots {
+  text-align: center;
+}
+
+.slideshowDot {
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  cursor: pointer;
+  margin: 15px 7px 0px;
+  background-color: #c4c4c4;
+}
+
+.slideshowDot.active {
+  background-color: #6a0dad;
+}
+
+.teams {
+  display: flex;
+  align-items: center;
+  margin: auto;
+  background-image: url("../../../img&icon/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 500px;
+}
+
+.slide__photo--socials {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.img {
+  filter: grayscale(100%);
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.img:hover {
+  filter: none;
+}
+
+.slide__photo__socials--call {
+  position: relative;
+  width: 50px;
+  height: 50px;
+  margin: 10px;
+  top: 80px;
+  right: 0;
+}
+
+.slide__photo__socials--messenger {
+  position: relative;
+  width: 50px;
+  height: 50px;
+  margin: 10px;
+  top: 80px;
+  right: 0;
+}
+
+.slide__photo__socials--call:hover,
+.slide__photo__socials--messenger:hover {
+  transform: scale(1.1);
+}
+
+.slide__photo__socials--call::after,
+.slide__photo__socials--messenger::after {
+  content: "";
+  position: relative;
+  left: 55px;
+  bottom: 25px;
+  width: 50%;
+  height: 2px;
+  background: rgb(243, 147, 44);
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 250ms ease-in;
+}
+
+.slide__photo__socials--call:hover::after,
+.slide__photo__socials--messenger:hover::after {
+  transform: scale(1);
+  transform-origin: left;
+}
+
+.img--text {
+  display: none;
+  transition: transform 2s ease-in;
+}
+.slide__photo__socials--call:hover .img--text, .slide__photo__socials--messenger:hover .img--text {
+  display: block;
+  position: relative;
+  right: 90px;
+  bottom: 18px;
+  width: 150px;
+  color: rgb(243, 147, 44);
+}
+
+#toTopButton {
+  background-color: teal;
+  width: 20px;
+  height: 30px;
+  padding: 10px;
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+  cursor: pointer;
+  z-index: 100;
+}
+#toTopButton:hover {
+  color: red;
+}
+
+.visible--true {
+  display: block;
+}
+
+.visible--false {
+  display: none;
+}
+
+.ul__menu--pc {
+  background-color: rgb(76, 61, 77);
+}/*# sourceMappingURL=about.css.map */

@@ -1,0 +1,244 @@
+@import url("https://fonts.googleapis.com/css2?family=Petit+Formal+Script&family=Poppins:wght@700&family=Raleway:ital@0;1&display=swap");
+.wrapper--oferta {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  font-size: 1.5rem;
+  line-height: 2;
+  gap: 50px;
+  transform: 2s;
+  height: 100vh;
+}
+
+.block-p {
+  display: flex;
+  align-items: center;
+}
+
+.oferta--p {
+  width: 100%;
+  border: 1px solid black;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 20px;
+}
+
+.oferta--p:hover {
+  background-color: rgb(243, 147, 44);
+  box-shadow: 0px 0px 3px 7px rgb(114, 186, 227);
+}
+
+.oferta--p.active {
+  background-color: aqua;
+  color: #fff;
+}
+
+.divImigNoneVisible {
+  display: none;
+}
+
+.divImigVisible {
+  display: flex;
+  justify-content: space-evenly;
+  width: 90%;
+  gap: 20px;
+}
+
+.visibleInf--img {
+  -o-object-fit: scale-down;
+     object-fit: scale-down;
+  width: 40%;
+}
+
+:root {
+  --primary: #040404;
+  --white: #ffffff;
+  --bg: blue;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+@media (min-width: 1440px) {
+  html {
+    zoom: 1.5;
+  }
+}
+@media (min-width: 2560px) {
+  html {
+    zoom: 1.7;
+  }
+}
+@media (min-width: 3860px) {
+  html {
+    zoom: 2.5;
+  }
+}
+::-webkit-scrollbar {
+  width: 1.3rem;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 1rem;
+  background: #797979;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #222224;
+}
+
+::-webkit-scrollbar-track {
+  background: #f9f9f9;
+}
+
+body {
+  font-size: 1.6rem;
+  background: var(-bg);
+}
+
+.container {
+  max-width: 124rem;
+  padding: 4rem 1rem;
+  margin: 0 auto;
+}
+
+.heading {
+  padding: 1rem 0;
+  font-size: 3.5rem;
+  text-align: center;
+}
+
+.swiper_container {
+  padding: 2rem 0;
+  position: relative;
+}
+
+.swiper-slide {
+  width: 37rem;
+  height: 42rem;
+  position: relative;
+}
+
+.swiper-slide img {
+  width: 37rem;
+  height: 42rem;
+  border-radius: 2rem;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.slider-controler {
+  position: relative;
+  bottom: 12rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.swiper-pagination {
+  position: relative;
+  width: 30rem !important;
+  bottom: 1rem;
+  padding-top: 80px;
+}
+
+.h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pp {
+  padding-top: 19px;
+  background-color: white;
+}
+
+@media screen and (max-width: 576px) {
+  .main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 5vh;
+    font-size: 2rem;
+  }
+  .heading {
+    font-size: 2rem;
+  }
+  .div-motion {
+    display: none;
+  }
+  .main__header--nav {
+    width: 100%;
+    padding: 8px 0;
+    text-align: center;
+    background-color: rgb(243, 231, 19);
+    border-top: 1px solid rgb(87, 85, 85);
+    border-bottom: 1px solid rgb(87, 85, 85);
+    display: flex;
+    align-items: center;
+    transition: 3s;
+  }
+  .logo__div--img {
+    display: none;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    margin-left: 488px;
+  }
+  .swiper-button-next {
+    display: none;
+  }
+  .swiper-button-prev {
+    display: none;
+  }
+  .h1 {
+    font-size: 2rem;
+    margin-top: 2px;
+  }
+  .container {
+    max-width: 100rem;
+    padding: 1rem 1rem;
+    margin: 0 auto;
+    background-color: aliceblue;
+  }
+  .swiper-pagination-bullet {
+    background: var(--swiper-pagination-bullet-inactive-color, white);
+    opacity: none var(--swiper-pagination-bullet-inactive-opacity, 0.2);
+  }
+  .footer {
+    flex-direction: column;
+    padding: 5px;
+  }
+  .impotent--links,
+  .address {
+    display: none;
+  }
+  .tel-email--p {
+    color: white;
+  }
+  a {
+    color: white;
+    margin-left: 5px;
+    font-size: large;
+  }
+  .pp {
+    background-color: aliceblue;
+  }
+  .footer {
+    background-image: "img/salon.jpg";
+  }
+  .h1-Contact {
+    display: none;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .logo--div {
+    width: 960px;
+    padding: 0;
+    background-color: #3f2e6f;
+  }
+}/*# sourceMappingURL=oferta.css.map */

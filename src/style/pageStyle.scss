@@ -1,0 +1,64 @@
+//@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Petit+Formal+Script&family=Poppins:wght@700&family=Raleway:ital@0;1&display=swap");
+//@import "https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700&family=Roboto:wght@700&display=swap";
+//$titleFont: "Roboto", sans-serif;
+//$titleFont: "La Belle Aurore", cursive;
+//$titleFont: "Poppins", sans-serif;
+
+$font-family: "Petit Formal Script", cursive;
+$font-family: "Poppins", sans-serif;
+$font-family: "Raleway", sans-serif;
+//Colors
+$navColor: rgb(15, 215, 202);
+//  footer
+$footerColor: rgb(76, 61, 77);
+$footerH2: rgb(243, 147, 44);
+$footerH2shadow: 1px 1px 2px rgb(112, 112, 110);
+$footerTextColor: white;
+@mixin icon-social($top, $right) {
+  position: relative;
+
+  width: 50px;
+  height: 50px;
+  margin: 10px;
+  top: $top;
+  right: $right;
+}
+@mixin flex_center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+//TextHeader
+@mixin textHeader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-family: "La Belle Aurore", cursive;
+  font-family: "Poppins", sans-serif;
+}
+//Podologia
+@mixin podologia {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-family: "La Belle Aurore", cursive;
+  font-family: "Poppins", sans-serif;
+  $podologiaColor: rgb(76, 61, 77);
+}
+//Oferta
+@mixin oferta {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-family: "La Belle Aurore", cursive;
+  font-family: "Poppins", sans-serif;
+  $podologiaColor: rgb(76, 61, 77);
+}
+// @mixin CallNumber {
+//   background-color: rgb(151, 26, 26);
+//   font-size: 55px;
+// }
