@@ -20,6 +20,11 @@ export const NameMenuItems = [
     // icon: "contact_page",
   },
   {
+    value: "Masaż",
+    href: "/masaz",
+    // icon: "contact_page",
+  },
+  {
     value: "Promocja",
     href: "/promocja",
     // icon: "contact_page",

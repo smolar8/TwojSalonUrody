@@ -11,6 +11,7 @@ import Podologia from "./components/podologia/Podologia";
 import Oferta from "./components/oferta/Oferta";
 import Promocja from "./components/promocja/Promocja";
 import Stylizacja from "./components/stylizacja/Stylizacja";
+import Masaz from "./components/masaz/Masaz";
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
         <Route path="/promocja" component={Promocja} />
         <Route path="/contact" component={Contact} />
         <Route path="/stylizacja" component={Stylizacja} />
+        <Route path="/masaz" component={Masaz} />
       </Switch>
 
       <Footer />
