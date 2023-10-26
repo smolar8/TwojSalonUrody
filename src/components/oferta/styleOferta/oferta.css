@@ -25,6 +25,8 @@
 
 .oferta--p:hover {
   background-color: rgb(243, 147, 44);
+  -webkit-box-shadow: 0px 0px 3px 7px rgb(114, 186, 227);
+  -moz-box-shadow: 0px 0px 3px 7px rgb(114, 186, 227);
   box-shadow: 0px 0px 3px 7px rgb(114, 186, 227);
 }
 
@@ -45,8 +47,7 @@
 }
 
 .visibleInf--img {
-  -o-object-fit: scale-down;
-     object-fit: scale-down;
+  object-fit: scale-down;
   width: 40%;
 }
 
@@ -83,7 +84,6 @@ html {
 ::-webkit-scrollbar-thumb {
   border-radius: 1rem;
   background: #797979;
-  -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
 }
 
@@ -237,8 +237,7 @@ body {
 }
 @media screen and (min-width: 1024px) {
   .logo--div {
-    width: 960px;
     padding: 0;
     background-color: #3f2e6f;
   }
-}/*# sourceMappingURL=oferta.css.map */
+}

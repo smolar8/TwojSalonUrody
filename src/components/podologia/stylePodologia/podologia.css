@@ -196,6 +196,11 @@ body {
   background-color: whitesmoke;
 }
 
-.li {
-  margin-left: 150px;
-}/*# sourceMappingURL=podologia.css.map */
+.pp ul li {
+  list-style: disc outside none;
+  display: list-item;
+  margin-left: 1em;
+}
+.pp ol li {
+  list-style-type: decimal;
+}

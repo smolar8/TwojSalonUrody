@@ -4,7 +4,7 @@ export const PodologiaComponent6 = () => {
   return (
     <div>
       <h1 className="h1">GRZYBICA SKÓRY STÓP I PAZNOKCI</h1>
-      <p className="pp">
+      <div className="pp">
         <p>
           Grzybica paznokci jest zmianą chorobową płytki paznokcia, wywołaną
           przez grzyby głównie przez dermatofity z grupy Trichophyton rubrum
@@ -69,7 +69,7 @@ export const PodologiaComponent6 = () => {
           Po zakończeniu leczenia, paznokieć powinien odzyskać zdrowy wygląd, co
           powinno być również poparte badaniami.
         </p>
-      </p>
+      </div>
     </div>
   );
 };

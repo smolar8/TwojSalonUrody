@@ -4,7 +4,7 @@ export const PodologiaComponent7 = () => {
   return (
     <div>
       <h1 className="h1">PAZNOKCIE DYSTROFICZNE</h1>
-      <p className="pp">
+      <div className="pp">
         <p>
           Przerośnięte i zgrubiałe paznokcie mogą powstawać z przyczyn
           zewnętrznych (zbyt ciasne obuwie), wewnętrznych (przypadłości
@@ -41,7 +41,7 @@ export const PodologiaComponent7 = () => {
             <li>Kruchością i brakiem elastyczności</li>
           </ol>
         </span>
-      </p>
+      </div>
     </div>
   );
 };
