@@ -4,33 +4,49 @@ export const OfertaComponent1 = () => {
   return (
     <div>
       <h1 className="h1">Oczyszczanie wodorowe</h1>
+      <br></br>
+      <h3>
+        Zabieg oczyszczania wodorowego z wykorzystaniem jadeitu oraz firmowych
+        koncentratów M'onduniq
+      </h3>
       <p className="pp">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus in
-        itaque corrupti non soluta sequi minima officiis qui et ipsam nesciunt
-        alias, nostrum quasi quas a laboriosam molestias fugiat earum? Lorem
-        ipsum dolor, sit amet consectetur adipisicing elit. Suscipit excepturi
-        quo saepe illum corrupti tempora alias fugiat laudantium vel a sit
-        incidunt maxime eum, provident tenetur aspernatur facere voluptatum?
-        Deserunt! Blanditiis non odio eaque quibusdam corporis magnam et commodi
-        ad aut ea rerum reprehenderit fuga voluptate, itaque cumque quasi! Odit
-        vitae voluptas, dolorum debitis enim maxime. Vel dicta dolores eveniet.
-        Vitae quibusdam tenetur asperiores aliquam nisi numquam fugiat, eaque
-        non maiores, cumque, a tempora nostrum delectus aspernatur odit
-        consectetur tempore ipsam neque! Quam, eos corporis blanditiis aperiam
-        unde dolor quibusdam! Lorem ipsum, dolor sit amet consectetur
-        adipisicing elit. Cupiditate aliquid sint minima labore velit hic
-        maiores veniam? Magni atque fugiat cupiditate quis, laborum magnam?
-        Natus optio eius ipsum unde maiores. Laboriosam corrupti magnam
-        repudiandae, similique rerum dolorum molestiae assumenda odit beatae rem
-        a tenetur quasi aspernatur pariatur culpa quos eligendi debitis qui quo
-        laudantium ex. Omnis assumenda illum accusantium similique. Excepturi
-        sapiente dolor, delectus at commodi dignissimos. Ab perspiciatis impedit
-        nesciunt sequi maxime consequuntur ducimus provident quasi et quae
-        suscipit tenetur ipsa itaque, consequatur nisi molestias, possimus eius
-        soluta? Necessitatibus? Accusantium ut nesciunt explicabo repellendus
-        quam perspiciatis nostrum corrupti in facere recusandae autem esse hic
-        voluptatem sed temporibus qui deleniti unde, officia necessitatibus
-        eius! Doloribus maiores velit animi quos id.
+        <p>
+          Działanie aktywnym wodorem pozwala na zmniejszanie nadmiaru wolnych
+          rodników, których zbyt duża ilość przyczynia się do przedwczesnego
+          starzenia się skóry. Metoda działania zastosowana w urządzeniu
+          Aquametiq hydra prime świetnie oczyszcza skórę oraz działa
+          nawilżająco.Metoda działania zastosowana w urządzeniu opiera się
+          głównie o przenikanie wodoru do głębszych warstw struktury skóry, co
+          odbywa się dzięki nasyconemu strumieniowi wody, dodatkowo zapewniając
+          głęboką eksfoliację. Dzięki temu nie tylko uzyskujemy lepsze efekty
+          zabiegowe, ale również zabezpieczamy naszą skórę przed przedwczesnym
+          starzeniem.
+        </p>
+
+        <br></br>
+        <h3>Działanie</h3>
+        <p>
+          Wolne rodniki wiążą się z jonami wodoru, co prowadzi do powstania wody
+          i tlenu. Należy zwrócić uwagę, że nie ma takiej cząsteczki, która
+          mogłaby równie skutecznie zniwelować działanie wolnych rodników na
+          powierzchni skóry. Dlatego, tak skuteczne staje się oczyszczanie
+          wodorowe Aquametiq hydra prime z zabiegiem infuzji tlenowej Bio Oxy
+          Infusion czy zabiegami marki M'onduniq gdzie występują problemy z
+          bliznami oraz zabiegami, za pomocą, których chcemy skórę odmłodzić,
+          zliftingować lub odżywić.
+        </p>
+        <br></br>
+        <h3>Zastosowanie:</h3>
+        <span className="li">
+          <ul>
+            <li> oczyszcza skórę</li>
+            <li>neutralizuje nadmiar wolnych rodników</li>
+            <li> zabezpiecza przed przedwczesnym starzeniem</li>
+            <li> skuteczny w problemach z bliznami</li>
+            <li> zapewnia odmłodzenie skóry</li>
+            <li>działanie liftingujące i odżywcze</li>
+          </ul>
+        </span>
       </p>
     </div>
   );

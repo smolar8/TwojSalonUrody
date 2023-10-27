@@ -5,7 +5,7 @@ export const NameMenuItems = [
     // icon: "home",
   },
   {
-    value: "Zabiegi",
+    value: "Kosmetologia",
     href: "/oferta",
     // icon: "request_quote",
   },
