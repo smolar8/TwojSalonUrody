@@ -2,14 +2,14 @@ import React from "react";
 
 export const OfertaComponent1 = () => {
   return (
-    <div>
+    <body>
       <h1 className="h1">Oczyszczanie wodorowe</h1>
       <br></br>
       <h3>
         Zabieg oczyszczania wodorowego z wykorzystaniem jadeitu oraz firmowych
         koncentratów M'onduniq
       </h3>
-      <p className="pp">
+      <div className="pp">
         <p>
           Działanie aktywnym wodorem pozwala na zmniejszanie nadmiaru wolnych
           rodników, których zbyt duża ilość przyczynia się do przedwczesnego
@@ -47,7 +47,7 @@ export const OfertaComponent1 = () => {
             <li>działanie liftingujące i odżywcze</li>
           </ul>
         </span>
-      </p>
-    </div>
+      </div>
+    </body>
   );
 };

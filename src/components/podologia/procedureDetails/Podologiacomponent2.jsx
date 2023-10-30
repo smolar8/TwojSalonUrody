@@ -4,7 +4,7 @@ export const PodologiaComponent2 = () => {
   return (
     <div>
       <h1 className="h1">WRASTAJĄCE PAZNOKCIE</h1>
-      <p className="pp">
+      <title className="pp">
         <p>
           Wrastające paznokcie to Zmiana chorobowa dotycząca zarówno dzieci,
           osób młodych, jak i dojrzałych, powodująca dyskomfort lub ból o Różnym
@@ -19,11 +19,12 @@ export const PodologiaComponent2 = () => {
           nieinwazyjnego leczenia w naszym gabinecie pedologicznym.
         </p>
         <br></br>
+      </title>
+      <body>
         <h3>Przyczyny</h3>
         <span className="li">
           <ul>
             <li>
-              {" "}
               niewłaściwe obuwie: wysoki obcas, buty zbyt wąskie w palcach
             </li>
             <li>
@@ -88,7 +89,7 @@ export const PodologiaComponent2 = () => {
             siłę, kierunek pracy i sprężystość do aktualnego stanu paznokcia).
           </li>
         </ol>
-      </p>
+      </body>
     </div>
   );
 };
