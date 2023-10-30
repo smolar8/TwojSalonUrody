@@ -13,7 +13,7 @@
   },
   {
     "text": 4,
-    "content": "img/kobido.jpg"
+    "content": "img/masaztwarzy.jpg"
   },
   {
     "text": 5,
@@ -36,11 +36,19 @@
     "content": "img/masaztwarz1.jpg"
   },
   {
-    "text": "kobido",
+    "text": 10,
     "content": "img/kobido1.jpg"
   },
   {
     "text": 11,
+    "content": "img/salon.jpg"
+  },
+  {
+    "text": 12,
+    "content": "img/salon.jpg"
+  },
+  {
+    "text": 13,
     "content": "img/salon.jpg"
   }
 ]

@@ -11,6 +11,8 @@ import { OfertaComponent8 } from "./OfertaComponent8";
 import { OfertaComponent9 } from "./OfertaComponent9";
 import { OfertaComponent10 } from "./OfertaComponent10";
 import { OfertaComponent11 } from "./OfertaComponent11";
+import { OfertaComponent12 } from "./OfertaComponent12";
+import { OfertaComponent13 } from "./OfertaComponent13";
 
 export default function SelectDetailesOferta({ id }) {
   switch (id) {
@@ -36,6 +38,10 @@ export default function SelectDetailesOferta({ id }) {
       return <OfertaComponent10 />;
     case 11:
       return <OfertaComponent11 />;
+    case 12:
+      return <OfertaComponent12 />;
+    case 13:
+      return <OfertaComponent13 />;
     default:
       return <div>Depilacja</div>;
   }

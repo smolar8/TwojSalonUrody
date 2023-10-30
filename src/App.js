@@ -13,6 +13,8 @@ import Promocja from "./components/promocja/Promocja";
 import Stylizacja from "./components/stylizacja/Stylizacja";
 import Masaz from "./components/masaz/Masaz";
 
+import Peeling from "./components/peeling/Test";
+
 function App() {
   return (
     <Router>
@@ -27,6 +29,7 @@ function App() {
         <Route path="/contact" component={Contact} />
         <Route path="/stylizacja" component={Stylizacja} />
         <Route path="/masaz" component={Masaz} />
+        <Route path="/peeling" commponent={Peeling} />
       </Switch>
 
       <Footer />

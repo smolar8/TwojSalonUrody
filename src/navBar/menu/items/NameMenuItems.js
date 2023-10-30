@@ -15,6 +15,11 @@ export const NameMenuItems = [
     // icon: "contact_page",
   },
   {
+    value: "Chemiczne peelingi medyczne",
+    href: "/peeling",
+    // icon: "contact_page",
+  },
+  {
     value: " Stylizacja brwi i rzęs",
     href: "/stylizacja",
     // icon: "contact_page",
