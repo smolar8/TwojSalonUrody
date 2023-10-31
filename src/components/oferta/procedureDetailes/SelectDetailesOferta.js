@@ -1,47 +1,47 @@
 import React from "react";
 
-import { OfertaComponent1 } from "./OfertaComponent1";
-import { OfertaComponent2 } from "./OfertaComponent2";
-import { OfertaComponent3 } from "./OfertaComponent3";
-import { OfertaComponent4 } from "./OfertaComponent4";
-import { OfertaComponent5 } from "./OfertaComponent5";
-import { OfertaComponent6 } from "./OfertaComponent6";
-import { OfertaComponent7 } from "./OfertaComponent7";
-import { OfertaComponent8 } from "./OfertaComponent8";
-import { OfertaComponent9 } from "./OfertaComponent9";
-import { OfertaComponent10 } from "./OfertaComponent10";
-import { OfertaComponent11 } from "./OfertaComponent11";
-import { OfertaComponent12 } from "./OfertaComponent12";
-import { OfertaComponent13 } from "./OfertaComponent13";
+import { OczyszczanieWodorowe } from "./OczyszczanieWodorowe";
+import { OczyszczanieManualne } from "./OczyszczanieManualne";
+import { Kobido } from "./Kobido";
+import { ZabiegFirmowy } from "./ZabiegFirmowy";
+import { MasazTwarzy } from "./MasazTwarzy";
+import { BonPodarunkowy } from "./BonPodarunkowy";
+import { PrzekluwanieUszu } from "./PrzekluwanieUszu";
+import { Mikrodermabrazja } from "./Mikrodermabrazja";
+import { Volumetiq } from "./Volumetiq";
+import { Depilacja } from "./Depilacja";
+import { FaleRadiowe } from "./FaleRadiowe";
+import { Mezoterapia } from "./Mezoterapia";
+import { Free } from "./Free";
 
 export default function SelectDetailesOferta({ id }) {
   switch (id) {
     case 1:
-      return <OfertaComponent1 />;
+      return <OczyszczanieWodorowe />;
     case 2:
-      return <OfertaComponent2 />;
+      return <OczyszczanieManualne />;
     case 3:
-      return <OfertaComponent3 />;
+      return <Kobido />;
     case 4:
-      return <OfertaComponent4 />;
+      return <ZabiegFirmowy />;
     case 5:
-      return <OfertaComponent5 />;
+      return <MasazTwarzy />;
     case 6:
-      return <OfertaComponent6 />;
+      return <BonPodarunkowy />;
     case 7:
-      return <OfertaComponent7 />;
+      return <PrzekluwanieUszu />;
     case 8:
-      return <OfertaComponent8 />;
+      return <Mikrodermabrazja />;
     case 9:
-      return <OfertaComponent9 />;
+      return <Volumetiq />;
     case 10:
-      return <OfertaComponent10 />;
+      return <Depilacja />;
     case 11:
-      return <OfertaComponent11 />;
+      return <FaleRadiowe />;
     case 12:
-      return <OfertaComponent12 />;
+      return <Mezoterapia />;
     case 13:
-      return <OfertaComponent13 />;
+      return <Free />;
     default:
       return <div>Depilacja</div>;
   }

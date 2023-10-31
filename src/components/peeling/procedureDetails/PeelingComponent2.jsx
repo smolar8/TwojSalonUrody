@@ -3,7 +3,7 @@ import React from "react";
 export const PeelingComponent2 = () => {
   return (
     <div>
-      <h1 className="h1">Zabieg 1</h1>
+      <h1 className="h1">Zabieg 2</h1>
       <br></br>
       <h3>
         Zabieg oczyszczania wodorowego z wykorzystaniem jadeitu oraz firmowych

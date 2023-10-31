@@ -1,35 +1,35 @@
 import React from "react";
 
-import { MasazComponent1 } from "./MasazComponent1";
-import { MasazComponent2 } from "./MasazComponent2";
-import { MasazComponent3 } from "./MasazComponent3";
-import { MasazComponent4 } from "./MasazComponent4";
-import { MasazComponent5 } from "./MasazComponent5";
-import { MasazComponent6 } from "./MasazComponent6";
-import { MasazComponent7 } from "./MasazComponent7";
-import { MasazComponent8 } from "./MasazComponent8";
-import { MasazComponent9 } from "./MasazComponent9";
+import { Udvartana } from "./Udvartana";
+import { Abyangha } from "./Abyangha";
+import { MasazBalijski } from "./MasazBalijski";
+import { MasazSwiecami } from "./MasazSwiecami";
+import { MasazKijami } from "./MasazKijami";
+import { MasazNaMasle } from "./MasazNaMasle";
+import { MasazBanka } from "./MasazBanka";
+import { MasazPlec } from "./MasazPlec";
+import { FrontPage } from "./FronPage";
 
 export default function SelectDetailesOfMasaz({ id }) {
   switch (id) {
     case 1:
-      return <MasazComponent1 />;
+      return <Udvartana />;
     case 2:
-      return <MasazComponent2 />;
+      return <Abyangha />;
     case 3:
-      return <MasazComponent3 />;
+      return <MasazBalijski />;
     case 4:
-      return <MasazComponent4 />;
+      return <MasazSwiecami />;
     case 5:
-      return <MasazComponent5 />;
+      return <MasazKijami />;
     case 6:
-      return <MasazComponent6 />;
+      return <MasazNaMasle />;
     case 7:
-      return <MasazComponent7 />;
+      return <MasazBanka />;
     case 8:
-      return <MasazComponent8 />;
+      return <MasazPlec />;
     case 9:
-      return <MasazComponent9 />;
+      return <FrontPage />;
 
     default:
       return <div></div>;

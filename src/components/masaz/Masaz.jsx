@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import MySwiper from "../../swiper/MySwiper";
-//import SelectDetailesOferta from "../oferta/procedureDetailes/SelectDetailesOferta";
 import SelectDetailesMasaz from "../masaz/procedureDetails/SelectDetailesOfMasaz";
 import jsonMasaz from "../Json/masaz.json";
 import "./styleMasaz/masaz.css";
@@ -16,7 +15,7 @@ function Masaz() {
   };
   return (
     <div className="container">
-      <h1 className="heading">Wybierz Ofertę</h1>
+      <h1 className="heading">Wybierz Masaż</h1>
       <MySwiper json={jsonMasaz} clickChooseSelect={clickChooseSelect} />
       <SelectDetailesMasaz id={idItems} />
     </div>

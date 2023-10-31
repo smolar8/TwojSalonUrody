@@ -1,32 +1,35 @@
 import React from "react";
 
-import { PodologiaComponent1 } from "./PodologiaComponent1";
-import { PodologiaComponent2 } from "./Podologiacomponent2";
-import { PodologiaComponent3 } from "./PodologiaComponent3";
-import { PodologiaComponent4 } from "./PodologiaComponent4";
-import { PodologiaComponent5 } from "./PodologiaComponent5";
-import { PodologiaComponent6 } from "./PodologiaComponent6";
-import { PodologiaComponent7 } from "./PodologiaComponent7";
-import { PodologiaComponent8 } from "./PodologiaComponent8";
+import { PodstawowyZabieg } from "./PodstawowyZabieg";
+import { WrastajacePaznokcie } from "./WrastajacePaznokcie";
+import { Odciski } from "./Odciski";
+import { Modzele } from "./Modzele";
+import { PekajacePiety } from "./PekajacePiety";
+import { Grzybica } from "./Grzybica";
+import { PaznokcieDystroficzne } from "./PaznokcieDystroficzne";
+import { Brodawki } from "./Brodawki";
+import { FrontPage } from "./FrontPage";
 
 export default function SelectDetailesOfPodologia({ id }) {
   switch (id) {
     case 1:
-      return <PodologiaComponent1 />;
+      return <PodstawowyZabieg />;
     case 2:
-      return <PodologiaComponent2 />;
+      return <WrastajacePaznokcie />;
     case 3:
-      return <PodologiaComponent3 />;
+      return <Odciski />;
     case 4:
-      return <PodologiaComponent4 />;
+      return <Modzele />;
     case 5:
-      return <PodologiaComponent5 />;
+      return <PekajacePiety />;
     case 6:
-      return <PodologiaComponent6 />;
+      return <Grzybica />;
     case 7:
-      return <PodologiaComponent7 />;
+      return <PaznokcieDystroficzne />;
     case 8:
-      return <PodologiaComponent8 />;
+      return <Brodawki />;
+    case 9:
+      return <FrontPage />;
 
     default:
       return <div></div>;

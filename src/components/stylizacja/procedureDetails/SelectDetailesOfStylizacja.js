@@ -1,17 +1,20 @@
 import React from "react";
 
-import { StylizacjaComponent1 } from "./StylizacjaComponent1";
-import { StylizacjaComponent2 } from "./StylizacjaComponent2";
-import { StylizacjaComponent3 } from "./StylizacjaComponent3";
+import { Henna } from "./Henna";
+import { HennaPudrowa } from "./HennaPudrowa";
+import { Laminacja } from "./Laminacja";
+import { FrontPage } from "./FrontPage";
 
 export default function SelectDetailesOfStylizacja({ id }) {
   switch (id) {
     case 1:
-      return <StylizacjaComponent1 />;
+      return <Henna />;
     case 2:
-      return <StylizacjaComponent2 />;
+      return <HennaPudrowa />;
     case 3:
-      return <StylizacjaComponent3 />;
+      return <Laminacja />;
+    case 4:
+      return <FrontPage />;
 
     default:
       return <div></div>;

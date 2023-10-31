@@ -17,45 +17,40 @@ function Peeling() {
   return (
     <div className="container">
       <h1 className="heading">Chemiczne peelingi medyczne - jak działają?</h1>
-      <span>
-        <p>
-          Chemiczne peelingi medyczne to najlepszy sposób na głębokie
-          oczyszczenie i regenerację skóry! Twarz po kwasach jest aksamitnie
-          gładka i perfekcyjnie odżywiona. Znacznie zmniejsza się widoczność
-          zmarszczek i przebarwień, poprawia się koloryt, a także jędrność i
-          elastyczność skóry!
-        </p>
-      </span>
+      <article>
+        Chemiczne peelingi medyczne to najlepszy sposób na głębokie oczyszczenie
+        i regenerację skóry! Twarz po kwasach jest aksamitnie gładka i
+        perfekcyjnie odżywiona. Znacznie zmniejsza się widoczność zmarszczek i
+        przebarwień, poprawia się koloryt, a także jędrność i elastyczność
+        skóry!
+      </article>
       <h3>Kwasy na twarz - jak wygląda skóra po zabiegu?</h3>
-      <span>
-        <p>
-          Skóra po zabiegu z kwasami zwykle jest zaczerwieniona i podrażniona. W
-          kolejnych dniach rozpoczyna się proces złuszczania naskórka. Wiele
-          osób zastanawia się, jak długo łuszczy się skóra po kwasach? Wszystko
-          zależy od mocy zastosowanego preparatu. Istnieją chemiczne peelingi
-          medyczne o działaniu łagodnym, które nie skutkują dużym złuszczaniem.
-          Dysponujemy jednak również mocnymi zabiegami stosowanymi w przypadku
-          poważnych problemów estetycznych, po których złuszczanie jest bardziej
-          widoczne i trwa kilka dni.
-        </p>
-      </span>
-      <h3>
-        hemiczne peelingi medyczne to zabiegi, które działają nie tylko na
+      Skóra po zabiegu z kwasami zwykle jest zaczerwieniona i podrażniona. W
+      kolejnych dniach rozpoczyna się proces złuszczania naskórka. Wiele osób
+      zastanawia się, jak długo łuszczy się skóra po kwasach? Wszystko zależy od
+      mocy zastosowanego preparatu. Istnieją chemiczne peelingi medyczne o
+      działaniu łagodnym, które nie skutkują dużym złuszczaniem. Dysponujemy
+      jednak również mocnymi zabiegami stosowanymi w przypadku poważnych
+      problemów estetycznych, po których złuszczanie jest bardziej widoczne i
+      trwa kilka dni.
+      <p>
+        {" "}
+        Chemiczne peelingi medyczne to zabiegi, które działają nie tylko na
         powierzchni skóry (usuwając martwy naskórek i niedoskonałości), ale
         również w jej wnętrzu. Jeszcze przez wiele tygodni po zabiegu możemy
         obserwować nieustanną poprawę kondycji skóry. Wytwarzane są nowe włókna
         kolagenu i elastyny - twarz wygląda coraz młodziej i atrakcyjniej!
-      </h3>
-      <span>
-        <ol>
-          <li>1</li>
+      </p>
+      <nav>
+        <ul>
+          <li>1dd</li>
           <li>2</li>
           <li>3</li>
           <li>4</li>
           <li>5</li>
           <li>6</li>
-        </ol>
-      </span>
+        </ul>
+      </nav>
       <MySwiper json={jsonPeeling} clickChooseSelect={clickChooseSelect} />
       <SelectDetailesPeeling id={idItems} />
     </div>
