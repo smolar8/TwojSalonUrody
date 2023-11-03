@@ -4,19 +4,9 @@ export const Free = () => {
   return (
     <div>
       <h1 className="h1"> Free</h1>
-      <p className="pp">
-        Fale radiowe to jeden z nowoczesnych zabiegów, który daje natychmiastowe
-        efekty.
-      </p>
+      <p className="pp">Free</p>
       <br></br>
-      <p>
-        Fale radiowe RF stymulują skórę, osiągając efekt termiczny podobny do
-        efektu działania lasera czy IPL'a, ale w odróżnieniu od nich RF przenosi
-        energię radiową w głębokie warstwy skóry, co prowadzi do mocnego (ale
-        całkowicie bezpiecznego i przyjemnego) podgrzania tkanek na poziomie
-        skóry właściwej. Pod wpływem temperatury włókna kolagenowe kurczą się, a
-        fibroblasty pobudzane są do produkcji i regeneracji kolagenu.
-      </p>
+      <p>Free</p>
       <br></br>
 
       <span>

@@ -1,6 +1,6 @@
 import React from "react";
 
-export const Mezoterapia = () => {
+export const MezoterapiaMikro = () => {
   return (
     <div>
       <h1 className="h1"> Mezoterapia mikroigłowa</h1>

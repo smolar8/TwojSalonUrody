@@ -12,8 +12,7 @@ import Oferta from "./components/oferta/Oferta";
 import Promocja from "./components/promocja/Promocja";
 import Stylizacja from "./components/stylizacja/Stylizacja";
 import Masaz from "./components/masaz/Masaz";
-
-import Peeling from "./components/peeling/Peeling";
+import Dlonie from "./components/dlonie/Dlonie";
 
 function App() {
   return (
@@ -29,7 +28,7 @@ function App() {
         <Route path="/contact" component={Contact} />
         <Route path="/stylizacja" component={Stylizacja} />
         <Route path="/masaz" component={Masaz} />
-        <Route path="/peeling" component={Peeling} />
+        <Route path="/dlonie" component={Dlonie} />
       </Switch>
 
       <Footer />

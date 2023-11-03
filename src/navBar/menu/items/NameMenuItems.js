@@ -15,8 +15,8 @@ export const NameMenuItems = [
     // icon: "contact_page",
   },
   {
-    value: "Chemiczne peelingi medyczne",
-    href: "/peeling",
+    value: "Pielęgnacja Dłoni",
+    href: "/dlonie",
     // icon: "contact_page",
   },
   {

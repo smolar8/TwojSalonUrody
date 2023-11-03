@@ -11,7 +11,10 @@ import { Mikrodermabrazja } from "./Mikrodermabrazja";
 import { Volumetiq } from "./Volumetiq";
 import { Depilacja } from "./Depilacja";
 import { FaleRadiowe } from "./FaleRadiowe";
-import { Mezoterapia } from "./Mezoterapia";
+import { MezoterapiaMikro } from "./MezoterapiaMikro";
+import { Peeling } from "./Peeling";
+import { MezoterapiaBeziglowa } from "./MezoterapiaBeziglowa";
+import { Oxybrazja } from "./Oxybrazja";
 import { Free } from "./Free";
 
 export default function SelectDetailesOferta({ id }) {
@@ -39,8 +42,14 @@ export default function SelectDetailesOferta({ id }) {
     case 11:
       return <FaleRadiowe />;
     case 12:
-      return <Mezoterapia />;
+      return <MezoterapiaMikro />;
     case 13:
+      return <Peeling />;
+    case 14:
+      return <MezoterapiaBeziglowa />;
+    case 15:
+      return <Oxybrazja />;
+    case 16:
       return <Free />;
     default:
       return <div>Depilacja</div>;
