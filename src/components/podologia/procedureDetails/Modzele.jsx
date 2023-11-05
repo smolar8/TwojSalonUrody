@@ -2,9 +2,9 @@ import React from "react";
 
 export const Modzele = () => {
   return (
-    <div>
+    <section>
       <h1 className="h1">MODZELE I ZROGOWACENIA NASKÓRKA</h1>
-      <p className="pp">
+      <section>
         <p>
           Modzele są jednym z przykładów hiperkeratozy, czyli znacznego
           pogrubienia i nagromadzenia tkanki rogowej naskórka w jednym miejscu.
@@ -28,11 +28,13 @@ export const Modzele = () => {
           powodu utraty elastyczności naskórka i powstałych pęknięć, mogą być
           przyczyną zakażeń grzybiczych, wirusowych czy bakteryjnych.{" "}
         </p>{" "}
+      </section>
+      <section className="li">
         <br></br>
         <h3>Przyczyny</h3>
         <span>
           <ul>
-            <li className="li"> deformacje w układzie kostno-stawowym</li>
+            <li> deformacje w układzie kostno-stawowym</li>
             <li>zbyt częste usuwanie martwego naskórka</li>
             <li>niewłaściwie dobrane obuwie</li>
             <li> czynniki genetyczne</li>
@@ -73,7 +75,7 @@ export const Modzele = () => {
           zaopatrzenia odciążającego lub amortyzującego oraz regularnych wizyt w
           gabinecie podologicznym.
         </p>
-      </p>
-    </div>
+      </section>
+    </section>
   );
 };

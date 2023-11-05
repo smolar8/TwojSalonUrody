@@ -4,7 +4,7 @@ export const PaznokcieDystroficzne = () => {
   return (
     <div>
       <h1 className="h1">PAZNOKCIE DYSTROFICZNE</h1>
-      <div className="pp">
+      <div className="li">
         <p>
           Przerośnięte i zgrubiałe paznokcie mogą powstawać z przyczyn
           zewnętrznych (zbyt ciasne obuwie), wewnętrznych (przypadłości
@@ -19,7 +19,7 @@ export const PaznokcieDystroficzne = () => {
         <h3>Przyczyny</h3>
         <span>
           <ul>
-            <li className="li">uraz mechaniczny</li>
+            <li>uraz mechaniczny</li>
             <li>wielokrotne zerwanie płytki paznokciowej</li>
             <li>infekcje grzybiczne, bakteryjne, wirusowe,</li>
             <li>choroby ogólnoustrojowe</li>
@@ -31,9 +31,9 @@ export const PaznokcieDystroficzne = () => {
         </span>
         <br></br>
         <h3>Czym sie charakteryzują?</h3>
-        <span>
+        <span className="numbers-li">
           <ol>
-            <li className="li">Zwolnionym lub zahamowanym wzrostem</li>
+            <li>Zwolnionym lub zahamowanym wzrostem</li>
             <li>Zmianą zabarwienia (żółte, brunatne, brązowe, inne)</li>
             <li>Zmianą grubości, znaczną lub niewielką</li>
             <li>Mogą występować dolegliwości bólowe</li>

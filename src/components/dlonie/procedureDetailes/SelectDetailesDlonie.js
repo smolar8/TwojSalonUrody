@@ -6,11 +6,11 @@ import { Free } from "./Free";
 
 export default function SelectDetailesOferta({ id }) {
   switch (id) {
-    case 1:
-      return <ManicureHybryda />;
     case 2:
+      return <ManicureHybryda />;
+    case 1:
       return <ManicureJapan />;
-    case 3:
+    case 0:
       return <Free />;
 
     default:

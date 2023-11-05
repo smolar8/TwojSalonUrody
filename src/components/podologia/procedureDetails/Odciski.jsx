@@ -2,11 +2,11 @@ import React from "react";
 
 export const Odciski = () => {
   return (
-    <div>
+    <section>
       <h1 className="h1">ODCISKI</h1>
-      <p className="pp">
+      <main className="pp">
         <p>
-          {" "}
+        
           Odciskami nazywamy obszary zrogowaciałego naskórka. Odciski powstają
           jako reakcja obronna skóry na miejscowy ucisk, w wyniku którego
           komórki rogowe są wgniatane w głąb skóry, powodując silny ból. Problem
@@ -22,10 +22,8 @@ export const Odciski = () => {
           Usuwanie odcisków w dużej części przypadków nie likwiduje przyczyn ich
           powstawania. Stałe zmiany w układzie kostnym stopy będą predysponować
           miejsca stałego ucisku i drażnienia do ponownego powstawania odcisków.
-        </p>{" "}
-        <br></br>
+        </p>
         <p>
-          {" "}
           Dobre efekty terapeutyczne przynosi: zmiana butów na właściwe, wkładki
           ortopedyczne, stałe stosowanie indywidualnych odciążeń lub
           amortyzacji, pielęgnacja stopy oraz stała opieka specjalisty. Sukces
@@ -33,7 +31,7 @@ export const Odciski = () => {
           pielęgnacji w domu, przestrzegania zaleceń podologa czy stosowaniu
           indywidualnych odciążeń lub ortez, przygotowanych przez specjalistę.
         </p>
-      </p>
-    </div>
+      </main>
+    </section>
   );
 };

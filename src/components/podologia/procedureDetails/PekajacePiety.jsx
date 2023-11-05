@@ -4,7 +4,7 @@ export const PekajacePiety = () => {
   return (
     <div>
       <h1 className="h1">PĘKAJĄCE PIĘTY</h1>
-      <p className="pp">
+      <section className="li">
         <p>
           Pękające pięty są dolegliwością bezpośrednio związaną z przesuszeniem
           i nadmiernym rogowaceniem naskórka stóp. Mimo, że przyczyn ich
@@ -21,7 +21,7 @@ export const PekajacePiety = () => {
         <h3>Przyczyny</h3>
         <span>
           <ul>
-            <li className="li">
+            <li>
               zbyt duże nawarstwienie się twardego, suchego naskórka w okolicy
               pięt
             </li>
@@ -64,7 +64,7 @@ export const PekajacePiety = () => {
           z problemem do podologa, tym szybsza i mniej uciążliwa będzie sama
           terapia.
         </p>
-      </p>
+      </section>
     </div>
   );
 };

@@ -10,7 +10,7 @@ import "swiper/css/navigation";
 import { EffectCoverflow, Pagination, Navigation } from "swiper";
 
 function MySwiper({ json, clickChooseSelect }) {
-  const [indexSlide, setIndexSlide] = useState(null);
+  const [indexSlide, setIndexSlide] = useState(0);
   return (
     <>
       <Swiper
@@ -18,10 +18,7 @@ function MySwiper({ json, clickChooseSelect }) {
         grabCursor={true}
         centeredSlides={true}
         loop={true}
-        onSlideChange={(e) => (
-          setIndexSlide(e.realIndex), console.log(e.realIndex)
-        )}
-        onSwiper={setIndexSlide}
+        onSlideChange={(e) => setIndexSlide(e.realIndex)}
         slidesPerView={"auto"}
         coverflowEffect={{
           rotate: 0,
@@ -30,11 +27,6 @@ function MySwiper({ json, clickChooseSelect }) {
           modifier: 2.5,
         }}
         pagination={{ el: ".swiper-pagination", clickable: true }}
-        navigation={{
-          nextEl: ".swiper-button-next",
-          prevEl: ".swiper-button-prev",
-          clickable: true,
-        }}
         modules={[EffectCoverflow, Pagination, Navigation]}
         className="swiper_container"
       >

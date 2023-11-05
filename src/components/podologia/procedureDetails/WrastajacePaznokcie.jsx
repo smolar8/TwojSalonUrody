@@ -2,9 +2,9 @@ import React from "react";
 
 export const WrastajacePaznokcie = () => {
   return (
-    <div>
+    <section>
       <h1 className="h1">WRASTAJĄCE PAZNOKCIE</h1>
-      <title className="pp">
+      <header className="pp">
         <p>
           Wrastające paznokcie to Zmiana chorobowa dotycząca zarówno dzieci,
           osób młodych, jak i dojrzałych, powodująca dyskomfort lub ból o Różnym
@@ -19,8 +19,8 @@ export const WrastajacePaznokcie = () => {
           nieinwazyjnego leczenia w naszym gabinecie pedologicznym.
         </p>
         <br></br>
-      </title>
-      <body>
+      </header>
+      <main>
         <h3>Przyczyny</h3>
         <span className="li">
           <ul>
@@ -69,27 +69,31 @@ export const WrastajacePaznokcie = () => {
           stosować się do zaleceń podologa. Są to:
         </p>
         <br></br>
-        <ol>
-          <li>
-            Zrezygnowanie z noszenia szpilek i butów z wąskimi noskami na czas
-            terapii.
-          </li>
-          <br></br>
-          <li>
-            Unikanie długotrwałego moczenia stóp. Rozmoczona płytka paznokciowa
-            może nieprawidłowo reagować na działanie klamry. Natomiast
-            standardowe kąpiele i czynności higieniczne są dozwolone.
-          </li>
-          <br></br>
-          <li>
-            Zgłaszanie się na kontrole podologiczne. Kontrole klamry
-            ortonyksyjnej zwykle odbywają się co 3-4 tygodnie. Są one bardzo
-            ważne i nie należy ich pomijać. W ich trakcie podolog kontroluje tor
-            wzrostu paznokcia oraz zmienia klamrę na inną (dostosowując jej
-            siłę, kierunek pracy i sprężystość do aktualnego stanu paznokcia).
-          </li>
-        </ol>
-      </body>
-    </div>
+        <span className="numbers-li">
+          <ol>
+            <li>
+              Zrezygnowanie z noszenia szpilek i butów z wąskimi noskami na czas
+              terapii.
+            </li>
+            <br></br>
+            <li>
+              Unikanie długotrwałego moczenia stóp. Rozmoczona płytka
+              paznokciowa może nieprawidłowo reagować na działanie klamry.
+              Natomiast standardowe kąpiele i czynności higieniczne są
+              dozwolone.
+            </li>
+            <br></br>
+            <li>
+              Zgłaszanie się na kontrole podologiczne. Kontrole klamry
+              ortonyksyjnej zwykle odbywają się co 3-4 tygodnie. Są one bardzo
+              ważne i nie należy ich pomijać. W ich trakcie podolog kontroluje
+              tor wzrostu paznokcia oraz zmienia klamrę na inną (dostosowując
+              jej siłę, kierunek pracy i sprężystość do aktualnego stanu
+              paznokcia).
+            </li>
+          </ol>
+        </span>
+      </main>
+    </section>
   );
 };
