@@ -15,6 +15,7 @@ import { MezoterapiaMikro } from "./MezoterapiaMikro";
 import { Peeling } from "./Peeling";
 import { MezoterapiaBeziglowa } from "./MezoterapiaBeziglowa";
 import { Oxybrazja } from "./Oxybrazja";
+import { Elektrokoagulacja } from "./Elektrokoagulacja";
 import { Free } from "./Free";
 
 export default function SelectDetailesOferta({ id }) {
@@ -50,6 +51,8 @@ export default function SelectDetailesOferta({ id }) {
     case 15:
       return <Oxybrazja />;
     case 16:
+      return <Elektrokoagulacja />;
+    case 17:
       return <Free />;
     default:
       return <div>Depilacja</div>;
