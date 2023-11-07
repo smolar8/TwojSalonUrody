@@ -3,7 +3,7 @@ import React from "react";
 export const ManicureJapan = () => {
   return (
     <div>
-      <h1 className="h1">ManicureJapan</h1>
+      <h1 className="h1">Manicure japoński</h1>
       <p className="pp">
         Japoński manicure jest idealnym rozwiązaniem dla osób, które mają kłopot
         z cienkimi, kruchymi, rozdwajającymi się paznokciami, które pragną, by

@@ -16,6 +16,7 @@ import { Peeling } from "./Peeling";
 import { MezoterapiaBeziglowa } from "./MezoterapiaBeziglowa";
 import { Oxybrazja } from "./Oxybrazja";
 import { Elektrokoagulacja } from "./Elektrokoagulacja";
+import { Retix } from "./Retix";
 import { Free } from "./Free";
 
 export default function SelectDetailesOferta({ id }) {
@@ -53,8 +54,10 @@ export default function SelectDetailesOferta({ id }) {
     case 16:
       return <Elektrokoagulacja />;
     case 17:
+      return <Retix />;
+    case 18:
       return <Free />;
     default:
-      return <div>Depilacja</div>;
+      return <div>strona startowa</div>;
   }
 }
