@@ -17,6 +17,7 @@ import { MezoterapiaBeziglowa } from "./MezoterapiaBeziglowa";
 import { Oxybrazja } from "./Oxybrazja";
 import { Elektrokoagulacja } from "./Elektrokoagulacja";
 import { Retix } from "./Retix";
+import { LuksusowyZabieg } from "./LuksuwowyZabieg";
 import { Free } from "./Free";
 
 export default function SelectDetailesOferta({ id }) {
@@ -56,6 +57,8 @@ export default function SelectDetailesOferta({ id }) {
     case 17:
       return <Retix />;
     case 18:
+      return <LuksusowyZabieg />;
+    case 19:
       return <Free />;
     default:
       return <div>strona startowa</div>;
