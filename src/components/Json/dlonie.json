@@ -9,6 +9,10 @@
     },
     {
         "text": 3,
+        "content": "img/salon.jpg"
+    },
+    {
+        "text": 4,
         "content": "img/background.jpg"
     }
 ]

@@ -3,7 +3,7 @@ import React from "react";
 export const Laminacja = () => {
   return (
     <div>
-      <h1 className="h1">Laminacja rzęs</h1>
+      <h1 className="h1">Laminacja brwi</h1>
       <div className="li">
         <p>
           Najnowszy i najpopularniejszy trend w stylizacji brwi ostatnich
