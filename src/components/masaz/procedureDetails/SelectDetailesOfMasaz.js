@@ -8,6 +8,7 @@ import { MasazKijami } from "./MasazKijami";
 import { MasazNaMasle } from "./MasazNaMasle";
 import { MasazBanka } from "./MasazBanka";
 import { MasazPlec } from "./MasazPlec";
+import { Kobido } from "./Kobido";
 import { FrontPage } from "./FronPage";
 
 export default function SelectDetailesOfMasaz({ id }) {
@@ -29,6 +30,8 @@ export default function SelectDetailesOfMasaz({ id }) {
     case 8:
       return <MasazPlec />;
     case 9:
+      return <Kobido />;
+    case 10:
       return <FrontPage />;
 
     default:

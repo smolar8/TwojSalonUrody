@@ -1,7 +1,6 @@
 @import "../../../../style/pageStyle.scss";
 
-.motto,
-.textHeader2 {
+.motto {
   @include textHeader;
   padding-top: 10px;
   font-size: 44px;

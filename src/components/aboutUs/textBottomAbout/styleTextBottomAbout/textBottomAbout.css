@@ -1,16 +1,1 @@
-@import url("https://fonts.googleapis.com/css2?family=Petit+Formal+Script&family=Poppins:wght@700&family=Raleway:ital@0;1&display=swap");
-.motto,
-.textHeader2 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-family: "La Belle Aurore", cursive;
-  font-family: "Poppins", sans-serif;
-  padding-top: 10px;
-  font-size: 44px;
-}
-
-.textHeader2 {
-  margin-top: 21px;
-  height: 100h;
-}/*# sourceMappingURL=textBottomAbout.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Petit+Formal+Script&family=Poppins:wght@700&family=Raleway:ital@0;1&display=swap");/*# sourceMappingURL=textBottomAbout.css.map */

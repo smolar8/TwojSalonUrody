@@ -2,10 +2,10 @@ import React from "react";
 
 import { OczyszczanieWodorowe } from "./OczyszczanieWodorowe";
 import { OczyszczanieManualne } from "./OczyszczanieManualne";
-import { Kobido } from "./Kobido";
+import { RetiPeel } from "./RetiPeel";
 import { ZabiegFirmowy } from "./ZabiegFirmowy";
 import { MasazTwarzy } from "./MasazTwarzy";
-import { BonPodarunkowy } from "./BonPodarunkowy";
+
 import { PrzekluwanieUszu } from "./PrzekluwanieUszu";
 import { Mikrodermabrazja } from "./Mikrodermabrazja";
 import { Volumetiq } from "./Volumetiq";
@@ -18,6 +18,11 @@ import { Oxybrazja } from "./Oxybrazja";
 import { Elektrokoagulacja } from "./Elektrokoagulacja";
 import { Retix } from "./Retix";
 import { LuksusowyZabieg } from "./LuksuwowyZabieg";
+import { ArchitectPeel } from "./ArchitectPeel";
+import { CeraNaczyniowa } from "./CeraNaczyniowa";
+import { Normalizujacy } from "./Normalizujacy";
+import { Kolagen } from "./Kolagen";
+import { DiamentowyLift } from "./DiamentowyLift";
 import { Free } from "./Free";
 
 export default function SelectDetailesOferta({ id }) {
@@ -27,38 +32,46 @@ export default function SelectDetailesOferta({ id }) {
     case 2:
       return <OczyszczanieManualne />;
     case 3:
-      return <Kobido />;
+      return <RetiPeel />;
     case 4:
       return <ZabiegFirmowy />;
     case 5:
       return <MasazTwarzy />;
     case 6:
-      return <BonPodarunkowy />;
-    case 7:
       return <PrzekluwanieUszu />;
-    case 8:
+    case 7:
       return <Mikrodermabrazja />;
-    case 9:
+    case 8:
       return <Volumetiq />;
-    case 10:
+    case 9:
       return <Depilacja />;
-    case 11:
+    case 10:
       return <FaleRadiowe />;
-    case 12:
+    case 11:
       return <MezoterapiaMikro />;
-    case 13:
+    case 12:
       return <Peeling />;
-    case 14:
+    case 13:
       return <MezoterapiaBeziglowa />;
-    case 15:
+    case 14:
       return <Oxybrazja />;
-    case 16:
+    case 15:
       return <Elektrokoagulacja />;
-    case 17:
+    case 16:
       return <Retix />;
-    case 18:
+    case 17:
       return <LuksusowyZabieg />;
+    case 18:
+      return <ArchitectPeel />;
     case 19:
+      return <CeraNaczyniowa />;
+    case 20:
+      return <Normalizujacy />;
+    case 21:
+      return <Kolagen />;
+    case 22:
+      return <DiamentowyLift />;
+    case 23:
       return <Free />;
     default:
       return <div>strona startowa</div>;

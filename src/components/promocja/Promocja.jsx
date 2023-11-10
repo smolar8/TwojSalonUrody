@@ -4,7 +4,7 @@ import "./stylePromocja/promocja.scss";
 const Promocja = () => {
   return (
     <div>
-      <h1 className="h1">Promocja</h1>
+      <h1 className="h1">Bon Podarunkowy</h1>
     </div>
   );
 };
