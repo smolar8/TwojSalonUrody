@@ -1,46 +1,58 @@
 @import url("https://fonts.googleapis.com/css2?family=Petit+Formal+Script&family=Poppins:wght@700&family=Raleway:ital@0;1&display=swap");
 .footer {
-  position: relative;
   background-color: rgb(76, 61, 77);
   color: white;
   display: flex;
   justify-content: center;
-  margin-top: 10px;
   width: 100%;
+  gap: 10%;
+  padding: 20px 15% 0;
 }
-
-.checklist {
-  list-style: none outside;
-  text-align: center;
-  align-items: center;
+.footer .footer--contakt,
+.footer .address,
+.footer .footer--shortcuts {
+  width: 30%;
+  margin-bottom: 40px;
 }
-
-.social-icon {
+.footer .footer--opinion {
+  width: 50%;
+}
+.footer h3.footer__contakt--h3, .footer h3.footer__shortcuts--h3, .footer h3.footer__opinion--h3 {
+  margin-bottom: 40px;
+}
+.footer p {
+  text-indent: 0;
+}
+.footer div.address div.wrap {
+  width: 100%;
+  position: relative;
+}
+.footer div.address div.wrap img.logo_feet, .footer div.address div.wrap img.logo_face {
+  width: 20%;
+}
+.footer div.address div.wrap img.logo_name {
+  width: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.footer div.address h3.address--gabinet, .footer div.address p.address--p {
+  margin-top: 20px;
+}
+.footer div.footer--contakt a {
+  text-decoration: none;
+  color: #ffffff;
+}
+.footer div.footer--contakt p.footer__contakt--tel {
+  margin-top: 20px;
+}
+.footer div.footer--contakt img.footer__contakt__social--icon:hover {
+  transform: scale(1.2);
+}
+.footer div.footer--contakt img.footer__contakt__social--icon {
   position: relative;
   background-color: rgb(76, 61, 77);
-  width: 30px;
-  margin-top: 10px;
+  width: 40px;
+  margin-top: 20px;
   margin-left: 5px;
 }
-
-.social-icon:hover {
-  transform: scale(1.1);
-}
-
-.time__work--p {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  margin: 2px;
-}
-
-.impotent--links,
-.address,
-.tel-email,
-.time-work,
-.tel__email--h2 {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-left: 30px;
-}/*# sourceMappingURL=footer.css.map */

@@ -1,1 +1,15 @@
-@import url("https://fonts.googleapis.com/css2?family=Petit+Formal+Script&family=Poppins:wght@700&family=Raleway:ital@0;1&display=swap");/*# sourceMappingURL=textBottomAbout.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Petit+Formal+Script&family=Poppins:wght@700&family=Raleway:ital@0;1&display=swap");
+.motto {
+  padding-top: 10px;
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+}
+.motto h1 {
+  margin: 0 auto;
+}
+
+.textHeader2 {
+  margin-top: 21px;
+  height: 100h;
+}

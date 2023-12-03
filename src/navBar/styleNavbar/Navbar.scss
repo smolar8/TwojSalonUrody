@@ -61,7 +61,10 @@
     display: flex;
   }
 }
-
+.active {
+  padding-bottom: 5px;
+  border-bottom: solid 2px black;
+}
 // @media (prefers-reduced-motion: no-preference) {
 //     .logo__div--img {
 //         animation: spinnow infinite 20s linear;

@@ -1,9 +1,17 @@
 @import "../../../../style/pageStyle.scss";
 
 .motto {
-  @include textHeader;
+  // @include textHeader;
   padding-top: 10px;
-  font-size: 44px;
+  font-size: 14px;
+    display: flex;
+    justify-content: center;
+  
+    h1 {
+  
+      margin: 0 auto;
+  
+    }
 }
 
 .textHeader2 {

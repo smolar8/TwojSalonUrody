@@ -58,4 +58,9 @@
 }
 .menuItems--link:hover .footer {
   display: flex;
-}/*# sourceMappingURL=Navbar.css.map */
+}
+
+.active {
+  padding-bottom: 5px;
+  border-bottom: solid 2px black;
+}
