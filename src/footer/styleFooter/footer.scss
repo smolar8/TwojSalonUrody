@@ -1,26 +1,6 @@
 @import "../../style/pageStyle.scss";
 
 .footer {
-  .footer--contakt,
-  .address,
-  .footer--shortcuts {
-    width: 30%;
-    margin-bottom: 40px;
-  }
-
-  .footer--opinion {
-    width: 50%;
-  }
-
-  & h3.footer__contakt--h3,
-  & h3.footer__shortcuts--h3,
-  & h3.footer__opinion--h3 {
-    margin-bottom: 40px;
-  }
-
-  p {
-    text-indent: 0;
-  }
   background-color: $footerColor;
   color: $footerTextColor;
   display: flex;
@@ -28,18 +8,39 @@
   width: 100%;
   gap: 10%;
   padding: 20px 15% 0;
+  flex-direction: column;
+  padding: 5px;
+  position: relative;
+  & p {
+    text-indent: 0;
+  }
 
-  & div.address {
-    & div.wrap {
+  & .footer--contakt,
+  & .footer--address,
+  & .footer--shortcuts {
+    width: 80%;
+    margin-top: 15px;
+    margin-left: 15px;
+  }
+
+  & .footer__contakt--h5,
+  & .footer__shortcuts--h5,
+  & .footer__opinion--h5 {
+    margin-bottom: 8px;
+  }
+
+  & .footer--address {
+    & .footer__adress--wrap {
       width: 100%;
       position: relative;
+      margin-bottom: 10px;
 
-      & img.logo_feet,
-      & img.logo_face {
+      & .logo_feet,
+      & .logo_face {
         width: 20%;
       }
 
-      & img.logo_name {
+      & .logo_name {
         width: 50%;
         position: absolute;
         top: 50%;
@@ -47,32 +48,152 @@
       }
     }
 
-    & h3.address--gabinet,
-    & p.address--p {
-      margin-top: 20px;
+    & .address--gabinet,
+    & .address--salon {
+      font-size: 1.5rem;
+    }
+
+    & .address--p {
+      margin-top: 5px;
+      font-size: 1rem;
     }
   }
 
-  & div.footer--contakt {
+  & .footer--contakt {
     & a {
       text-decoration: none;
       color: #ffffff;
     }
 
-    & p.footer__contakt--tel {
-      margin-top: 20px;
+    & .footer__contakt--tel {
+      margin-top: 5px;
     }
 
-    & img.footer__contakt__social--icon:hover {
+    & .footer__contakt--tel,
+    & .footer__contakt--tel a,
+    & .footer__contakt--email a {
+      font-size: 1rem;
+      margin-left: 0;
+    }
+
+    & .footer__contakt__social--icon:hover {
       transform: scale(1.2);
     }
 
-    & img.footer__contakt__social--icon {
+    & .footer__contakt__social--icon {
       position: relative;
       background-color: $footerColor;
-      width: 40px;
+      width: 30px;
       margin-top: 20px;
       margin-left: 5px;
+    }
+  }
+
+  & .footer--opinion {
+    width: 90%;
+    margin: 15px;
+
+    & .time__work--p {
+      font-size: 1rem;
+    }
+  }
+
+  @media screen and (min-width: 548px) {
+    & .footer--address {
+      & .address--gabinet,
+      & .address--salon {
+        font-size: 1.7rem;
+      }
+
+      & .address--p {
+        margin-top: 15px;
+        font-size: 1.3rem;
+      }
+    }
+
+    & .footer--contakt {
+      position: absolute;
+      left: 50%;
+      top: 145px;
+
+      width: 30%;
+      & .footer__contakt--h5 {
+        font-size: 1.7rem;
+      }
+
+      & .footer__contakt--tel,
+      & .footer__contakt--tel a,
+      & .footer__contakt--email a {
+        font-size: 1.3rem;
+      }
+    }
+    & .footer--shortcuts {
+      & .footer__shortcuts--h5 {
+        font-size: 1.7rem;
+      }
+    }
+    & .footer--opinion {
+      // position: absolute;
+      width: 90%;
+      margin: 15px;
+      & .footer__opinion--h5 {
+        font-size: 1.7rem;
+      }
+      & .time__work--p {
+        font-size: 1.3rem;
+      }
+    }
+  }
+  @media screen and (min-width: 663px) {
+    & .footer--contakt {
+      left: 30%;
+    }
+    & .footer--shortcuts {
+      position: absolute;
+      top: 37%;
+      left: 60%;
+      box-sizing: border-box;
+      width: 30%;
+      & .checklist {
+        width: 30%;
+      }
+    }
+
+    & .footer--opinion {
+      margin-top: 40px;
+    }
+  }
+  @media screen and (min-width: 800px) {
+    & {
+      flex-direction: row;
+      gap: 3%;
+    }
+    & .footer--address {
+
+      & .footer__adress--wrap {
+        & img.logo_feet,
+        & img.logo_face {
+          width: 20%;
+        }
+      }
+
+    }
+    & .footer--contakt {
+      position: static;
+      margin-top: 50px;
+    }
+    & .footer--shortcuts {
+      position: static;
+      margin-top: 50px;
+      width: 70%;
+        & .checklist {
+        width: 100%;
+      }
+    }
+    & .footer--opinion {
+      width: 100%;
+      margin-top: 50px;
+
     }
   }
 }

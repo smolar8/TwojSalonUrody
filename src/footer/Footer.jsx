@@ -11,26 +11,32 @@ import LogoName from "../img&icon/logo/logo-name.png";
 function Footer() {
   return (
     <div className="footer">
-      <div className="address">
-        <div className="wrap">
+      <div className="footer--address">
+        <div className="footer__adress--wrap">
           <img className="logo_feet" src={LogoFeet} alt="feet" />
           <img className="logo_face" src={LogoFace} alt="logo" />
           <img className="logo_name" src={LogoName} alt="logo" />
         </div>
-        <h3 className="address--gabinet">Gabinet Kosmetyczny</h3>
-        <h3 className="address--salon">Twój Salon Urody</h3>
+        <h5 className="address--gabinet">Gabinet Kosmetyczny</h5>
+        <h5 className="address--salon">Twój Salon Urody</h5>
 
-        <p className="address--p"> ul. Partyzantów 2</p>
-        <p> 27-500 Opatów</p>
+        <p className="address--p">
+          ul. Partyzantów 2 <br></br>27-500 Opatów
+        </p>
       </div>
       <div className="footer--contakt">
-        <h3 className="footer__contakt--h3">Kontakt</h3>
+        <h5 className="footer__contakt--h5">Kontakt</h5>
         <p className="footer__contakt--tel">
           tel:
-          <a href="tel:+48134567912"> 721 377 690 </a>
+          <a className="footer__contakt__tel--a" href="tel:+48134567912">
+            721 377 690
+          </a>
         </p>
         <p className="footer__contakt--email">
-          <a href="mailto:twojsalonurody@interia.pl">
+          <a
+            className="footer__contakt__email--a"
+            href="mailto:twojsalonurody@interia.pl"
+          >
             twojsalonurody@interia.pl
           </a>
         </p>
@@ -70,14 +76,14 @@ function Footer() {
         </div>
       </div>
       <div className="footer--shortcuts">
-        <h3 className="footer__shortcuts--h3">Na skróty</h3>
+        <h5 className="footer__shortcuts--h5">Na skróty</h5>
         <ul className="checklist">
           <li>na razie, nie wiem co chciałbyś tu napisać</li>
         </ul>
       </div>
 
       <div className="footer--opinion">
-        <h3 className="footer__opinion--h3"> Najnowsze opinie</h3>
+        <h5 className="footer__opinion--h5"> Najnowsze opinie</h5>
         <p className="time__work--p">
           Do gabinetu kosmetycznego POCZUCIE PIĘKNA i w cudowne ręce Pań
           trafiłam z polecenia i był to strzał w 10!!!! Profesjonalizm oraz
