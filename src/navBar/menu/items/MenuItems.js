@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { NavLink, Link } from "react-router-dom";
 import { NameMenuItems } from "./NameMenuItems";
 
 export default function MenuItems() {
@@ -13,7 +13,9 @@ export default function MenuItems() {
               {item.value}
             </Link>
           ) : (
-            <Link to={{ pathname: item.href }}>{item.value}</Link>
+            <NavLink to={{ pathname: item.href }} activeClassName="active">
+              {item.value}
+            </NavLink>
           )}
         </li>
       ))}

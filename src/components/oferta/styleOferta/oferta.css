@@ -153,7 +153,7 @@ body {
 }
 
 .pp {
-  padding-top: 19px;
+  padding-top: 5px;
   background-color: white;
 }
 
@@ -208,10 +208,6 @@ body {
   .swiper-pagination-bullet {
     background: var(--swiper-pagination-bullet-inactive-color, white);
     opacity: none var(--swiper-pagination-bullet-inactive-opacity, 0.2);
-  }
-  .footer {
-    flex-direction: column;
-    padding: 5px;
   }
   .impotent--links,
   .address {

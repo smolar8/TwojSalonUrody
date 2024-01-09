@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Petit+Formal+Script&family=Poppins:wght@700&family=Raleway:ital@0;1&display=swap");
 .footer {
-  background-color: rgb(76, 61, 77);
+  background-color: #4c3d4d;
   color: white;
   display: flex;
   justify-content: center;
@@ -59,7 +59,7 @@
 }
 .footer .footer--contakt .footer__contakt__social--icon {
   position: relative;
-  background-color: rgb(76, 61, 77);
+  background-color: #4c3d4d;
   width: 30px;
   margin-top: 20px;
   margin-left: 5px;

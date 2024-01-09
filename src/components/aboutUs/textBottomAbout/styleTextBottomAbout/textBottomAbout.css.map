@@ -1,1 +1,1 @@
-{"version":3,"sources":["../../../../style/pageStyle.scss","textBottomAbout.scss","textBottomAbout.css"],"names":[],"mappings":"AACQ,wIAAA;ACCR;ED+BE,aAAA;EACA,uBAAA;EACA,mBAAA;EC/BA,iBAAA;EACA,eAAA;ACEF;;ADCA;EACE,gBAAA;EACA,YAAA;EACA,YAAA;ACEF","file":"textBottomAbout.css"}
+{"version":3,"sources":["../../../../style/pageStyle.scss","textBottomAbout.scss","textBottomAbout.css"],"names":[],"mappings":"AACQ,wIAAA;ACCR;EAEE,iBAAA;EACA,eAAA;ACDF;ADGE;EACE,mBAAA;EACA,aAAA;EACA,uBAAA;ACDJ;;ADKA;EACE,gBAAA;EACA,YAAA;ACFF","file":"textBottomAbout.css"}

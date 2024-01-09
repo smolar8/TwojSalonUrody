@@ -6,7 +6,6 @@ function TextBottomAbout() {
     <div className="motto">
       <h1> „BĄDŹ PIĘKNA DLA INNYCH Z MYŚLĄ O SOBIE”</h1>
       <article>
-        {" "}
         Salon istnieje od 2009 roku i to dzięki Państwa zaufaniu możemy
         pochwalić się tak długim stażem w branży Beauty. Spacjalnością salonu
         jest kosmetyka pielęgnacyjna twarzy oraz podologia. Naszą wizją jest
