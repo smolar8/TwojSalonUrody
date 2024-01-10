@@ -5,12 +5,10 @@ export const MasazPlec = () => {
     <div>
       <h1 className="h1">Masaż pleców</h1>
       <p className="pp">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus in
-        itaque corrupti non soluta sequi minima officiis qui et ipsam nesciunt
-        alias, nostrum quasi quas a laboriosam molestias fugiat earum? Lorem
-        ipsum dolor, sit amet consectetur adipisicing elit. Suscipit excepturi
-        quo saepe illum corrupti tempora alias fugiat laudantium vel a sit
-        incidunt maxime eum, provident tenetur aspernatur facere voluptatum?
+        Masaż pleców, karku oraz barków - 30 minutowy masaż którego efektem jest
+        uczucie lekkości oraz swoboda ruchów w górnych partiach tłowia. Polecany
+        osobom prowadzący siedzący tryb życia oraz wykonujących pracę przy
+        komputerze.
       </p>
     </div>
   );

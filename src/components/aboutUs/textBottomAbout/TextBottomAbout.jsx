@@ -4,7 +4,7 @@ import "./styleTextBottomAbout/textBottomAbout.css";
 function TextBottomAbout() {
   return (
     <div className="motto">
-      <h1> „BĄDŹ PIĘKNA DLA INNYCH Z MYŚLĄ O SOBIE”</h1>
+      <h1 className="motto"> „BĄDŹ PIĘKNA DLA INNYCH Z MYŚLĄ O SOBIE”</h1>
       <article>
         Salon istnieje od 2009 roku i to dzięki Państwa zaufaniu możemy
         pochwalić się tak długim stażem w branży Beauty. Spacjalnością salonu
@@ -32,7 +32,7 @@ function TextBottomAbout() {
         linii kosmetyków do codziennej pielęgnacji.
       </p>
 
-      <h3>Pamiętajmy PIĘKNO JEST W KAŻDYM Z NAS!</h3>
+      <h3 className="motto">Pamiętajmy PIĘKNO JEST W KAŻDYM Z NAS!</h3>
     </div>
   );
 }

@@ -4,12 +4,16 @@ import { Udvartana } from "./Udvartana";
 import { Abyangha } from "./Abyangha";
 import { MasazBalijski } from "./MasazBalijski";
 import { MasazSwiecami } from "./MasazSwiecami";
-import { MasazKijami } from "./MasazKijami";
-import { MasazNaMasle } from "./MasazNaMasle";
+import { MasazBambus } from "./MasazBambus";
 import { MasazBanka } from "./MasazBanka";
 import { MasazPlec } from "./MasazPlec";
 import { Kobido } from "./Kobido";
 import { FrontPage } from "./FronPage";
+import { MasazKamieniami } from "./MasazKamieniami.jsx";
+import { MasazNaBalsamie } from "./MasazNaBalsamie.jsx";
+import { MasazTwarz } from "./MasazTwarz.jsx";
+import { DrenazLimfatyczny } from "./DrenazLimfatyczny.jsx";
+import { MasazCzekolada } from "./MasazCzekolada.jsx";
 
 export default function SelectDetailesOfMasaz({ id }) {
   switch (id) {
@@ -22,9 +26,9 @@ export default function SelectDetailesOfMasaz({ id }) {
     case 4:
       return <MasazSwiecami />;
     case 5:
-      return <MasazKijami />;
+      return <MasazBambus />;
     case 6:
-      return <MasazNaMasle />;
+      return <MasazKamieniami />;
     case 7:
       return <MasazBanka />;
     case 8:
@@ -32,6 +36,14 @@ export default function SelectDetailesOfMasaz({ id }) {
     case 9:
       return <Kobido />;
     case 10:
+      return <MasazNaBalsamie />;
+    case 11:
+      return <MasazTwarz />;
+    case 12:
+      return <DrenazLimfatyczny />;
+    case 13:
+      return <MasazCzekolada />;
+    case 14:
       return <FrontPage />;
 
     default:

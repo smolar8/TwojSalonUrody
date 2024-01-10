@@ -5,12 +5,9 @@ export const Abyangha = () => {
     <div>
       <h1 className="h1">Abyangha</h1>
       <p className="pp">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus in
-        itaque corrupti non soluta sequi minima officiis qui et ipsam nesciunt
-        alias, nostrum quasi quas a laboriosam molestias fugiat earum? Lorem
-        ipsum dolor, sit amet consectetur adipisicing elit. Suscipit excepturi
-        quo saepe illum corrupti tempora alias fugiat laudantium vel a sit
-        incidunt maxime eum, provident tenetur aspernatur facere voluptatum?
+        Abhyanga - jeden z najważnieszych masaży ajurwedyjskich wykonywany na
+        naturalnych olejach jadalnych. Oprócz działania rozluźniającego
+        prawidłowo wykonany masaż wpływa na ruch energii w ciele człowieka.
       </p>
     </div>
   );
