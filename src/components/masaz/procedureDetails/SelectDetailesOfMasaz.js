@@ -18,23 +18,24 @@ import { MasazCzekolada } from "./MasazCzekolada.jsx";
 export default function SelectDetailesOfMasaz({ id }) {
   switch (id) {
     case 1:
-      return <Udvartana />;
-    case 2:
-      return <Abyangha />;
-    case 3:
-      return <MasazBalijski />;
-    case 4:
-      return <MasazSwiecami />;
-    case 5:
-      return <MasazBambus />;
-    case 6:
-      return <MasazKamieniami />;
-    case 7:
-      return <MasazBanka />;
-    case 8:
-      return <MasazPlec />;
-    case 9:
       return <Kobido />;
+    case 2:
+      return <Udvartana />;
+    case 3:
+      return <Abyangha />;
+    case 4:
+      return <MasazBalijski />;
+    case 5:
+      return <MasazSwiecami />;
+    case 6:
+      return <MasazBambus />;
+    case 7:
+      return <MasazKamieniami />;
+    case 8:
+      return <MasazBanka />;
+    case 9:
+      return <MasazPlec />;
+
     case 10:
       return <MasazNaBalsamie />;
     case 11:
