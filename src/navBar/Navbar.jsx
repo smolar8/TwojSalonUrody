@@ -20,36 +20,16 @@ function Navbar() {
   }, []);
 
   return (
-    <header className="main-header">
+    <header className="main--header">
       <div className="logo--div">
-        <motion.div
-          className="div-motion"
-          // drag="x"
-          // dragConstraints={{ left: 50 }}
-          // animate={{
-          //   rotateY: [0, 30, 60, 90, 270, 360, 360, 270, 90, 60, 30, 0],
-          // }}
-          // transition={{ repeat: Infinity, duration: 10 }}
-        >
-          <img className="logo__div--img" src={LogoFeet} alt="logo" />
-        </motion.div>
-        <motion.div
-        // className="div-motion"
-        // // drag="x"
-        // dragConstraints={{ left: 50 }}
-        // animate={{
-        //   scale: 1,
-        //   rotateY: [360, 270, 90, 0, 0, 30, 60, 90, 270, 360],
-        // }}
-        // transition={{ repeat: Infinity, duration: 10 }}
-        // initial={{ scale: 0 }}
-        >
-          <img className="logo__div--img" src={LogoFace} alt="logo" />
-        </motion.div>
-        <img className="logo__div--img" src={LogoName} alt="logo" />
+        <img className="logo__div--img" src={LogoFeet} alt="logo" />
+
+        <img className="logo__div--img" src={LogoFace} alt="logo" />
+
+        <img className="logo__div--img2" src={LogoName} alt="logo" />
       </div>
       <nav className="main__header--nav">
-        {windowSize > 576 ? <MenuPc /> : <MenuBurger />}
+        {windowSize > 853 ? <MenuPc /> : <MenuBurger />}
       </nav>
     </header>
   );

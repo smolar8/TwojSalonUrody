@@ -1,0 +1,17 @@
+@import "../../../../style/pageStyle.scss";
+
+
+.ul__menu--pc {
+    @media screen and (min-width:576px) {
+        box-sizing: content-box;
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+        height: 50px;
+        top: 50px;
+        gap: 10px;
+
+        background-color: $footerColor;
+    }
+
+}

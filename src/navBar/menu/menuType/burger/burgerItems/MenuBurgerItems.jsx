@@ -8,7 +8,6 @@ const MenuBurgerItems = ({ active, setActive, header }) => {
       className={active ? "menu active" : "menu"}
       onClick={() => setActive(false)}
     >
-      <div className="blur" />
       <div className="menu__content" onClick={(e) => e.stopPropagation()}>
         <div className="menu__header">{header}</div>
         <ul className="ul__menu--burger">

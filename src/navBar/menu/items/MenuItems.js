@@ -1,7 +1,7 @@
 import React from "react";
 import { NavLink, Link } from "react-router-dom";
 import { NameMenuItems } from "./NameMenuItems";
-
+import "./MenuItems.css";
 export default function MenuItems() {
   return (
     <>

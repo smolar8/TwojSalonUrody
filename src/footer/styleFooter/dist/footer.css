@@ -128,7 +128,7 @@
     flex-direction: row;
     gap: 3%;
   }
-  .footer .footer--address .footer__adress--wrap img.logo_feet, .footer .footer--address .footer__adress--wrap img.logo_face {
+  .footer .footer--address .footer__adress--wrap .logo_feet, .footer .footer--address .footer__adress--wrap .logo_face {
     width: 20%;
   }
   .footer .footer--contakt {

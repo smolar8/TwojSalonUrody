@@ -16,7 +16,7 @@
   }
 }
 
-@media screen and (min-width: 576px) {
+@media screen and (min-width: 575px) {
   .nav-links {
     display: flex;
   }
