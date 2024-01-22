@@ -85,7 +85,7 @@ function Footer() {
       <div className="footer--opinion">
         <h5 className="footer__opinion--h5"> Najnowsze opinie</h5>
         <p className="time__work--p">
-          Do gabinetu kosmetycznego POCZUCIE PIĘKNA i w cudowne ręce Pań
+          Do gabinetu kosmetycznego Twój Salon Urody i w cudowne ręce Pań
           trafiłam z polecenia i był to strzał w 10!!!! Profesjonalizm oraz
           niezwykle miła atmosfera, jaką wprowadzają dziewczyny to nie wszystkie
           atuty tego miejsca. Profesjonalnie wykonywane zabiegi oraz wiedza,

@@ -1,8 +1,9 @@
-@import url("https://fonts.googleapis.com/css2?family=Petit+Formal+Script&family=Poppins:wght@700&family=Raleway:ital@0;1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Petit+Formal+Script&family=Poppins:wght@700&family=Raleway:ital@0;1&display=swap");
 .motto {
   padding-top: 5px;
   font-size: 14px;
   text-indent: 15px;
+  text-align: center;
   margin: 15px;
 }
 .motto h1,

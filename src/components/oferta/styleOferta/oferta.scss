@@ -119,19 +119,20 @@ body {
 
 .container {
   max-width: 124rem;
-  padding: 4rem 1rem;
+  padding: 5px;
   margin: 0 auto;
+  font-family: "Raleway", sans-serif;
 }
 
 .heading {
   padding: 1rem 0;
-  font-size: 3.5rem;
+  font-size: 24px;
   text-align: center;
 }
 
 .swiper_container {
   // height: 52rem;
-  padding: 2rem 0;
+
   position: relative;
 }
 
