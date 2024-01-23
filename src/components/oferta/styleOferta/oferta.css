@@ -153,7 +153,7 @@ body {
 }
 
 .pp {
-  padding-top: 5px;
+  padding-top: 4px;
   background-color: white;
 }
 
@@ -162,8 +162,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 5vh;
-    font-size: 2rem;
+    height: 2vh;
   }
   .heading {
     font-size: 2rem;
@@ -231,7 +230,7 @@ body {
     display: none;
   }
 }
-@media screen and (min-width: 1024px) {
+@media screen and (max-width: 576px) and (min-width: 1024px) {
   .logo--div {
     padding: 0;
     background-color: #3f2e6f;

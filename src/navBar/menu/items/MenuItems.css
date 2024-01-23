@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Petit+Formal+Script&family=Poppins:wght@700&family=Raleway:ital@0;1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Petit+Formal+Script&family=Poppins:wght@700&family=Raleway:ital@0;1&display=swap");
 @keyframes spinnow {
   100% {
     transform: rotateY(360deg);
@@ -22,5 +22,5 @@
 }
 .menuItems--li .active {
   padding-bottom: 5px;
-  border-bottom: solid 2px black;
-}
+  border-bottom: solid 3px yellow;
+}/*# sourceMappingURL=MenuItems.css.map */

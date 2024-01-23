@@ -1,1 +1,17 @@
-@import url("https://fonts.googleapis.com/css2?family=Petit+Formal+Script&family=Poppins:wght@700&family=Raleway:ital@0;1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Petit+Formal+Script&family=Poppins:wght@700&family=Raleway:ital@0;1&display=swap");
+.hands {
+  font-size: 24px;
+}
+
+@media screen and (max-width: 576px) {
+  .hands {
+    font-size: 14px;
+  }
+  .swiper-slide img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 50%;
+  }
+}/*# sourceMappingURL=dlonie.css.map */

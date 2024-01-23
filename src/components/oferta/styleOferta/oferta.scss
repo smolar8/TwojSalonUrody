@@ -176,7 +176,7 @@ body {
 }
 
 .pp {
-  padding-top: 5px;
+  padding-top: 4px;
   background-color: white;
 }
 
@@ -185,9 +185,16 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 5vh;
-    font-size: 2rem;
+    height: 2vh;
+    //font-size: 2rem;
   }
+  // .swiper-slide img {
+  //   display: flex;
+  //   justify-content: center;
+  //   align-items: center;
+  //   width: 27rem;
+  //   height: 32rem;
+  // }
 
   .heading {
     font-size: 2rem;
@@ -283,12 +290,12 @@ body {
   .h1-Contact {
     display: none;
   }
-}
 
-@media screen and (min-width: 1024px) {
-  .logo--div {
-    // width: 960px;
-    padding: 0;
-    background-color: #3f2e6f;
+  @media screen and (min-width: 1024px) {
+    .logo--div {
+      // width: 960px;
+      padding: 0;
+      background-color: #3f2e6f;
+    }
   }
 }

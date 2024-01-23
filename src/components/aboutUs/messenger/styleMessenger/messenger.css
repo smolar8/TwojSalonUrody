@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Petit+Formal+Script&family=Poppins:wght@700&family=Raleway:ital@0;1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Petit+Formal+Script&family=Poppins:wght@700&family=Raleway:ital@0;1&display=swap");
 .windownChat {
   display: flex;
   box-sizing: content-box;
@@ -80,4 +80,4 @@ input {
   background-color: red;
   box-shadow: 8px 8px 10px 0px rgb(66, 68, 90);
   cursor: pointer;
-}
+}/*# sourceMappingURL=messenger.css.map */
