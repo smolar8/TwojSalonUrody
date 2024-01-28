@@ -10,9 +10,9 @@ function Masaz() {
   const clickChooseSelect = (data) => {
     setIdItems(data);
   };
-  const handleOnclick1 = (e) => {
-    setIdItems(e.realIndex);
-  };
+  // const handleOnclick1 = (e) => {
+  //   setIdItems(e.realIndex);
+  // };
   return (
     <div className="container">
       <h1 className="heading">Wybierz Masaż</h1>

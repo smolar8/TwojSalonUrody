@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { motion } from "framer-motion";
+// import { motion } from "framer-motion";
 import MenuBurger from "./menu/menuType/burger/MenuBurger";
 import MenuPc from "./menu/menuType/menuPC/MenuPc";
 import "./styleNavbar/Navbar.css";
