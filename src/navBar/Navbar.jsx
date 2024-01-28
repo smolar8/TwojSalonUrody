@@ -8,15 +8,21 @@ import LogoFeet from "../img&icon/logo/logo-feet.png";
 import LogoName from "../img&icon/logo/logo-name.png";
 
 function Navbar() {
-  const [windowSize, setWindowSize] = useState({ width: undefined });
+  const [windowSize, setWindowSize] = useState([
+    window.innerWidth,
+    window.innerHeight,
+  ]);
   //useEffect - reading size windows
   useEffect(() => {
-    function handleResize() {
-      setWindowSize(window.innerWidth);
-    }
-    window.addEventListener("resize", handleResize);
-    handleResize();
-    return () => window.removeEventListener("resize", handleResize);
+    const handleWindowResize = () => {
+      setWindowSize([window.innerWidth, window.innerHeight]);
+    };
+
+    window.addEventListener("resize", handleWindowResize);
+
+    return () => {
+      window.removeEventListener("resize", handleWindowResize);
+    };
   }, []);
 
   return (
@@ -29,8 +35,10 @@ function Navbar() {
         <img className="logo__div--img2" src={LogoName} alt="logo" />
       </div>
       <nav className="main__header--nav">
-        {windowSize > 853 ? <MenuPc /> : <MenuBurger />}
+        {windowSize[0] > 853 ? <MenuPc /> : <MenuBurger />}
+        {/* <MenuBurger /> */}
       </nav>
+      <h1>{windowSize[0]}</h1>
     </header>
   );
 }
