@@ -14,20 +14,20 @@ function Stylizacja() {
   };
 
   return (
-    <div className="container">
-      <h1 className="heading">
-        <p className="head">
+    <div className="stylizacja">
+      <header className="stylizacja--header">
+        <p className="stylizacja__header--p">
           W swojej pracy łączę zamiłowanie do podologii z chęcią pomagania
           innym. Motywacją do pracy jest dla mnie nieustanne niesienie ulgi
           potrzebującym pacjentom. W gabinecie utrzymuję medyczny standard
           higieny. Stosuję nowoczesne i skuteczne metody terapii.
         </p>
-        <p className="head">
-          <br></br>W dbałości o Państwa bezpieczeństwo przy każdym zabiegu
-          wykorzystywane są tylko wysterylizowane narzędzia oraz zachowywane są
-          wszelkie zasady higieny.
+        <p className="stylizacja__header--p">
+          W dbałości o Państwa bezpieczeństwo przy każdym zabiegu wykorzystywane
+          są tylko wysterylizowane narzędzia oraz zachowywane są wszelkie zasady
+          higieny.
         </p>
-      </h1>
+      </header>
       <MySwiper json={jsonStylizacja} clickChooseSelect={clickChooseSelect} />
       <SelectDetailesOfStylizacja id={idItems} />
     </div>

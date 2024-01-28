@@ -1,1 +1,23 @@
 @import "../../../style/pageStyle.scss";
+.stylizacja {
+    width: 95%;
+    margin: auto;
+
+    & .stylizacja--header {
+            & .stylizacja__header--p {
+                font-size: 2em;
+                margin-top: 15px;
+                text-align: justify;
+            }
+    
+            & .stylizacja__header--p::first-line {
+                padding-left: 20px;
+                font-weight: bold;
+            }
+    
+            & .stylizacja__header--p::first-letter {
+                padding-left: 30px;
+    
+            }
+        }
+    }

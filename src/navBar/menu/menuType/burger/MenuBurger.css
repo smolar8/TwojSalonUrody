@@ -1,8 +1,13 @@
+
+.main__header--nav{
+  background-color: blueviolet;
+}
 .burger-btn {
   width: 20px;
   height: 20px;
   margin-left: 20px;
   position: relative;
+  /* background-color: blueviolet; */
 }
 .burger-btn:before {
   content: " ";

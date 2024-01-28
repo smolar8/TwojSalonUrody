@@ -6,7 +6,7 @@ export default function MenuBurger() {
   const [menuActive, setMenuActive] = useState(false);
   return (
     <>
-      <nav>
+      <nav className="main__header--nav">
         <div className="burger-btn" onClick={() => setMenuActive(!menuActive)}>
           <span />
         </div>

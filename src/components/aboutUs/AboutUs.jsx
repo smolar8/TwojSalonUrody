@@ -4,9 +4,9 @@ import "./styleAbout/about.css";
 
 import TextBottomAbout from "./textBottomAbout/TextBottomAbout.jsx";
 import PhotoTeam from "./photoTeam/PhotoTeam";
-import MessengerText from "./messenger/Messenger";
-import Call from "../../img&icon/Phone-icon.png";
-import Messenger from "../../img&icon/messenger.jpg";
+// import MessengerText from "./messenger/Messenger";
+// import Call from "../../img&icon/Phone-icon.png";
+// import Messenger from "../../img&icon/messenger.jpg";
 
 import AnimatedPage from "../../animated/AnimatedPage";
 import jsonSlide from "../Json/slideAbout.json";
@@ -15,7 +15,7 @@ export default function AboutUs() {
   const delay = 4000;
   const [index, setIndex] = useState(0);
 
-  const [visibleMessenge, setVisibleMessenge] = useState(false);
+  // const [visibleMessenge, setVisibleMessenge] = useState(false);
   const timeoutRef = useRef(null);
 
   const resetTimeout = () => {
@@ -47,21 +47,21 @@ export default function AboutUs() {
     );
   };
 
-  const PhonCall = () => {
-    return (
-      <div className="slide__photo__socials--call">
-        <a href="tel:+48721377690">
-          <img className="img" src={Call} alt="photoNum" />
-        </a>
-      </div>
-    );
-  };
+  // const PhonCall = () => {
+  //   return (
+  //     <div className="slide__photo__socials--call">
+  //       <a href="tel:+48721377690">
+  //         <img className="img" src={Call} alt="photoNum" />
+  //       </a>
+  //     </div>
+  //   );
+  // };
 
   return (
     <AnimatedPage>
       <main className="main">
         <section className="slide-photo">
-          <div className="slide__photo--socials">
+          {/* <div className="slide__photo--socials">
             <PhonCall />
             <div
               className="slide__photo__socials--messenger"
@@ -69,10 +69,10 @@ export default function AboutUs() {
             >
               <img className="img" src={Messenger} alt="messengerNum" />
             </div>
-          </div>
+          </div> */}
           <div className="slideshow">{slideShow(index)}</div>
         </section>
-        {visibleMessenge ? <MessengerText /> : null}
+        {/* {visibleMessenge ? <MessengerText /> : null} */}
 
         <section className="teams">
           <PhotoTeam />

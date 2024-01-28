@@ -1,1 +1,17 @@
-@import url("https://fonts.googleapis.com/css2?family=Petit+Formal+Script&family=Poppins:wght@700&family=Raleway:ital@0;1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Petit+Formal+Script&family=Poppins:wght@700&family=Raleway:ital@0;1&display=swap");
+.stylizacja {
+  width: 95%;
+  margin: auto;
+}
+.stylizacja .stylizacja--header .stylizacja__header--p {
+  font-size: 2em;
+  margin-top: 15px;
+  text-align: justify;
+}
+.stylizacja .stylizacja--header .stylizacja__header--p::first-line {
+  padding-left: 20px;
+  font-weight: bold;
+}
+.stylizacja .stylizacja--header .stylizacja__header--p::first-letter {
+  padding-left: 30px;
+}

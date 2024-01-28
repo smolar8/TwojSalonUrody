@@ -4,8 +4,8 @@ import "./styleTextBottomAbout/textBottomAbout.css";
 function TextBottomAbout() {
   return (
     <div className="motto">
-      <h1 className="motto"> „BĄDŹ PIĘKNA DLA INNYCH Z MYŚLĄ O SOBIE”</h1>
-      <article>
+      <h1 className="motto--h1">„BĄDŹ PIĘKNA DLA INNYCH Z MYŚLĄ O SOBIE”</h1>
+      <article className="motto__h1--article">
         Salon istnieje od 2009 roku i to dzięki Państwa zaufaniu możemy
         pochwalić się tak długim stażem w branży Beauty. Spacjalnością salonu
         jest kosmetyka pielęgnacyjna twarzy oraz podologia. Naszą wizją jest
@@ -13,15 +13,15 @@ function TextBottomAbout() {
         technologie, by odpowiedzieć na potrzeby klientów. Pracujemy wyłącznie
         na profesjonalnych, sprawdzonych w działaniu i najwyższej jakości
         preparatach. Proponujemy wyselekcjonowane zabiegi, które skutecznie
-        pozwalają utrzymać skórę twarzy i ciała w doskonałej kondycji.{" "}
+        pozwalają utrzymać skórę twarzy i ciała w doskonałej kondycji.
       </article>
-      <p>
+      <p className="motto--p">
         Lata pracy, doświadczenia i współpracy z najlepszymi firmami na rynku
         pozwoliły na wypracowanie metod i procedur, które przynoszą rezultaty
         nawet w najbardziej trudnych przypadkach. Ważne jest dla nas dobre
-        samopoczucie Klienta i jego zadowolenie.<br></br>
+        samopoczucie Klienta i jego zadowolenie.
       </p>
-      <p>
+      <p className="motto--p">
         Pragniemy budować długotrwałe relacje z naszymi Klientami, dawać
         poczucie komfortu i usług świadczonych na najwyższym poziomie. Ciągle
         doskonalimy naszą wiedzę na kursach i szkoleniach. Bierzemy udział w
@@ -32,7 +32,7 @@ function TextBottomAbout() {
         linii kosmetyków do codziennej pielęgnacji.
       </p>
 
-      <h3 className="motto">Pamiętajmy PIĘKNO JEST W KAŻDYM Z NAS!</h3>
+      <h3 className="motto--h3">Pamiętajmy PIĘKNO JEST W KAŻDYM Z NAS!</h3>
     </div>
   );
 }
