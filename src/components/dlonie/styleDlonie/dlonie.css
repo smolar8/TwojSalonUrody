@@ -15,3 +15,20 @@
 .dlonie .dlonie--header .dlonie__header--p::first-letter {
   padding-left: 30px;
 }
+
+.hands {
+  font-size: 24px;
+}
+
+@media screen and (max-width: 576px) {
+  .hands {
+    font-size: 14px;
+  }
+  .swiper-slide img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 50%;
+  }
+}

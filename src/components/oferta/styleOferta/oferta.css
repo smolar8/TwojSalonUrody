@@ -45,18 +45,18 @@ html {
 
 .container {
   max-width: 124rem;
-  padding: 4rem 1rem;
+  padding: 5px;
   margin: 0 auto;
+  font-family: "Raleway", sans-serif;
 }
 
 .heading {
   padding: 1rem 0;
-  font-size: 3.5rem;
+  font-size: 24px;
   text-align: center;
 }
 
 .swiper_container {
-  padding: 2rem 0;
   position: relative;
 }
 
@@ -96,7 +96,7 @@ html {
 }
 
 .pp {
-  padding-top: 5px;
+  padding-top: 4px;
   background-color: white;
 }
 
@@ -105,8 +105,7 @@ html {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 5vh;
-    font-size: 2rem;
+    height: 2vh;
   }
   .heading {
     font-size: 2rem;
@@ -174,7 +173,7 @@ html {
     display: none;
   }
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 576px) and (min-width: 1024px) {
   .logo--div {
     padding: 0;
     background-color: #3f2e6f;

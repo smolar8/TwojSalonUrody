@@ -22,5 +22,5 @@
 }
 .menuItems--li .active {
   padding-bottom: 5px;
-  border-bottom: solid 2px black;
+  border-bottom: solid 3px yellow;
 }
