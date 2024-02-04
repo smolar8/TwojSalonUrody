@@ -11,12 +11,16 @@ $font-family: "Petit Formal Script", cursive;
 $font-family: "Poppins", sans-serif;
 $font-family: "Raleway", sans-serif;
 //Colors
-$navColor: rgb(15, 215, 202);
+$logoColor: #3f2e6f;
+$navColor: rgb(22, 172, 241);
+$podologiaColor: rgb(76, 61, 77);
 //  footer
 $footerColor: rgb(76, 61, 77);
+
 $footerH2: rgb(243, 147, 44);
 $footerH2shadow: 1px 1px 2px rgb(112, 112, 110);
 $footerTextColor: white;
+
 @mixin icon-social($top, $right) {
   position: relative;
 
@@ -26,11 +30,13 @@ $footerTextColor: white;
   top: $top;
   right: $right;
 }
+
 @mixin flex_center {
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 //TextHeader
 @mixin textHeader {
   display: flex;
@@ -51,8 +57,9 @@ $footerTextColor: white;
 
   // font-family: "La Belle Aurore", cursive;
   // font-family: "Poppins", sans-serif;
-  $podologiaColor: rgb(76, 61, 77);
+  color: $podologiaColor;
 }
+
 //Oferta
 @mixin oferta {
   display: flex;
@@ -61,8 +68,9 @@ $footerTextColor: white;
 
   font-family: "La Belle Aurore", cursive;
   font-family: "Poppins", sans-serif;
-  $podologiaColor: rgb(76, 61, 77);
+  color: $podologiaColor;
 }
+
 // @mixin CallNumber {
 //   background-color: rgb(151, 26, 26);
 //   font-size: 55px;
@@ -76,7 +84,6 @@ $footerTextColor: white;
   font-family: "Poppins", sans-serif;
   $podologiaColor: rgb(76, 61, 77);
 }
-@mixin peeling {
-}
-@mixin dlonie {
-}
+@mixin peeling {}
+
+@mixin dlonie {}

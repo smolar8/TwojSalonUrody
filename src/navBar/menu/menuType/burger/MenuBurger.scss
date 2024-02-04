@@ -1,0 +1,40 @@
+@import "../../../../style/pageStyle.scss";
+
+.main__header--nav {
+    background-color: $navColor;
+
+    & .burger-btn {
+        width: 20px;
+        height: 20px;
+        margin-left: 20px;
+        margin-bottom: 10px;
+        position: relative;
+
+    }
+
+    & .burger-btn:before {
+        content: " ";
+        position: absolute;
+        top: 0;
+        width: 20px;
+        background-color: black;
+        height: 2px;
+    }
+
+    & .burger-btn:after {
+        content: " ";
+        position: absolute;
+        bottom: 0;
+        width: 20px;
+        background-color: black;
+        height: 2px;
+    }
+
+    & .burger-btn span {
+        position: absolute;
+        top: 9px;
+        width: 20px;
+        background-color: black;
+        height: 2px;
+    }
+}

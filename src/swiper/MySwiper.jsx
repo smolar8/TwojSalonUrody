@@ -1,7 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-
+import "./MySwiper.css";
 import "swiper/css";
 import "swiper/css/effect-coverflow";
 import "swiper/css/pagination";
@@ -36,7 +36,7 @@ function MySwiper({ json, clickChooseSelect }) {
               key={index}
               onClick={() => clickChooseSelect(indexSlide)}
             >
-              <img src={item.content} alt={index} />
+              <img src={item.content} alt={item.text} />
             </SwiperSlide>
           );
         })}

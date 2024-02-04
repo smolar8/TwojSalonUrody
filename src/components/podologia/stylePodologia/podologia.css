@@ -1,10 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Petit+Formal+Script&family=Poppins:wght@700&family=Raleway:ital@0;1&display=swap");
 .podologia {
   width: 95%;
-  margin: auto;
+  margin: 10px auto;
 }
 .podologia .podologia--header {
-  font-size: 2em;
+  font-size: 1em;
+}
+.podologia .podologia--header .podologia__header--p {
+  text-justify: auto;
+  text-orientation: upright;
 }
 .podologia .podologia--header .podologia__header--p::first-letter {
   font-weight: bold;
@@ -13,4 +17,9 @@
 .podologia .podologia--header .podologia__header--p::grammar-error {
   text-decoration: underline red;
   color: red;
+}
+@media screen and (min-width: 550px) {
+  .podologia .podologia--header {
+    font-size: 1.5em;
+  }
 }

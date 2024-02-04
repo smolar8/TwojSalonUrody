@@ -37,7 +37,7 @@
   transform: translateY(-50%);
 }
 .footer .footer--address .address--gabinet, .footer .footer--address .address--salon {
-  font-size: 1.5rem;
+  font-size: calc(1rem + 0.5rem);
 }
 .footer .footer--address .address--p {
   margin-top: 5px;
@@ -45,7 +45,7 @@
 }
 .footer .footer--contakt a {
   text-decoration: none;
-  color: #ffffff;
+  color: white;
 }
 .footer .footer--contakt .footer__contakt--tel {
   margin-top: 5px;
@@ -73,11 +73,11 @@
 }
 @media screen and (min-width: 548px) {
   .footer .footer--address .address--gabinet, .footer .footer--address .address--salon {
-    font-size: 1.7rem;
+    font-size: calc(1rem + 0.7rem);
   }
   .footer .footer--address .address--p {
     margin-top: 15px;
-    font-size: 1.3rem;
+    font-size: calc(1rem + 0.3rem);
   }
   .footer .footer--contakt {
     position: absolute;
@@ -86,23 +86,23 @@
     width: 30%;
   }
   .footer .footer--contakt .footer__contakt--h5 {
-    font-size: 1.7rem;
+    font-size: calc(1rem + 0.7rem);
   }
   .footer .footer--contakt .footer__contakt--tel, .footer .footer--contakt .footer__contakt--tel a, .footer .footer--contakt .footer__contakt--email a {
-    font-size: 1.3rem;
+    font-size: calc(1rem + 0.3rem);
   }
   .footer .footer--shortcuts .footer__shortcuts--h5 {
-    font-size: 1.7rem;
+    font-size: calc(1rem + 0.7rem);
   }
   .footer .footer--opinion {
     width: 90%;
     margin: 15px;
   }
   .footer .footer--opinion .footer__opinion--h5 {
-    font-size: 1.7rem;
+    font-size: calc(1rem + 0.7rem);
   }
   .footer .footer--opinion .time__work--p {
-    font-size: 1.3rem;
+    font-size: calc(1rem + 0.3rem);
   }
 }
 @media screen and (min-width: 663px) {
@@ -147,4 +147,4 @@
     width: 100%;
     margin-top: 50px;
   }
-}/*# sourceMappingURL=footer.css.map */
+}

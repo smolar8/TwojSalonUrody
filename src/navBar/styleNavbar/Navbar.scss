@@ -6,12 +6,14 @@
   box-sizing: border-box;
 }
 
+$borderColor: #262528;
 .main--header {
 
   & .logo--div {
     position: sticky;
+    height: auto;
     @include flex_center;
-    background-color: #3f2e6f;
+    background-color: $logoColor;
     
       & .logo__div--img {
         width: 10%;
@@ -26,16 +28,17 @@
     }
 
     & .main__header--nav {
-      @media screen and (min-width:576px) {
-  
-  
-        height: 50px;
-        width: 100%;
-        padding: 10px 0;
+    height: 30px;
+      width: 100%;
+      padding-top: 5px;
+    }
+                                                                                                                                                                                                                                                                @media screen and (min-width:576px) {
+    & .main__header--nav {
+        // padding: 10px 0;
         text-align: center;
-        background-color: #3f2e6f;
-        border-top: 1px solid rgb(87, 85, 85);
-        border-bottom: 1px solid rgb(87, 85, 85);
+      background-color: $navColor;
+        // border-top: 1px solid rgb(87, 85, 85);
+        border-bottom: 1px solid $borderColor;
         display: flex;
         align-items: center;
         transition: 3s;

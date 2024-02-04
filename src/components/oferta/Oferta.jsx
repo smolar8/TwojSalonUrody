@@ -14,8 +14,8 @@ function Oferta() {
   //   setIdItems(e.realIndex);
   // };
   return (
-    <div className="container">
-      <h1 className="heading">Wybierz Ofertę</h1>
+    <div className="oferta">
+      <h1 className="oferta--h1">Wybierz Ofertę</h1>
       <MySwiper json={jsonOferta} clickChooseSelect={clickChooseSelect} />
       <SelectDetailesOferta id={idItems} />
     </div>

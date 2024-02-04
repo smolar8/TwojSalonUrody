@@ -36,9 +36,7 @@ function Navbar() {
       </div>
       <nav className="main__header--nav">
         {windowSize[0] > 853 ? <MenuPc /> : <MenuBurger />}
-        {/* <MenuBurger /> */}
       </nav>
-      <h1>{windowSize[0]}</h1>
     </header>
   );
 }
