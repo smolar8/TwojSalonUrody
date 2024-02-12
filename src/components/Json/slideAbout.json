@@ -1,5 +1,14 @@
 [
-  { "id": 0, "img": "img/sliderAbout/1head.jpg" },
-  { "id": 1, "img": "img/sliderAbout/2head.jpg" },
-  { "id": 2, "img": "img/sliderAbout/TLO.png" }
+  {
+    "id": 0,
+    "img": "/src/components/aboutUs/sliderAbout/1head.jpg"
+  },
+  {
+    "id": 1,
+    "img": "components/sliderAbout/2head.jpg"
+  },
+  {
+    "id": 2,
+    "img": "components/aboutUs/sliderAbout/TLO.png"
+  }
 ]

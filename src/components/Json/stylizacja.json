@@ -5,11 +5,11 @@
     },
     {
         "key": 2,
-        "content": "img/pedicure2.jpg"
+        "content": "/src/img&icon/img/kobido1.jpg"
     },
     {
         "key": 3,
-        "content": "img/pedicure3.jpg"
+        "content": "/src/img&icon/imgOferta/1head.jpg"
     },
     {
         "key": 4,
@@ -17,6 +17,6 @@
     },
     {
         "key": 5,
-        "content": "https://picsum.photos/800/500/?random"
+        "content": "../aboutUs/sliderAbout/1head.jpg"
     }
 ]
