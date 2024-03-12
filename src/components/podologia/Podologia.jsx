@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import jsonPodologia from "../Json/podologia.json";
+import { apiPhoto } from "../Json/podologia";
 
 import SelectDetailesOfPodologia from "../podologia/procedureDetails/SelectDetailesOfPodologia";
 import "./stylePodologia/podologia.scss";
@@ -28,7 +28,7 @@ function Podologia() {
           higieny.
         </p>
       </header>
-      <MySwiper json={jsonPodologia} clickChooseSelect={clickChooseSelect} />
+      <MySwiper json={apiPhoto} clickChooseSelect={clickChooseSelect} />
       <SelectDetailesOfPodologia id={idItems} />
     </div>
   );

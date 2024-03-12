@@ -6,7 +6,7 @@ import "./styleNavbar/Navbar.css";
 import LogoFace from "../img&icon/logo/logo-face.png";
 import LogoFeet from "../img&icon/logo/logo-feet.png";
 import LogoName from "../img&icon/logo/logo-name.png";
-
+//import LogoName from "../img&icon/logo/logo.jpeg";
 function Navbar() {
   const [windowSize, setWindowSize] = useState([
     window.innerWidth,
