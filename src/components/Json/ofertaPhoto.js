@@ -1,4 +1,4 @@
-import photo1 from "../../img&icon/imgOferta/kobido.jpg";
+import photo1 from "../../img&icon/podologia/1head.jpg";
 import photo2 from "../../img&icon/imgOferta/kobido1.jpg";
 import photo3 from "../../img&icon/imgOferta/masaztwarzy.jpg";
 import photo4 from "../../img&icon/imgOferta/pedicure1.jpg";

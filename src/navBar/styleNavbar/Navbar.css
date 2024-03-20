@@ -7,19 +7,27 @@
 
 .main--header .logo--div {
   position: sticky;
-  height: auto;
+  height: 60px;
   display: flex;
-  justify-content: center;
+  justify-content: start;
   align-items: center;
   background-color: #3f2e6f;
 }
-.main--header .logo--div .logo__div--img {
-  width: 10%;
-  height: auto;
+.main--header .logo--div .logo__div--imgLeft {
+  width: 7%;
+  height: 100%;
 }
-.main--header .logo--div .logo__div--img2 {
+.main--header .logo--div .logo__div--imgRight {
+  width: 5%;
+  height: 100%;
+}
+.main--header .logo--div .logo__div--imgCenter {
   width: 20%;
-  height: auto;
+  height: 100%;
+}
+.main--header .logo--div .logo__div--imgBetween {
+  width: 40%;
+  height: 100%;
 }
 .main--header .main__header--nav {
   height: 30px;

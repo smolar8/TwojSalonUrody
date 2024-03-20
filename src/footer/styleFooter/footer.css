@@ -28,7 +28,7 @@
   margin-bottom: 10px;
 }
 .footer .footer--address .footer__adress--wrap .logo_feet, .footer .footer--address .footer__adress--wrap .logo_face {
-  width: 20%;
+  width: 40%;
 }
 .footer .footer--address .footer__adress--wrap .logo_name {
   width: 50%;
@@ -129,7 +129,7 @@
     gap: 3%;
   }
   .footer .footer--address .footer__adress--wrap .logo_feet, .footer .footer--address .footer__adress--wrap .logo_face {
-    width: 20%;
+    width: 40%;
   }
   .footer .footer--contakt {
     position: static;

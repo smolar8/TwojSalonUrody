@@ -9,7 +9,7 @@ import PhotoTeam from "./photoTeam/PhotoTeam";
 // import Messenger from "../../img&icon/messenger.jpg";
 
 import AnimatedPage from "../../animated/AnimatedPage";
-import jsonSlide from "../Json/slideAbout.json";
+import { apiPhoto } from "../Json/slideAbout.js";
 
 export default function AboutUs() {
   const delay = 4000;
@@ -27,9 +27,7 @@ export default function AboutUs() {
   useEffect(() => {
     resetTimeout();
     timeoutRef.current = setTimeout(() => {
-      setIndex((prevIndex) =>
-        prevIndex === jsonSlide.length - 1 ? 0 : prevIndex + 1
-      );
+      setIndex((prevIndex) => (1 < index ? 0 : prevIndex + 1));
     }, delay);
 
     return () => {
@@ -38,11 +36,14 @@ export default function AboutUs() {
   }, [index]);
 
   const slideShow = (data) => {
-    let result;
-    jsonSlide.map((item) => (item.id === data ? (result = item.img) : null));
+    let result = "";
+    let coming = 0;
+    apiPhoto.map((item) =>
+      item.key === data ? ((result = item.content), (coming = item.text)) : null
+    );
     return (
       <div className="slideshowSlider ">
-        <img className="slideshowSlider--img" src={result} alt="slides" />
+        <img className="slideshowSlider--img" src={result} alt={coming} />
       </div>
     );
   };

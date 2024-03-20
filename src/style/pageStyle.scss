@@ -36,7 +36,11 @@ $footerTextColor: white;
   justify-content: center;
   align-items: center;
 }
-
+@mixin flex_start {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
 //TextHeader
 @mixin textHeader {
   display: flex;

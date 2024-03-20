@@ -4,18 +4,14 @@ import "./styleFooter/footer.css";
 import YT from "../img&icon/social/yt.png";
 import FB from "../img&icon/social/fb.png";
 import Inst from "../img&icon/social/inst.png";
-import LogoFace from "../img&icon/logo/logo-face.png";
-import LogoFeet from "../img&icon/logo/logo-feet.png";
-import LogoName from "../img&icon/logo/logo-name.png";
+import LogoFace from "../img&icon/logo/HeadLogo-footer.png";
 
 function Footer() {
   return (
     <div className="footer">
       <div className="footer--address">
         <div className="footer__adress--wrap">
-          <img className="logo_feet" src={LogoFeet} alt="feet" />
           <img className="logo_face" src={LogoFace} alt="logo" />
-          <img className="logo_name" src={LogoName} alt="logo" />
         </div>
         <h5 className="address--gabinet">Gabinet Kosmetyczny</h5>
         <h5 className="address--salon">Twój Salon Urody</h5>

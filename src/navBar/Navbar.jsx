@@ -3,9 +3,10 @@ import React, { useEffect, useState } from "react";
 import MenuBurger from "./menu/menuType/burger/MenuBurger";
 import MenuPc from "./menu/menuType/menuPC/MenuPc";
 import "./styleNavbar/Navbar.css";
-import LogoFace from "../img&icon/logo/logo-face.png";
-import LogoFeet from "../img&icon/logo/logo-feet.png";
-import LogoName from "../img&icon/logo/logo-name.png";
+import LogoCenter from "../img&icon/logo/HeadLogo-center.jpg";
+import LogoBetwen from "../img&icon/logo/HeadLogo-between.jpg";
+import LogoLeft from "../img&icon/logo/HeadLogo-left.jpg";
+import LogoRight from "../img&icon/logo/HeadLogo-right.jpg";
 // import LogoName from "../img&icon/logo/HeadLogo.jpeg";
 function Navbar() {
   const [windowSize, setWindowSize] = useState([
@@ -28,12 +29,11 @@ function Navbar() {
   return (
     <header className="main--header">
       <div className="logo--div">
-        <img className="logo__div--img" src={LogoFeet} alt="logo" />
-        {/* <img className="logo__div--img" src={HeadLogo} alt="logo" /> */}
-
-        <img className="logo__div--img" src={LogoFace} alt="logo" />
-
-        <img className="logo__div--img2" src={LogoName} alt="logo" />
+        <img className="logo__div--imgLeft" src={LogoLeft} alt="logo" />
+        <img className="logo__div--imgBetween" src={LogoBetwen} alt="logo" />
+        <img className="logo__div--imgCenter" src={LogoCenter} alt="logo" />
+        <img className="logo__div--imgBetween" src={LogoBetwen} alt="logo" />
+        <img className="logo__div--imgRight" src={LogoRight} alt="logo" />
       </div>
       <nav className="main__header--nav">
         {windowSize[0] > 853 ? <MenuPc /> : <MenuBurger />}

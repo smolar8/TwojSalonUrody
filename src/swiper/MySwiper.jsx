@@ -36,7 +36,7 @@ function MySwiper({ json, clickChooseSelect }) {
               key={index}
               onClick={() => clickChooseSelect(indexSlide)}
             >
-              <img src={item.content} alt={item.text} />
+              <img src={item.content} alt={item.key} />
             </SwiperSlide>
           );
         })}
