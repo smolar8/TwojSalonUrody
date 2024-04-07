@@ -38,7 +38,7 @@ $footerTextColor: white;
 }
 @mixin flex_start {
   display: flex;
-  justify-content: start;
+  justify-content: flex-start;
   align-items: center;
 }
 //TextHeader
@@ -79,7 +79,7 @@ $footerTextColor: white;
 //   background-color: rgb(151, 26, 26);
 //   font-size: 55px;
 // }
-@mixin masaz {
+@mixin masasz {
   display: flex;
   justify-content: center;
   align-items: center;

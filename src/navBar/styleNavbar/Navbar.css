@@ -9,24 +9,24 @@
   position: sticky;
   height: 60px;
   display: flex;
-  justify-content: start;
+  justify-content: flex-start;
   align-items: center;
   background-color: #3f2e6f;
 }
 .main--header .logo--div .logo__div--imgLeft {
-  width: 7%;
+  width: 12%;
   height: 100%;
 }
 .main--header .logo--div .logo__div--imgRight {
-  width: 5%;
-  height: 100%;
-}
-.main--header .logo--div .logo__div--imgCenter {
-  width: 20%;
+  width: 10%;
   height: 100%;
 }
 .main--header .logo--div .logo__div--imgBetween {
   width: 40%;
+  height: 100%;
+}
+.main--header .logo--div .logo__div--imgCenter {
+  width: 30%;
   height: 100%;
 }
 .main--header .main__header--nav {
@@ -35,6 +35,30 @@
   padding-top: 5px;
 }
 @media screen and (min-width: 576px) {
+  .main--header .logo--div {
+    position: sticky;
+    height: 60px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #3f2e6f;
+  }
+  .main--header .logo--div .logo__div--imgLeft {
+    width: 7%;
+    height: 100%;
+  }
+  .main--header .logo--div .logo__div--imgRight {
+    width: 5%;
+    height: 100%;
+  }
+  .main--header .logo--div .logo__div--imgBetween {
+    width: 40%;
+    height: 100%;
+  }
+  .main--header .logo--div .logo__div--imgCenter {
+    width: 20%;
+    height: 100%;
+  }
   .main--header .main__header--nav {
     text-align: center;
     background-color: rgb(22, 172, 241);

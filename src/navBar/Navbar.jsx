@@ -7,6 +7,7 @@ import LogoCenter from "../img&icon/logo/HeadLogo-center.jpg";
 import LogoBetwen from "../img&icon/logo/HeadLogo-between.jpg";
 import LogoLeft from "../img&icon/logo/HeadLogo-left.jpg";
 import LogoRight from "../img&icon/logo/HeadLogo-right.jpg";
+
 // import LogoName from "../img&icon/logo/HeadLogo.jpeg";
 function Navbar() {
   const [windowSize, setWindowSize] = useState([
@@ -35,6 +36,7 @@ function Navbar() {
         <img className="logo__div--imgBetween" src={LogoBetwen} alt="logo" />
         <img className="logo__div--imgRight" src={LogoRight} alt="logo" />
       </div>
+
       <nav className="main__header--nav">
         {windowSize[0] > 853 ? <MenuPc /> : <MenuBurger />}
       </nav>

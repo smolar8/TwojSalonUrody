@@ -13,43 +13,71 @@ $borderColor: #262528;
   & .logo--div {
     position: sticky;
     height: 60px;
-      @include flex_start;
+    @include flex_start;
     background-color: $logoColor;
 
     & .logo__div--imgLeft {
-        width: 7%;
+      width: 12%;
         height: 100%;
       }
 
         & .logo__div--imgRight {
-          width: 5%;
-          height: 100%;
-        }
-    
-        & .logo__div--imgCenter {
-          width: 20%;
-      height: 100%;
+      width: 10%;
+        height: 100%;
       }
+        //   & .logo__div--imgCenter {
+        //     width: 20%;
+        // height: 100%;
 
-        & .logo__div--imgBetween {
-          width: 40%;
-          height: 100%;
-        }
+    & .logo__div--imgBetween {
+        width: 40%;
+        height: 100%;
+      }
+& .logo__div--imgCenter {
+  width: 30%;
+  height: 100%;
+}
     }
 
     & .main__header--nav {
     height: 30px;
     width: 100%;
-      padding-top: 5px;
+    padding-top: 5px;
     }
 
     @media screen and (min-width:576px) {
+    & .logo--div {
+        position: sticky;
+        height: 60px;
+        @include flex_start;
+        background-color: $logoColor;
+    
+        & .logo__div--imgLeft {
+          width: 7%;
+          height: 100%;
+        }
+    
+        & .logo__div--imgRight {
+          width: 5%;
+          height: 100%;
+        }
+    
+        & .logo__div--imgBetween {
+          width: 40%;
+          height: 100%;
+        }
+    
+        & .logo__div--imgCenter {
+          width: 20%;
+          height: 100%;
+        }
+      }
     & .main__header--nav {
       // padding: 10px 0;
-        text-align: center;
+      text-align: center;
       background-color: $navColor;
       // border-top: 1px solid rgb(87, 85, 85);
-        border-bottom: 1px solid $borderColor;
+      border-bottom: 1px solid $borderColor;
         display: flex;
         align-items: center;
         transition: 3s;
