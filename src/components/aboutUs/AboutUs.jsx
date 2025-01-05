@@ -1,5 +1,5 @@
 import React, { useState, useRef, useEffect } from "react";
-
+import { REACT_APP_URLM } from "../../constants/api.js";
 import "./styleAbout/about.css";
 
 import TextBottomAbout from "./textBottomAbout/TextBottomAbout.jsx";
@@ -10,6 +10,7 @@ import PhotoTeam from "./photoTeam/PhotoTeam";
 
 import AnimatedPage from "../../animated/AnimatedPage";
 import { apiPhoto } from "../Json/slideAbout.js";
+// import { URL } from "../URL/url";
 
 export default function AboutUs() {
   const delay = 4000;
@@ -58,24 +59,23 @@ export default function AboutUs() {
   //   );
   // };
 
+  const urlS = `${REACT_APP_URLM}/img/background.jpg`;
+
   return (
     <AnimatedPage>
       <main className="main">
         <section className="slide-photo">
-          {/* <div className="slide__photo--socials">
-            <PhonCall />
-            <div
-              className="slide__photo__socials--messenger"
-              onClick={() => setVisibleMessenge((s) => !s)}
-            >
-              <img className="img" src={Messenger} alt="messengerNum" />
-            </div>
-          </div> */}
           <div className="slideshow">{slideShow(index)}</div>
         </section>
-        {/* {visibleMessenge ? <MessengerText /> : null} */}
 
-        <section className="teams">
+        <section
+          className="teams"
+          style={{
+            backgroundImage: `url( ${urlS})`,
+            // backgroundRepeat: `no-repeat`,
+            // backgroundSize: `cover`,
+          }}
+        >
           <PhotoTeam />
         </section>
         <section className="slogon">

@@ -1,9 +1,10 @@
-import photo from "../../img&icon/podologia/1head.jpg";
-import photo1 from "../../img&icon/podologia/2head.jpg";
-import photo2 from "../../img&icon/podologia/kobido.jpg";
-import photo3 from "../../img&icon/podologia/kobido1.jpg";
-import photo4 from "../../img&icon/podologia/masaztwarzy.jpg";
-import photo5 from "../../img&icon/podologia/pedicure1.jpg";
+import { REACT_APP_URLM } from "../../constants/api.js";
+const photo = `${REACT_APP_URLM}/img/podologia/1head.jpg`;
+const photo1 = `${REACT_APP_URLM}/img/podologia/2head.jpg`;
+const photo2 = `${REACT_APP_URLM}/img/podologia/kobido.jpg`;
+const photo3 = `${REACT_APP_URLM}/img/podologia/kobido1.jpg`;
+const photo4 = `${REACT_APP_URLM}/img/podologia/masaztwarzy.jpg`;
+const photo5 = `${REACT_APP_URLM}/img/podologia/pedicure1.jpg`;
 
 export const apiPhoto = [
   {

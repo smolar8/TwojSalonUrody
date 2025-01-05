@@ -1,6 +1,7 @@
 @import "../../style/pageStyle.scss";
 
 $fontSize1rem: 1rem;
+
 .footer {
   background-color: $footerColor;
   color: $footerTextColor;
@@ -17,6 +18,15 @@ $fontSize1rem: 1rem;
     text-indent: 0;
   }
 
+                                                                & .map {
+                                                                  width: 700px;
+                                                                  height: 100px;
+                                
+                                                                  position: absolute;
+                                                                  top: 50%;
+                                                                  left: 20%;
+                                                                  margin-bottom: 10px;
+                                                                }
   & .footer--contakt,
   & .footer--address,
   & .footer--shortcuts {
@@ -50,6 +60,12 @@ $fontSize1rem: 1rem;
       }
     }
 
+                                                                                                                                .map {
+                                                                                                                                  width: 100%;
+                                                                                                                                  position: absolute;
+                                                                                                                                  top: 50%;
+                                                                                                                                  margin-bottom: 10px;
+                                                                                                                                }
     & .address--gabinet,
     & .address--salon {
       font-size:calc(#{$fontSize1rem} + 0.5rem);
@@ -210,6 +226,7 @@ $fontSize1rem: 1rem;
     & .footer--opinion {
       width: 100%;
       margin-top: 50px;
+
 
     }
   }

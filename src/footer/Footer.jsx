@@ -1,10 +1,11 @@
 import React from "react";
-
+import { REACT_APP_URLM } from "../constants/api.js";
 import "./styleFooter/footer.css";
-import YT from "../img&icon/social/yt.png";
-import FB from "../img&icon/social/fb.png";
-import Inst from "../img&icon/social/inst.png";
-import LogoFace from "../img&icon/logo/HeadLogo-footer.png";
+import MapPicker from "../MapPicker/MapPicker.jsx";
+const YT = `${REACT_APP_URLM}/img/social/yt.png`;
+const FB = `${REACT_APP_URLM}/img/social/fb.png`;
+const Inst = `${REACT_APP_URLM}/img/social/inst.png`;
+const LogoFace = `${REACT_APP_URLM}/img/logo/HeadLogo-footer.png`;
 
 function Footer() {
   return (
@@ -88,6 +89,10 @@ function Footer() {
           jaką posiadają Panie spowodowały, że z przyjemnością oddaje się w Ich
           ręce : &#10099; - Anna M.
         </p>
+      </div>
+
+      <div className="map">
+        <MapPicker latitude={50.80018} longitude={21.42633} />
       </div>
     </div>
   );

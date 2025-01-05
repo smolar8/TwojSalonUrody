@@ -1,12 +1,12 @@
-import photo1 from "../../img&icon/podologia/1head.jpg";
-import photo2 from "../../img&icon/imgOferta/kobido1.jpg";
-import photo3 from "../../img&icon/imgOferta/masaztwarzy.jpg";
-import photo4 from "../../img&icon/imgOferta/pedicure1.jpg";
-import photo5 from "../../img&icon/imgOferta/pedicure2.jpg";
-import photo6 from "../../img&icon/imgOferta/pedicure3.jpg";
-import photo7 from "../../img&icon/imgOferta/przekłuwanieUszu.jpg";
-
-export const apiFoto = [
+import { REACT_APP_URLM } from "../../constants/api.js";
+const photo1 = `${REACT_APP_URLM}/img/imgOferta/1head.jpg`;
+const photo2 = `${REACT_APP_URLM}/img/imgOferta/kobido1.jpg`;
+const photo3 = `${REACT_APP_URLM}/img/imgOferta/masaztwarzy.jpg`;
+const photo4 = `${REACT_APP_URLM}/img/imgOferta/pedicure1.jpg`;
+const photo5 = `${REACT_APP_URLM}/img/imgOferta/pedicure2.jpg`;
+const photo6 = `${REACT_APP_URLM}/img/imgOferta/pedicure3.jpg`;
+const photo7 = `${REACT_APP_URLM}/img/imgOferta/przekłuwanieUszu.jpg`;
+export const apiPhoto = [
   {
     key: 1,
     content: photo1,

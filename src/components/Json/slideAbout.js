@@ -1,6 +1,8 @@
-import photo1 from "../aboutUs/sliderAbout/1head.jpg";
-import photo2 from "../aboutUs/sliderAbout/2head.jpg";
-import photo3 from "../aboutUs/sliderAbout/TLO.png";
+import { REACT_APP_URLM } from "../../constants/api.js";
+
+const photo1 = `${REACT_APP_URLM}/img/aboutUs/sliderAbout/1head.jpg`;
+const photo2 = `${REACT_APP_URLM}/img/aboutUs/sliderAbout/2head.jpg`;
+const photo3 = `${REACT_APP_URLM}/img/aboutUs/sliderAbout/TLO.png`;
 
 export const apiPhoto = [
   {

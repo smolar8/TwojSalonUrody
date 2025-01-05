@@ -9,7 +9,8 @@ export default function MenuItems() {
         <li className="menuItems--li" key={index}>
           {index === 0 ? (
             <Link className="menuItems--link" to={{ pathname: item.href }}>
-              <div className="span-rotate">O</div>
+              <div className="span-rotate">O</div>{" "}
+              <div> {console.log(item.href)}</div>
               {item.value}
             </Link>
           ) : (

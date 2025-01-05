@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { apiPhoto } from "../Json/podologia";
-
 import SelectDetailesOfPodologia from "../podologia/procedureDetails/SelectDetailesOfPodologia";
 import "./stylePodologia/podologia.scss";
 
@@ -8,6 +7,7 @@ import MySwiper from "../../swiper/MySwiper";
 
 function Podologia() {
   const [idItems, setIdItems] = useState(-1);
+
 
   const clickChooseSelect = (data) => {
     setIdItems(data);

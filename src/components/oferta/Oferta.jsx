@@ -3,7 +3,7 @@ import MySwiper from "../../swiper/MySwiper";
 import SelectDetailesOferta from "../oferta/procedureDetailes/SelectDetailesOferta";
 // import jsonOferta from "../Json/oferta.json";
 import "./styleOferta/oferta.css";
-import { apiFoto } from "../Json/ofertaPhoto";
+import { apiPhoto } from "../Json/ofertaPhoto";
 
 function Oferta() {
   const [idItems, setIdItems] = useState(-1);
@@ -17,7 +17,7 @@ function Oferta() {
   return (
     <div className="oferta">
       <h1 className="oferta--h1">Wybierz Ofertę</h1>
-      <MySwiper json={apiFoto} clickChooseSelect={clickChooseSelect} />
+      <MySwiper json={apiPhoto} clickChooseSelect={clickChooseSelect} />
       <SelectDetailesOferta id={idItems} />
     </div>
   );
